@@ -1,0 +1,8 @@
+User
+    id int
+    username string
+    password string
+    role string
+
+
+
