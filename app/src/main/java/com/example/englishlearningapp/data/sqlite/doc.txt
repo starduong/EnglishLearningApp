@@ -1,8 +1,12 @@
 User
-    id int
+    id string primary key
     username string
     password string
-    role string
+    email string
+    phone string
+    birth string
+    avatar string
+
 
 
 

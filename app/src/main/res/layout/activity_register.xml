@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
-        tools:context=".view.activity.LoginActivity">
+        tools:context=".view.activity.RegisterActivity">
 
         <ImageView
             android:id="@+id/logo"
@@ -24,16 +24,106 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <!-- Email Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_input_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Phone Number Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phone_input_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/email_input_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- fullName Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/fullName_input_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/phone_input_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:inputType="text"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Date of Birth Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/birth_input_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fullName_input_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="Date of Birth"
+                android:inputType="none"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Username Field -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/username_input_layout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/logo">
+            app:layout_constraintTop_toBottomOf="@id/birth_input_layout">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/username"
@@ -45,6 +135,7 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+        <!-- Password Field -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/password_input_layout"
             android:layout_width="0dp"
@@ -67,9 +158,32 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Remember me và Forgot Password cùng hàng -->
+        <!-- Confirm Password Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/confirm_password_input_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            app:endIconMode="password_toggle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/password_input_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Terms and Conditions -->
         <LinearLayout
-            android:id="@+id/remember_forgot_layout"
+            android:id="@+id/terms_layout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -78,34 +192,29 @@
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/password_input_layout">
+            app:layout_constraintTop_toBottomOf="@id/confirm_password_input_layout">
 
             <com.google.android.material.checkbox.MaterialCheckBox
-                android:id="@+id/remember_me"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Remember Me"
-                android:textColor="@android:color/black"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/forgot_password"
+                android:id="@+id/terms_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:clickable="true"
-                android:focusable="true"
-                android:foreground="?attr/selectableItemBackgroundBorderless"
-                android:text="Forgot Password?"
-                android:textColor="#2196F3"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+                android:text=""
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:text="I agree to the Terms and Conditions"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
 
         </LinearLayout>
 
+        <!-- Register Button -->
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -115,7 +224,7 @@
             android:background="@drawable/bg_button"
             android:fontFamily="sans-serif-medium"
             android:stateListAnimator="@null"
-            android:text="Đăng nhập"
+            android:text="Đăng ký"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
             android:textSize="16sp"
@@ -123,8 +232,9 @@
             app:backgroundTint="@null"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/remember_forgot_layout" />
+            app:layout_constraintTop_toBottomOf="@id/terms_layout" />
 
+        <!-- Separator and OR Section -->
         <View
             android:id="@+id/separator1"
             android:layout_width="0dp"
@@ -134,7 +244,7 @@
             app:layout_constraintBottom_toBottomOf="@id/or_text_label"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@id/or_text_label"
-            app:layout_constraintTop_toBottomOf="@id/btnLogin" />
+            app:layout_constraintTop_toBottomOf="@id/btnRegister" />
 
         <TextView
             android:id="@+id/or_text_label"
@@ -148,7 +258,7 @@
             android:textSize="16sp"
             app:layout_constraintLeft_toRightOf="@id/separator1"
             app:layout_constraintRight_toLeftOf="@id/separator2"
-            app:layout_constraintTop_toBottomOf="@id/btnLogin" />
+            app:layout_constraintTop_toBottomOf="@id/btnRegister" />
 
         <View
             android:id="@+id/separator2"
@@ -159,8 +269,9 @@
             app:layout_constraintBottom_toBottomOf="@id/or_text_label"
             app:layout_constraintLeft_toRightOf="@id/or_text_label"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btnLogin" />
+            app:layout_constraintTop_toBottomOf="@id/btnRegister" />
 
+        <!-- Social Login -->
         <LinearLayout
             android:id="@+id/social_login_parent"
             android:layout_width="match_parent"
@@ -174,7 +285,7 @@
             app:layout_constraintTop_toBottomOf="@id/or_text_label">
 
             <ImageView
-                android:id="@+id/facebook_login"
+                android:id="@+id/facebook_register"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -182,20 +293,18 @@
                 android:src="@drawable/facebook" />
 
             <ImageView
-                android:id="@+id/google_login"
+                android:id="@+id/google_register"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:clickable="true"
-                android:focusable="true"
                 android:padding="6dp"
                 android:src="@drawable/google" />
 
         </LinearLayout>
 
+        <!-- Already have account -->
         <LinearLayout
-            android:id="@+id/sign_up_parent"
+            android:id="@+id/sign_in_parent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -207,27 +316,24 @@
             app:layout_constraintTop_toBottomOf="@id/social_login_parent">
 
             <TextView
-                android:id="@+id/sign_up_label"
+                android:id="@+id/sign_in_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="4dp"
                 android:gravity="end"
-                android:text="Bạn chưa có tài khoản?"
+                android:text="Already have an account?"
                 android:textColor="@android:color/black"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/sign_up"
+                android:id="@+id/sign_in"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="32dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:foreground="?attr/selectableItemBackgroundBorderless"
                 android:gravity="start"
-                android:text="Đăng ký"
+                android:text="Sign In"
                 android:textColor="#2196F3"
                 android:textSize="14sp"
                 android:textStyle="bold" />

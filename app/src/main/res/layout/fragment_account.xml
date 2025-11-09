@@ -81,26 +81,26 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/tvFullName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Star Dương"
                         android:textColor="#333333"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/tvEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="hvduong2392k4@gmail.com"
                         android:textColor="#666666"
                         android:textSize="14sp" />
 
                     <TextView
+                        android:id="@+id/tvId"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="ID AF2199794"
                         android:textColor="#999999"
                         android:textSize="12sp" />
 
@@ -510,18 +510,19 @@
 
         <!-- Nút Đăng xuất -->
         <TextView
-            android:id="@+id/tv_logout"
-            android:layout_width="match_parent"
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="?attr/selectableItemBackground"
+            android:layout_gravity="center"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/bg_button_2"
             android:clickable="true"
             android:focusable="true"
             android:gravity="center"
-            android:paddingVertical="16dp"
             android:paddingHorizontal="24dp"
-            android:layout_marginVertical="8dp"
+            android:paddingVertical="12dp"
             android:text="ĐĂNG XUẤT"
-            android:textColor="#F44336"
+            android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold" />
 

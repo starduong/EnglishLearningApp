@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <!-- ✅ Quyền cần thiết cho Firebase và mạng -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -12,10 +15,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EnglishLearningApp">
         <activity
-            android:name=".view.activity.LoginActivity"
+            android:name=".view.activity.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".view.activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
