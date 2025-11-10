@@ -15,6 +15,51 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EnglishLearningApp">
         <activity
+            android:name=".view.features_home.blog.BlogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.epub.EpubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.browser.BrowserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.book.BookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.chat.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.bilingual.BilingualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.game.GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.video.VideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.exercises.ExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.vocabulary.VocabularyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.reading.ReadingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.listening.ListeningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.grammar.GrammarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.SettingsActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.activity.ResetPasswordActivity"
             android:exported="false" />
         <activity

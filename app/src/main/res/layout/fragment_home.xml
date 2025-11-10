@@ -35,18 +35,24 @@
                 android:layout_height="0dp"
                 android:layout_weight="1" />
 
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/ic_notifications_black_24dp"
-                app:tint="#666666" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNotification"
+                style="?attr/materialIconButtonStyle"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="Thông báo"
+                app:icon="@drawable/ic_notifications_black_24dp"
+                app:iconTint="#666666" />
 
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_marginLeft="16dp"
-                android:src="@drawable/ic_setting_black_24dp"
-                app:tint="#666666" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSetting"
+                style="?attr/materialIconButtonStyle"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:contentDescription="Cài đặt"
+                app:icon="@drawable/ic_setting_black_24dp"
+                app:iconTint="#666666" />
 
         </LinearLayout>
 
@@ -178,10 +184,15 @@
 
             <!-- Ngữ pháp -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_grammar"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -196,6 +207,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_grammar"
                         app:tint="#2196F3" />
 
                     <TextView
@@ -211,10 +223,15 @@
 
             <!-- Bài nghe -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_listening"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -229,6 +246,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_listening"
                         app:tint="#4CAF50" />
 
                     <TextView
@@ -244,10 +262,15 @@
 
             <!-- Bài đọc -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_reading"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -262,6 +285,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_reading"
                         app:tint="#FF9800" />
 
                     <TextView
@@ -277,10 +301,15 @@
 
             <!-- Bộ từ vựng -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_vocabulary"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -295,6 +324,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_vocabulary"
                         app:tint="#9C27B0" />
 
                     <TextView
@@ -320,10 +350,15 @@
 
             <!-- Bài tập -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_exercise"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -338,6 +373,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_exercise"
                         app:tint="#795548" />
 
                     <TextView
@@ -353,10 +389,15 @@
 
             <!-- Tin tức -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_news"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -371,6 +412,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_news"
                         app:tint="#F44336" />
 
                     <TextView
@@ -386,10 +428,15 @@
 
             <!-- Video -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_video"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -404,6 +451,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_video"
                         app:tint="#607D8B" />
 
                     <TextView
@@ -419,10 +467,15 @@
 
             <!-- Game -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_game"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -437,6 +490,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_game"
                         app:tint="#009688" />
 
                     <TextView
@@ -452,10 +506,15 @@
 
             <!-- Song ngữ -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_bilingual"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -470,6 +529,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_bilingual"
                         app:tint="#3F51B5" />
 
                     <TextView
@@ -485,10 +545,15 @@
 
             <!-- Chat học tập -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_chat"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -503,6 +568,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_chat"
                         app:tint="#E91E63" />
 
                     <TextView
@@ -528,10 +594,15 @@
 
             <!-- Sách -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_book"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -546,6 +617,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_book"
                         app:tint="#795548" />
 
                     <TextView
@@ -561,10 +633,15 @@
 
             <!-- Trình duyệt -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_browser"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -579,6 +656,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_browser"
                         app:tint="#2196F3" />
 
                     <TextView
@@ -594,10 +672,15 @@
 
             <!-- EPUB -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_epub"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -612,6 +695,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_epub"
                         app:tint="#FF5722" />
 
                     <TextView
@@ -627,10 +711,15 @@
 
             <!-- Blog -->
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_blog"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -646,6 +735,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_blog"
                         app:tint="#4CAF50" />
 
                     <TextView
