@@ -55,4 +55,6 @@ dependencies {
     implementation libs.firebase.messaging
     // Google Sign-In
     implementation libs.play.services.auth
+
+    implementation libs.gson
 }

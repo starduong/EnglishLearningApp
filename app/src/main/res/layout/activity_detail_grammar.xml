@@ -8,7 +8,7 @@
     android:background="#F5F5F5"
     tools:context=".view.features_home.grammar.GrammarActivity">
 
-    <!-- Header Layout với shadow và border -->
+    <!-- Header Layout -->
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
@@ -39,30 +39,50 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Ngữ pháp"
+            android:text="Chi tiết"
             android:textColor="#000000"
             android:textSize="20sp" />
 
-        <!-- Placeholder for right side -->
+        <!-- Placeholder -->
         <Space
             android:layout_width="40dp"
             android:layout_height="40dp" />
 
     </LinearLayout>
 
-    <ExpandableListView
-        android:id="@+id/expandable_list"
+    <!-- Nội dung chính -->
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:childDivider="@android:color/transparent"
-        android:clipToPadding="false"
-        android:divider="@android:color/transparent"
-        android:dividerHeight="2dp"
-        android:groupIndicator="@null"
-        android:padding="16dp"
+        android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/header" />
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
