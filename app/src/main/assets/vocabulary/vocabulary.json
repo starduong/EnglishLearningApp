@@ -1,0 +1,2004 @@
+[
+  {
+    "topic": "Family",
+    "words": [
+      {
+        "word": "mother",
+        "cefr": "A1",
+        "pronunciation_uk": "ˈməðər",
+        "pronunciation_us": "/ˈmʌðɚ/",
+        "audio_uk": "mother_uk.mp3",
+        "audio_us": "mother_us.mp3",
+        "image": "mother.jpg",
+        "meaning": [
+          {
+            "en": "A (human) female who has given birth to a baby",
+            "vi": "Một phụ nữ (con người) đã sinh con",
+            "example_en": "He had something of his mother in him.",
+            "example_vi": "Anh có cái gì đó của mẹ anh trong người."
+          }
+        ]
+      },
+      {
+        "word": "father",
+        "cefr": "A1",
+        "pronunciation_uk": "/ˈfaːðə/",
+        "pronunciation_us": "/ˈfɑðɚ/",
+        "audio_uk": "father_uk.mp3",
+        "audio_us": "father_us.mp3",
+        "image": "father.jpg",
+        "meaning": [
+          {
+            "en": "A (generally human) male who begets a child.",
+            "vi": "Một người đàn ông (nói chung là con người) sinh ra một đứa trẻ.",
+            "example_en": "My father was a strong influence on me.",
+            "example_vi": "Cha tôi là người có ảnh hưởng mạnh mẽ tới tôi."
+          },
+          {
+            "en": "To be a father to; to sire.",
+            "vi": "Được làm cha;thưa ngài.",
+            "example_en": "The father is common in daily life.",
+            "example_vi": "Người cha là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "sister",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈsɪs.tə/",
+        "pronunciation_us": "/ˈsɪs.tɚ/",
+        "audio_uk": "sister_uk.mp3",
+        "audio_us": "sister_us.mp3",
+        "image": "sister.jpg",
+        "meaning": [
+          {
+            "en": "A daughter of the same parents as another person; a female sibling.",
+            "vi": "Con gái cùng cha mẹ với người khác;một anh chị em nữ.",
+            "example_en": "My sister is always driving me crazy.",
+            "example_vi": "Chị tôi luôn làm tôi phát điên."
+          },
+          {
+            "en": "To strengthen (a supporting beam) by fastening a second beam alongside it.",
+            "vi": "Để tăng cường (một chùm hỗ trợ) bằng cách buộc chặt chùm thứ hai dọc theo nó.",
+            "example_en": "I’m trying to correct my sagging floor by sistering the joists.",
+            "example_vi": "Tôi đang cố gắng khắc phục sàn nhà bị võng của mình bằng cách nối các thanh dầm lại với nhau."
+          }
+        ]
+      },
+      {
+        "word": "brother",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈbɹɐðɘ(ɹ)/",
+        "pronunciation_us": "/ˈbɹʌðɚ/",
+        "audio_uk": "brother_uk.mp3",
+        "audio_us": "brother_us.mp3",
+        "image": "brother.jpg",
+        "meaning": [
+          {
+            "en": "Son of the same parents as another person.",
+            "vi": "Con cùng cha mẹ với một người khác.",
+            "example_en": "The brother is common in daily life.",
+            "example_vi": "Anh trai là điều bình thường trong cuộc sống đời thường."
+          },
+          {
+            "en": "To treat as a brother.",
+            "vi": "Đối xử như anh em.",
+            "example_en": "The brother is common in daily life.",
+            "example_vi": "Anh trai là điều bình thường trong cuộc sống đời thường."
+          }
+        ]
+      },
+      {
+        "word": "son",
+        "cefr": "B1",
+        "pronunciation_uk": "/sɒn/",
+        "pronunciation_us": "/sɒn/",
+        "audio_uk": "son_uk.mp3",
+        "audio_us": "son_us.mp3",
+        "image": "son.jpg",
+        "meaning": [
+          {
+            "en": "One's male offspring.",
+            "vi": "Con trai của một người.",
+            "example_en": "Before the birth of the man's child, he said: \"I want a son, not a daughter.\"",
+            "example_vi": "Trước khi sinh con, người đàn ông nói: “Tôi muốn có con trai chứ không phải con gái”."
+          }
+        ]
+      },
+      {
+        "word": "daughter",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈdɑ.tɚ/",
+        "pronunciation_us": "/ˈdɔ.tɚ/",
+        "audio_uk": "daughter_uk.mp3",
+        "audio_us": "daughter_us.mp3",
+        "image": "daughter.jpg",
+        "meaning": [
+          {
+            "en": "One’s female offspring.",
+            "vi": "Con cái của một người.",
+            "example_en": "I already have a son, so I would like to have a daughter.",
+            "example_vi": "Tôi đã có con trai rồi nên tôi muốn có con gái."
+          }
+        ]
+      },
+      {
+        "word": "grandmother",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈɡɹæn(d)ˌmʌðə(r)/",
+        "pronunciation_us": "/ˈɡɹæn(d)ˌmʌðɚ/",
+        "audio_uk": "grandmother_uk.mp3",
+        "audio_us": "grandmother_us.mp3",
+        "image": "grandmother.jpg",
+        "meaning": [
+          {
+            "en": "A mother of someone's parent.",
+            "vi": "Mẹ của cha mẹ ai đó.",
+            "example_en": "The grandmother is common in daily life.",
+            "example_vi": "Bà ngoại là điều bình thường trong cuộc sống đời thường."
+          }
+        ]
+      },
+      {
+        "word": "grandfather",
+        "cefr": "B1",
+        "pronunciation_uk": "ˈgrænˌfɑðər",
+        "pronunciation_us": "/ˈɡɹæn(d)ˌfɑðɚ/",
+        "audio_uk": "grandfather_uk.mp3",
+        "audio_us": "grandfather_us.mp3",
+        "image": "grandfather.jpg",
+        "meaning": [
+          {
+            "en": "A father of someone's parent.",
+            "vi": "Cha của cha mẹ ai đó.",
+            "example_en": "The grandfather is common in daily life.",
+            "example_vi": "Ông nội là điều bình thường trong cuộc sống đời thường."
+          },
+          {
+            "en": "To be, or act as, a grandfather to.",
+            "vi": "Trở thành, hoặc hành động như một ông nội.",
+            "example_en": "The grandfather is common in daily life.",
+            "example_vi": "Ông nội là điều bình thường trong cuộc sống đời thường."
+          }
+        ]
+      },
+      {
+        "word": "uncle",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈʌŋ.kəl/",
+        "pronunciation_us": "/ˈʌŋ.kəl/",
+        "audio_uk": "uncle_uk.mp3",
+        "audio_us": "uncle_us.mp3",
+        "image": "uncle.jpg",
+        "meaning": [
+          {
+            "en": "The brother or brother-in-law of one’s parent.",
+            "vi": "Anh trai hoặc anh rể của cha mẹ.",
+            "example_en": "The uncle is common in daily life.",
+            "example_vi": "Bác là người bình thường trong cuộc sống đời thường."
+          },
+          {
+            "en": "To address somebody by the term uncle.",
+            "vi": "Để gọi ai đó bằng thuật ngữ chú.",
+            "example_en": "The uncle is common in daily life.",
+            "example_vi": "Bác là người bình thường trong cuộc sống đời thường."
+          }
+        ]
+      },
+      {
+        "word": "aunt",
+        "cefr": "B1",
+        "pronunciation_uk": "/ɑ(ː)nt/",
+        "pronunciation_us": "/eɪnt/",
+        "audio_uk": "aunt_uk.mp3",
+        "audio_us": "aunt_us.mp3",
+        "image": "aunt.jpg",
+        "meaning": [
+          {
+            "en": "The sister or sister-in-law of one’s parent.",
+            "vi": "Em gái hoặc chị dâu của cha mẹ.",
+            "example_en": "The aunt is common in daily life.",
+            "example_vi": "Người dì là điều bình thường trong cuộc sống đời thường."
+          }
+        ]
+      },
+      {
+        "word": "cousin",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈkʌz.n̩/",
+        "pronunciation_us": "ˈkəzən",
+        "audio_uk": "cousin_uk.mp3",
+        "audio_us": "cousin_us.mp3",
+        "image": "cousin.jpg",
+        "meaning": [
+          {
+            "en": "The child of a person's uncle or aunt; a first cousin.",
+            "vi": "Con của chú, dì của một người;một người anh họ đầu tiên.",
+            "example_en": "I think my cousin is a good man.",
+            "example_vi": "Tôi nghĩ anh họ tôi là một người đàn ông tốt."
+          }
+        ]
+      },
+      {
+        "word": "parent",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈpɛəɹənt/",
+        "pronunciation_us": "/ˈpeəɹənt/",
+        "audio_uk": "parent_uk.mp3",
+        "audio_us": "parent_us.mp3",
+        "image": "parent.jpg",
+        "meaning": [
+          {
+            "en": "One of the two persons from whom one is immediately biologically descended; a mother or father.",
+            "vi": "Một trong hai người mà một người có nguồn gốc sinh học trực tiếp;một người mẹ hoặc một người cha.",
+            "example_en": "The parent is common in daily life.",
+            "example_vi": "Cha mẹ là điều bình thường trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To act as parent, to raise or rear.",
+            "vi": "Để đóng vai trò là cha mẹ, để nuôi dưỡng hoặc nuôi dưỡng.",
+            "example_en": "The parent is common in daily life.",
+            "example_vi": "Cha mẹ là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Food",
+    "words": [
+      {
+        "word": "apple",
+        "cefr": "A2",
+        "pronunciation_uk": "/ˈæp.əl/",
+        "pronunciation_us": "/ˈæp.əl/",
+        "audio_uk": "apple_uk.mp3",
+        "audio_us": "apple_us.mp3",
+        "image": "apple.jpg",
+        "meaning": [
+          {
+            "en": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
+            "vi": "Một loại quả tròn, phổ biến được sản xuất bởi cây Malus Domestica, được trồng ở vùng khí hậu ôn đới.",
+            "example_en": "The apple is common in daily life.",
+            "example_vi": "Quả táo rất phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To become apple-like.",
+            "vi": "Trở nên giống quả táo.",
+            "example_en": "The apple is common in daily life.",
+            "example_vi": "Quả táo rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "banana",
+        "cefr": "B1",
+        "pronunciation_uk": "/bəˈnɑːnə/",
+        "pronunciation_us": "/bəˈnænə/",
+        "audio_uk": "banana_uk.mp3",
+        "audio_us": "banana_us.mp3",
+        "image": "banana.jpg",
+        "meaning": [
+          {
+            "en": "An elongated curved tropical fruit that grows in bunches and has a creamy flesh and a smooth skin.",
+            "vi": "Một loại trái cây nhiệt đới cong thuôn dài, mọc thành chùm, có thịt màu kem và vỏ mịn.",
+            "example_en": "The banana is common in daily life.",
+            "example_vi": "Quả chuối rất phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "Curved like a banana, especially of a ball in flight.",
+            "vi": "Cong như quả chuối, đặc biệt là hình quả bóng đang bay.",
+            "example_en": "The banana is common in daily life.",
+            "example_vi": "Quả chuối rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "bread",
+        "cefr": "B1",
+        "pronunciation_uk": "/bɹeːd/",
+        "pronunciation_us": "/bɹɛd/",
+        "audio_uk": "bread_uk.mp3",
+        "audio_us": "bread_us.mp3",
+        "image": "bread.jpg",
+        "meaning": [
+          {
+            "en": "A foodstuff made by baking dough made from cereals.",
+            "vi": "Một loại thực phẩm được làm bằng bột nướng làm từ ngũ cốc.",
+            "example_en": "The bread is common in daily life.",
+            "example_vi": "Bánh mì là món quen thuộc trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To coat with breadcrumbs",
+            "vi": "Để phủ với vụn bánh mì",
+            "example_en": "The bread is common in daily life.",
+            "example_vi": "Bánh mì là món quen thuộc trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "rice",
+        "cefr": "A2",
+        "pronunciation_uk": "/ɹaɪs/",
+        "pronunciation_us": "/ɹaɪs/",
+        "audio_uk": "rice_uk.mp3",
+        "audio_us": "rice_us.mp3",
+        "image": "rice.jpg",
+        "meaning": [
+          {
+            "en": "Cereal plants, Oryza sativa of the grass family whose seeds are used as food.",
+            "vi": "Cây ngũ cốc, Oryza sativa thuộc họ cỏ, hạt được dùng làm thực phẩm.",
+            "example_en": "The rice is common in daily life.",
+            "example_vi": "Cơm là vật dụng phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To squeeze through a ricer; to mash or make into rice-sized pieces (especially potatoes).",
+            "vi": "Để vắt qua một cái máy gặt;nghiền hoặc làm thành miếng cỡ hạt gạo (đặc biệt là khoai tây).",
+            "example_en": "The rice is common in daily life.",
+            "example_vi": "Cơm là vật dụng phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "chicken",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈt͡ʃɪkɪn/",
+        "pronunciation_us": "/ˈt͡ʃɪkɪn/",
+        "audio_uk": "chicken_uk.mp3",
+        "audio_us": "chicken_us.mp3",
+        "image": "chicken.jpg",
+        "meaning": [
+          {
+            "en": "A domestic fowl, Gallus gallus, especially when young.",
+            "vi": "Gà nhà, Gallus gallus, đặc biệt khi còn non.",
+            "example_en": "The chicken is common in daily life.",
+            "example_vi": "Con gà là vật dụng phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "Cowardly.",
+            "vi": "Hèn nhát.",
+            "example_en": "Why do you refuse to fight? Huh, I guess you're just too chicken.",
+            "example_vi": "Tại sao bạn từ chối chiến đấu?Huh, tôi đoán là bạn quá gà rồi."
+          }
+        ]
+      },
+      {
+        "word": "fish",
+        "cefr": "B1",
+        "pronunciation_uk": "/fɪʃ/",
+        "pronunciation_us": "/fɪʃ/",
+        "audio_uk": "fish_uk.mp3",
+        "audio_us": "fish_us.mp3",
+        "image": "fish.jpg",
+        "meaning": [
+          {
+            "en": "A cold-blooded vertebrate animal that lives in water, moving with the help of fins and breathing with gills.",
+            "vi": "Là động vật có xương sống máu lạnh, sống dưới nước, di chuyển bằng vây và thở bằng mang.",
+            "example_en": "Salmon is a fish.",
+            "example_vi": "Cá hồi là một loại cá."
+          }
+        ]
+      },
+      {
+        "word": "egg",
+        "cefr": "B1",
+        "pronunciation_uk": "/eɪɡ/",
+        "pronunciation_us": "/eɪɡ/",
+        "audio_uk": "egg_uk.mp3",
+        "audio_us": "egg_us.mp3",
+        "image": "egg.jpg",
+        "meaning": [
+          {
+            "en": "An approximately spherical or ellipsoidal body produced by birds, reptiles, insects and other animals, housing the embryo during its development.",
+            "vi": "Một cơ thể gần như hình cầu hoặc hình elip do chim, bò sát, côn trùng và các động vật khác tạo ra, chứa phôi trong quá trình phát triển của nó.",
+            "example_en": "The egg is common in daily life.",
+            "example_vi": "Trứng rất phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To throw eggs at.",
+            "vi": "Để ném trứng vào.",
+            "example_en": "The egg is common in daily life.",
+            "example_vi": "Trứng rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "milk",
+        "cefr": "B1",
+        "pronunciation_uk": "[mɛlk]",
+        "pronunciation_us": "/mɪlk/",
+        "audio_uk": "milk_uk.mp3",
+        "audio_us": "milk_us.mp3",
+        "image": "milk.jpg",
+        "meaning": [
+          {
+            "en": "A white liquid produced by the mammary glands of female mammals to nourish their young. From certain animals, especially cows, it is also called dairy milk and is a common food for humans as a beverage or used to produce various dairy products such as butter, cheese, and yogurt.",
+            "vi": "Một chất lỏng màu trắng được tiết ra bởi tuyến vú của động vật có vú cái để nuôi dưỡng con non.Từ một số động vật, đặc biệt là bò, nó còn được gọi là sữa bò và là thực phẩm phổ biến cho con người dưới dạng đồ uống hoặc được sử dụng để sản xuất các sản phẩm từ sữa khác nhau như bơ, phô mai và sữa chua.",
+            "example_en": "The milk is common in daily life.",
+            "example_vi": "Sữa rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "water",
+        "cefr": "A1",
+        "pronunciation_uk": "/ˈwoːtə/",
+        "pronunciation_us": "/ˈwɔtəɹ/",
+        "audio_uk": "water_uk.mp3",
+        "audio_us": "water_us.mp3",
+        "image": "water.jpg",
+        "meaning": [
+          {
+            "en": "A substance (of molecular formula H₂O) found at room temperature and pressure as a clear liquid; it is present naturally as rain, and found in rivers, lakes and seas; its solid form is ice and its gaseous form is steam.",
+            "vi": "Một chất (có công thức phân tử H₂O) được tìm thấy ở nhiệt độ và áp suất phòng dưới dạng chất lỏng trong suốt;nó hiện diện tự nhiên dưới dạng mưa và có ở sông, hồ, biển;dạng rắn của nó là băng và dạng khí là hơi nước.",
+            "example_en": "By the action of electricity, the water was resolved into its two parts, oxygen and hydrogen.",
+            "example_vi": "Nhờ tác động của điện, nước được phân giải thành hai phần là oxy và hydro."
+          }
+        ]
+      },
+      {
+        "word": "coffee",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈkɑ.fi/",
+        "pronunciation_us": "/ˈkɔ.fi/",
+        "audio_uk": "coffee_uk.mp3",
+        "audio_us": "coffee_us.mp3",
+        "image": "coffee.jpg",
+        "meaning": [
+          {
+            "en": "A beverage made by infusing the beans of the coffee plant in hot water.",
+            "vi": "Một loại đồ uống được làm bằng cách ngâm hạt cà phê trong nước nóng.",
+            "example_en": "The coffee is common in daily life.",
+            "example_vi": "Cà phê là thứ phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To drink coffee.",
+            "vi": "Để uống cà phê.",
+            "example_en": "The coffee is common in daily life.",
+            "example_vi": "Cà phê là thứ phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "tea",
+        "cefr": "B1",
+        "pronunciation_uk": "ti",
+        "pronunciation_us": "/ti/",
+        "audio_uk": "tea_uk.mp3",
+        "audio_us": "tea_us.mp3",
+        "image": "tea.jpg",
+        "meaning": [
+          {
+            "en": "A drug smoked or ingested for euphoric effect, cannabis.",
+            "vi": "Một loại ma túy được hút hoặc uống để tạo cảm giác hưng phấn, cần sa.",
+            "example_en": "After smoking a bowl of that fine marijuana, they ate some brownies.",
+            "example_vi": "Sau khi hút một bát cần sa hảo hạng, họ ăn một ít bánh hạnh nhân."
+          },
+          {
+            "en": "Food consumed before going to bed.",
+            "vi": "Thực phẩm tiêu thụ trước khi đi ngủ.",
+            "example_en": "The tea is common in daily life.",
+            "example_vi": "Trà rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "cake",
+        "cefr": "B1",
+        "pronunciation_uk": "/keɪk/",
+        "pronunciation_us": "/keɪk/",
+        "audio_uk": "cake_uk.mp3",
+        "audio_us": "cake_us.mp3",
+        "image": "cake.jpg",
+        "meaning": [
+          {
+            "en": "A rich, sweet dessert food, typically made of flour, sugar and eggs and baked in an oven, and often covered in icing.",
+            "vi": "Một món tráng miệng ngọt ngào, đậm đà, thường được làm từ bột mì, đường và trứng rồi nướng trong lò và thường được phủ kem.",
+            "example_en": "The cake is common in daily life.",
+            "example_vi": "Bánh thường gặp trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "Coat (something) with a crust of solid material.",
+            "vi": "Phủ (thứ gì đó) bằng một lớp vỏ bằng vật liệu rắn.",
+            "example_en": "His shoes are caked with mud.",
+            "example_vi": "Giày của anh ấy dính đầy bùn."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Animal",
+    "words": [
+      {
+        "word": "dog",
+        "cefr": "A1",
+        "pronunciation_uk": "/dɑɡ/",
+        "pronunciation_us": "/dɔɡ/",
+        "audio_uk": "dog_uk.mp3",
+        "audio_us": "dog_us.mp3",
+        "image": "dog.jpg",
+        "meaning": [
+          {
+            "en": "A mammal, Canis familiaris or Canis lupus familiaris, that has been domesticated for thousands of years, of highly variable appearance due to human breeding.",
+            "vi": "Một loài động vật có vú, Canis quenis hoặc Canis lupus quenis, đã được thuần hóa hàng nghìn năm, có ngoại hình rất khác nhau do quá trình sinh sản của con người.",
+            "example_en": "The dog barked all night long.",
+            "example_vi": "Con chó sủa suốt đêm."
+          },
+          {
+            "en": "To pursue with the intent to catch.",
+            "vi": "Để theo đuổi với ý định bắt.",
+            "example_en": "The dog is common in daily life.",
+            "example_vi": "Con chó là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "cat",
+        "cefr": "A1",
+        "pronunciation_uk": "/kat/",
+        "pronunciation_us": "/kæt/",
+        "audio_uk": "cat_uk.mp3",
+        "audio_us": "cat_us.mp3",
+        "image": "cat.jpg",
+        "meaning": [
+          {
+            "en": "An animal of the family Felidae:",
+            "vi": "Một loài động vật thuộc họ Felidae:",
+            "example_en": "The cat is common in daily life.",
+            "example_vi": "Con mèo là phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To hoist (the anchor) by its ring so that it hangs at the cathead.",
+            "vi": "Kéo (mỏ neo) bằng vòng của nó để nó treo ở đầu cathead.",
+            "example_en": "The cat is common in daily life.",
+            "example_vi": "Con mèo là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "bird",
+        "cefr": "B1",
+        "pronunciation_uk": "/bɜd/",
+        "pronunciation_us": "/bɝd/",
+        "audio_uk": "bird_uk.mp3",
+        "audio_us": "bird_us.mp3",
+        "image": "bird.jpg",
+        "meaning": [
+          {
+            "en": "A member of the class of animals Aves in the phylum Chordata, characterized by being warm-blooded, having feathers and wings usually capable of flight, and laying eggs.",
+            "vi": "Là thành viên của lớp động vật Aves thuộc ngành Chordata, có đặc điểm là máu nóng, có lông và cánh thường có khả năng bay và đẻ trứng.",
+            "example_en": "Ducks and sparrows are birds.",
+            "example_vi": "Vịt và chim sẻ là loài chim."
+          },
+          {
+            "en": "To observe or identify wild birds in their natural environment.",
+            "vi": "Để quan sát hoặc xác định các loài chim hoang dã trong môi trường tự nhiên của chúng.",
+            "example_en": "The bird is common in daily life.",
+            "example_vi": "Con chim là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "fish",
+        "cefr": "B1",
+        "pronunciation_uk": "/fɪʃ/",
+        "pronunciation_us": "/fɪʃ/",
+        "audio_uk": "fish_uk.mp3",
+        "audio_us": "fish_us.mp3",
+        "image": "fish.jpg",
+        "meaning": [
+          {
+            "en": "A cold-blooded vertebrate animal that lives in water, moving with the help of fins and breathing with gills.",
+            "vi": "Là động vật có xương sống máu lạnh, sống dưới nước, di chuyển bằng vây và thở bằng mang.",
+            "example_en": "Salmon is a fish.",
+            "example_vi": "Cá hồi là một loại cá."
+          }
+        ]
+      },
+      {
+        "word": "horse",
+        "cefr": "B1",
+        "pronunciation_uk": "/hɔːs/",
+        "pronunciation_us": "/hɔɹs/",
+        "audio_uk": "horse_uk.mp3",
+        "audio_us": "horse_us.mp3",
+        "image": "horse.jpg",
+        "meaning": [
+          {
+            "en": "Any of several animals related to Equus ferus caballus.",
+            "vi": "Bất kỳ loài động vật nào có liên quan đến Equus ferus caballus.",
+            "example_en": "The horse is common in daily life.",
+            "example_vi": "Con ngựa là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "cow",
+        "cefr": "B1",
+        "pronunciation_uk": "/kaʊ/",
+        "pronunciation_us": "/kaʊ/",
+        "audio_uk": "cow_uk.mp3",
+        "audio_us": "cow_us.mp3",
+        "image": "cow.jpg",
+        "meaning": [
+          {
+            "en": "(properly) An adult female of the species Bos taurus, especially one that has calved.",
+            "vi": "(đúng) Một con cái trưởng thành thuộc loài Bos taurus, đặc biệt là con đã sinh con.",
+            "example_en": "The cow is common in daily life.",
+            "example_vi": "Con bò là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "pig",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈpɪɡ/",
+        "pronunciation_us": "/ˈpɪɡ/",
+        "audio_uk": "pig_uk.mp3",
+        "audio_us": "pig_us.mp3",
+        "image": "pig.jpg",
+        "meaning": [
+          {
+            "en": "Any of several intelligent mammalian species of the genus Sus, having cloven hooves, bristles and a nose adapted for digging; especially the domesticated animal Sus scrofa.",
+            "vi": "Bất kỳ loài động vật có vú thông minh nào thuộc chi Sus, có móng guốc, lông cứng và mũi thích nghi với việc đào bới;đặc biệt là loài vật nuôi Sus scrofa.",
+            "example_en": "The man kept a pen with two pigs that he fed from carrots to cabbage.",
+            "example_vi": "Người đàn ông nuôi hai con lợn từ cà rốt đến bắp cải."
+          },
+          {
+            "en": "(of swine) to give birth.",
+            "vi": "(của lợn) sinh con.",
+            "example_en": "The black sow pigged at seven this morning.",
+            "example_vi": "Con lợn nái đen đã xuất hiện lúc bảy giờ sáng nay."
+          }
+        ]
+      },
+      {
+        "word": "sheep",
+        "cefr": "B1",
+        "pronunciation_uk": "/ʃiːp/",
+        "pronunciation_us": "/ʃip/",
+        "audio_uk": "sheep_uk.mp3",
+        "audio_us": "sheep_us.mp3",
+        "image": "sheep.jpg",
+        "meaning": [
+          {
+            "en": "A woolly ruminant of the genus Ovis.",
+            "vi": "Động vật nhai lại có lông thuộc chi Ovis.",
+            "example_en": "The sheep is common in daily life.",
+            "example_vi": "Con cừu là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "lion",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈlaɪən/",
+        "pronunciation_us": "/ˈlaɪən/",
+        "audio_uk": "lion_uk.mp3",
+        "audio_us": "lion_us.mp3",
+        "image": "lion.jpg",
+        "meaning": [
+          {
+            "en": "A big cat, Panthera leo, native to Africa, India and formerly much of Europe.",
+            "vi": "Một con mèo lớn, Panthera leo, có nguồn gốc từ Châu Phi, Ấn Độ và trước đây là phần lớn Châu Âu.",
+            "example_en": "Tigers and lions share a common ancestor from a few million years ago.",
+            "example_vi": "Hổ và sư tử có chung tổ tiên từ vài triệu năm trước."
+          },
+          {
+            "en": "Of the light brown color that resembles the fur of a lion.",
+            "vi": "Có màu nâu nhạt giống lông sư tử.",
+            "example_en": "The lion is common in daily life.",
+            "example_vi": "Sư tử là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "tiger",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈtaɪɡə/",
+        "pronunciation_us": "/ˈtaɪɡɚ/",
+        "audio_uk": "tiger_uk.mp3",
+        "audio_us": "tiger_us.mp3",
+        "image": "tiger.jpg",
+        "meaning": [
+          {
+            "en": "Panthera tigris, a large predatory mammal of the cat family, indigenous to Asia.",
+            "vi": "Panthera tigris là một loài động vật có vú săn mồi lớn thuộc họ mèo, bản địa ở châu Á.",
+            "example_en": "The tiger is common in daily life.",
+            "example_vi": "Con hổ là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "elephant",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈɛləfənt/",
+        "pronunciation_us": "/ˈɛləfənt/",
+        "audio_uk": "elephant_uk.mp3",
+        "audio_us": "elephant_us.mp3",
+        "image": "elephant.jpg",
+        "meaning": [
+          {
+            "en": "A mammal of the order Proboscidea, having a trunk, and two large ivory tusks jutting from the upper jaw.",
+            "vi": "Một loài động vật có vú thuộc bộ Proboscidea, có vòi và hai ngà lớn nhô ra từ hàm trên.",
+            "example_en": "The elephant is common in daily life.",
+            "example_vi": "Con voi là điều bình thường trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "A large size of paper, measuring 23 by 28 inches, or sometimes 22 by 30, or (double elephant paper) 26 by 40 inches.",
+            "vi": "Một khổ giấy lớn, có kích thước 23 x 28 inch, hoặc đôi khi là 22 x 30, hoặc (giấy voi đôi) 26 x 40 inch.",
+            "example_en": "The elephant is common in daily life.",
+            "example_vi": "Con voi là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "monkey",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈmʌŋki/",
+        "pronunciation_us": "/ˈmʌŋki/",
+        "audio_uk": "monkey_uk.mp3",
+        "audio_us": "monkey_us.mp3",
+        "image": "monkey.jpg",
+        "meaning": [
+          {
+            "en": "Any member of the clade Simiiformes not also of the clade Hominoidea containing humans and apes, from which they are usually, but not universally, distinguished by smaller size, a tail, and cheek pouches.",
+            "vi": "Bất kỳ thành viên nào của nhánh Simiiformes không thuộc nhánh Hominoidea có chứa con người và vượn, mà chúng thường, nhưng không phổ biến, được phân biệt bằng kích thước nhỏ hơn, đuôi và túi má.",
+            "example_en": "He had been visiting an area zoo when a monkey swung from its tree perch, swiped his glasses and hurled them into a hippo hole.",
+            "example_vi": "Anh ta đang đến thăm một vườn thú trong khu vực thì một con khỉ đu từ trên cây của nó, giật kính của anh ta và ném chúng vào một cái hố hà mã."
+          },
+          {
+            "en": "To meddle; to mess (with).",
+            "vi": "Để can thiệp;gây rối (với).",
+            "example_en": "Please don't monkey with the controls if you don't know what you're doing.",
+            "example_vi": "Vui lòng không sử dụng bộ điều khiển nếu bạn không biết mình đang làm gì."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Travel",
+    "words": [
+      {
+        "word": "plane",
+        "cefr": "B1",
+        "pronunciation_uk": "/pleɪn/",
+        "pronunciation_us": "/pleɪn/",
+        "audio_uk": "plane_uk.mp3",
+        "audio_us": "plane_us.mp3",
+        "image": "plane.jpg",
+        "meaning": [
+          {
+            "en": "A level or flat surface.",
+            "vi": "Một bề mặt bằng phẳng hoặc bằng phẳng.",
+            "example_en": "The plane is common in daily life.",
+            "example_vi": "Máy bay là điều bình thường trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "Of a surface: flat or level.",
+            "vi": "Của một bề mặt: bằng phẳng hoặc bằng phẳng.",
+            "example_en": "The plane is common in daily life.",
+            "example_vi": "Máy bay là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "train",
+        "cefr": "B1",
+        "pronunciation_uk": "/tɹeɪn/",
+        "pronunciation_us": "/tɹeɪn/",
+        "audio_uk": "train_uk.mp3",
+        "audio_us": "train_us.mp3",
+        "image": "train.jpg",
+        "meaning": [
+          {
+            "en": "Elongated portion.",
+            "vi": "Phần kéo dài.",
+            "example_en": "The train is common in daily life.",
+            "example_vi": "Tàu hỏa là phương tiện phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To practice an ability.",
+            "vi": "Để rèn luyện một khả năng.",
+            "example_en": "She trained seven hours a day to prepare for the Olympics.",
+            "example_vi": "Cô tập luyện bảy giờ một ngày để chuẩn bị cho Thế vận hội."
+          }
+        ]
+      },
+      {
+        "word": "car",
+        "cefr": "A1",
+        "pronunciation_uk": "/kɑː/",
+        "pronunciation_us": "/kɑɹ/",
+        "audio_uk": "car_uk.mp3",
+        "audio_us": "car_us.mp3",
+        "image": "car.jpg",
+        "meaning": [
+          {
+            "en": "A wheeled vehicle that moves independently, with at least three wheels, powered mechanically, steered by a driver and mostly for personal transportation.",
+            "vi": "Một phương tiện có bánh di chuyển độc lập, có ít nhất ba bánh, chạy bằng cơ khí, do người lái điều khiển và chủ yếu dùng để vận chuyển cá nhân.",
+            "example_en": "She drove her car to the mall.",
+            "example_vi": "Cô lái xe đến trung tâm thương mại."
+          }
+        ]
+      },
+      {
+        "word": "bus",
+        "cefr": "A2",
+        "pronunciation_uk": "/bɐs/",
+        "pronunciation_us": "/bɐs/",
+        "audio_uk": "bus_uk.mp3",
+        "audio_us": "bus_us.mp3",
+        "image": "bus.jpg",
+        "meaning": [
+          {
+            "en": "A motor vehicle for transporting large numbers of people along roads.",
+            "vi": "Một phương tiện cơ giới để vận chuyển số lượng lớn người trên đường.",
+            "example_en": "The bus is common in daily life.",
+            "example_vi": "Xe buýt là phương tiện phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To transport via a motor bus.",
+            "vi": "Để vận chuyển bằng xe buýt có động cơ.",
+            "example_en": "The bus is common in daily life.",
+            "example_vi": "Xe buýt là phương tiện phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "hotel",
+        "cefr": "A2",
+        "pronunciation_uk": "/(h)əʊˈtɛl/",
+        "pronunciation_us": "/hoʊˈtɛl/",
+        "audio_uk": "hotel_uk.mp3",
+        "audio_us": "hotel_us.mp3",
+        "image": "hotel.jpg",
+        "meaning": [
+          {
+            "en": "A large town house or mansion; a grand private residence, especially in France.",
+            "vi": "Một ngôi nhà phố hoặc biệt thự lớn;một dinh thự tư nhân lớn, đặc biệt là ở Pháp.",
+            "example_en": "The hotel is common in daily life.",
+            "example_vi": "Khách sạn là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "airport",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈɛə.pɔːt/",
+        "pronunciation_us": "/ˈɛɹ.pɔɹt/",
+        "audio_uk": "airport_uk.mp3",
+        "audio_us": "airport_us.mp3",
+        "image": "airport.jpg",
+        "meaning": [
+          {
+            "en": "An airfield (an area designated for the takeoff and landing of aircraft), including one or more runways and (for commercial airports) one or more passenger terminals.",
+            "vi": "Sân bay (là khu vực dành riêng cho tàu bay cất cánh, hạ cánh), bao gồm một hoặc nhiều đường băng và (đối với sân bay thương mại) một hoặc nhiều nhà ga hành khách.",
+            "example_en": "Because of this, and contrary to popular belief, British airports primarily act as giant wealth extractors, transporting our richest citizens out of the country as often as possible to take their money overseas. ― The Independent, Heathrow expansion to mainly benefit wealthy frequent fliers, research finds, 23 june 2018.",
+            "example_vi": "Vì điều này, và trái ngược với niềm tin phổ biến, các sân bay ở Anh chủ yếu hoạt động như những kẻ bòn rút tài sản khổng lồ, vận chuyển những công dân giàu nhất của chúng ta ra khỏi đất nước thường xuyên nhất có thể để mang tiền của họ ra nước ngoài.― The Independent, việc mở rộng Heathrow chủ yếu mang lại lợi ích cho những người giàu có thường xuyên bay, nghiên cứu cho thấy, ngày 23 tháng 6 năm 2018."
+          }
+        ]
+      },
+      {
+        "word": "passport",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈpɑːspɔːt/",
+        "pronunciation_us": "/ˈpæspɔɹt/",
+        "audio_uk": "passport_uk.mp3",
+        "audio_us": "passport_us.mp3",
+        "image": "passport.jpg",
+        "meaning": [
+          {
+            "en": "An official document normally used for international journeys, which proves the identity and nationality of the person for whom it was issued.",
+            "vi": "Một loại giấy tờ chính thức thường được sử dụng cho các chuyến đi quốc tế, chứng minh danh tính và quốc tịch của người được cấp.",
+            "example_en": "You will have to bring your passport to prove who you are.",
+            "example_vi": "Bạn sẽ phải mang theo hộ chiếu để chứng minh bạn là ai."
+          }
+        ]
+      },
+      {
+        "word": "ticket",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈtɪkɪt/",
+        "pronunciation_us": "/ˈtɪkɪt/",
+        "audio_uk": "ticket_uk.mp3",
+        "audio_us": "ticket_us.mp3",
+        "image": "ticket.jpg",
+        "meaning": [
+          {
+            "en": "A pass entitling the holder to admission to a show, concert, etc.",
+            "vi": "Thẻ cho phép người sở hữu được vào xem một buổi biểu diễn, buổi hòa nhạc, v.v.",
+            "example_en": "The ticket is common in daily life.",
+            "example_vi": "Vé là phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To issue someone a ticket, as for travel or for a violation of a local or traffic law.",
+            "vi": "Để cấp cho ai đó một vé, như để đi du lịch hoặc vi phạm luật địa phương hoặc luật giao thông.",
+            "example_en": "The ticket is common in daily life.",
+            "example_vi": "Vé là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "map",
+        "cefr": "B1",
+        "pronunciation_uk": "/mæp/",
+        "pronunciation_us": "/mæp/",
+        "audio_uk": "map_uk.mp3",
+        "audio_us": "map_us.mp3",
+        "image": "map.jpg",
+        "meaning": [
+          {
+            "en": "A visual representation of an area, whether real or imaginary.",
+            "vi": "Sự thể hiện trực quan của một khu vực, dù là thực hay tưởng tượng.",
+            "example_en": "The map is common in daily life.",
+            "example_vi": "Bản đồ là phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To create a visual representation of a territory, etc. via cartography.",
+            "vi": "Để tạo một hình ảnh trực quan về một lãnh thổ, v.v. thông qua bản đồ.",
+            "example_en": "The map is common in daily life.",
+            "example_vi": "Bản đồ là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "beach",
+        "cefr": "B1",
+        "pronunciation_uk": "/biːt͡ʃ/",
+        "pronunciation_us": "/bit͡ʃ/",
+        "audio_uk": "beach_uk.mp3",
+        "audio_us": "beach_us.mp3",
+        "image": "beach.jpg",
+        "meaning": [
+          {
+            "en": "The shore of a body of water, especially when sandy or pebbly.",
+            "vi": "Bờ của một vùng nước, đặc biệt khi có cát hoặc sỏi.",
+            "example_en": "The beach is common in daily life.",
+            "example_vi": "Bãi biển là điều bình thường trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To run aground on a beach.",
+            "vi": "Để mắc cạn trên một bãi biển.",
+            "example_en": "The beach is common in daily life.",
+            "example_vi": "Bãi biển là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "mountain",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈmaʊntɪn/",
+        "pronunciation_us": "/ˈmaʊntn̩/",
+        "audio_uk": "mountain_uk.mp3",
+        "audio_us": "mountain_us.mp3",
+        "image": "mountain.jpg",
+        "meaning": [
+          {
+            "en": "An elevation of land of considerable dimensions rising more or less abruptly, forming a conspicuous figure in the landscape, usually having a small extent of surface at its summit.",
+            "vi": "Độ cao của vùng đất có kích thước đáng kể tăng lên ít nhiều đột ngột, tạo thành một hình dễ thấy trong cảnh quan, thường có một phần nhỏ bề mặt ở đỉnh.",
+            "example_en": "We spent the weekend hiking in the mountains.",
+            "example_vi": "Chúng tôi dành những ngày cuối tuần để đi bộ trên núi."
+          }
+        ]
+      },
+      {
+        "word": "city",
+        "cefr": "A2",
+        "pronunciation_uk": "/sɪtɪ/",
+        "pronunciation_us": "/ˈsɪɾi/",
+        "audio_uk": "city_uk.mp3",
+        "audio_us": "city_us.mp3",
+        "image": "city.jpg",
+        "meaning": [
+          {
+            "en": "A large settlement, bigger than a town; sometimes with a specific legal definition, depending on the place.",
+            "vi": "Một khu định cư lớn, lớn hơn một thị trấn;đôi khi có định nghĩa pháp lý cụ thể, tùy từng nơi.",
+            "example_en": "São Paulo is the largest city in South America.",
+            "example_vi": "São Paulo là thành phố lớn nhất ở Nam Mỹ."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Education",
+    "words": [
+      {
+        "word": "school",
+        "cefr": "A1",
+        "pronunciation_uk": "/skuːl/",
+        "pronunciation_us": "skul",
+        "audio_uk": "school_uk.mp3",
+        "audio_us": "school_us.mp3",
+        "image": "school.jpg",
+        "meaning": [
+          {
+            "en": "(collective) A group of fish or a group of marine mammals such as porpoises, dolphins, or whales.",
+            "vi": "(gọi chung) Một nhóm cá hoặc một nhóm động vật có vú ở biển như cá heo, cá heo hoặc cá voi.",
+            "example_en": "The divers encountered a huge school of mackerel.",
+            "example_vi": "Các thợ lặn gặp phải một đàn cá thu khổng lồ."
+          },
+          {
+            "en": "(of fish) To form into, or travel in a school.",
+            "vi": "(về cá) Đi vào hoặc du lịch trong một trường học.",
+            "example_en": "The school is common in daily life.",
+            "example_vi": "Trường học là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "teacher",
+        "cefr": "A2",
+        "pronunciation_uk": "/ˈtiːt͡ʃə/",
+        "pronunciation_us": "/ˈtit͡ʃɚ/",
+        "audio_uk": "teacher_uk.mp3",
+        "audio_us": "teacher_us.mp3",
+        "image": "teacher.jpg",
+        "meaning": [
+          {
+            "en": "A person who teaches, especially one employed in a school.",
+            "vi": "Người dạy học, đặc biệt là người làm việc trong trường học.",
+            "example_en": "The teacher is common in daily life.",
+            "example_vi": "Thầy là điều bình thường trong đời sống hằng ngày."
+          }
+        ]
+      },
+      {
+        "word": "student",
+        "cefr": "A2",
+        "pronunciation_uk": "/ˈstjuː.dənt/",
+        "pronunciation_us": "/ˈstu.dn̩t/",
+        "audio_uk": "student_uk.mp3",
+        "audio_us": "student_us.mp3",
+        "image": "student.jpg",
+        "meaning": [
+          {
+            "en": "A person who studies or learns about a particular subject.",
+            "vi": "Một người nghiên cứu hoặc tìm hiểu về một chủ đề cụ thể.",
+            "example_en": "He is a student of life.",
+            "example_vi": "Anh ấy là một sinh viên của cuộc sống."
+          }
+        ]
+      },
+      {
+        "word": "book",
+        "cefr": "A1",
+        "pronunciation_uk": "/buːk/",
+        "pronunciation_us": "/buːk/",
+        "audio_uk": "book_uk.mp3",
+        "audio_us": "book_us.mp3",
+        "image": "book.jpg",
+        "meaning": [
+          {
+            "en": "A collection of sheets of paper bound together to hinge at one edge, containing printed or written material, pictures, etc.",
+            "vi": "Một tập hợp các tờ giấy được buộc lại với nhau thành bản lề ở một cạnh, chứa tài liệu in hoặc viết, hình ảnh, v.v.",
+            "example_en": "He was frustrated because he couldn't find anything about dinosaurs in the book.",
+            "example_vi": "Anh ấy thất vọng vì không thể tìm thấy bất cứ điều gì về khủng long trong cuốn sách."
+          }
+        ]
+      },
+      {
+        "word": "pen",
+        "cefr": "B1",
+        "pronunciation_uk": "/pɛn/",
+        "pronunciation_us": "pɛn",
+        "audio_uk": "pen_uk.mp3",
+        "audio_us": "pen_us.mp3",
+        "image": "pen.jpg",
+        "meaning": [
+          {
+            "en": "An enclosure (enclosed area) used to contain domesticated animals, especially sheep or cattle.",
+            "vi": "Một khu vực bao quanh (khu vực khép kín) được sử dụng để chứa các động vật được thuần hóa, đặc biệt là cừu hoặc gia súc.",
+            "example_en": "There are two steers in the third pen.",
+            "example_vi": "Có hai con bò ở chuồng thứ ba."
+          }
+        ]
+      },
+      {
+        "word": "pencil",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈpɛnsɪl/",
+        "pronunciation_us": "/ˈpɛnsəl/",
+        "audio_uk": "pencil_uk.mp3",
+        "audio_us": "pencil_us.mp3",
+        "image": "pencil.jpg",
+        "meaning": [
+          {
+            "en": "A paintbrush.",
+            "vi": "Một cây cọ vẽ.",
+            "example_en": "The pencil is common in daily life.",
+            "example_vi": "Bút chì là vật dụng phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To write (something) using a pencil.",
+            "vi": "Viết (cái gì đó) bằng bút chì.",
+            "example_en": "I penciled (BrE: pencilled) a brief reminder in my notebook.",
+            "example_vi": "Tôi viết (BrE: pencilled) một lời nhắc nhở ngắn gọn vào sổ tay của mình."
+          }
+        ]
+      },
+      {
+        "word": "classroom",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈklɑːsɹʊm/",
+        "pronunciation_us": "ˈklæsˌrum",
+        "audio_uk": "classroom_uk.mp3",
+        "audio_us": "classroom_us.mp3",
+        "image": "classroom.jpg",
+        "meaning": [
+          {
+            "en": "A room, often in a school, where classes take place",
+            "vi": "Một căn phòng, thường ở trường học, nơi diễn ra các lớp học",
+            "example_en": "The classroom is common in daily life.",
+            "example_vi": "Lớp học là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "homework",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈhəʊmˌwɜːk/",
+        "pronunciation_us": "ˈhoʊmˌwərk",
+        "audio_uk": "homework_uk.mp3",
+        "audio_us": "homework_us.mp3",
+        "image": "homework.jpg",
+        "meaning": [
+          {
+            "en": "Work that is done at home, especially school exercises assigned by a teacher.",
+            "vi": "Công việc được thực hiện ở nhà, đặc biệt là các bài tập ở trường do giáo viên giao.",
+            "example_en": "You must do your homework before you can watch television.",
+            "example_vi": "Bạn phải làm bài tập về nhà trước khi có thể xem tivi."
+          }
+        ]
+      },
+      {
+        "word": "exam",
+        "cefr": "B1",
+        "pronunciation_uk": "/ɛɡˈzæm/",
+        "pronunciation_us": "ɪgˈzæm",
+        "audio_uk": "exam_uk.mp3",
+        "audio_us": "exam_us.mp3",
+        "image": "exam.jpg",
+        "meaning": [
+          {
+            "en": "The act of examining.",
+            "vi": "Hành động kiểm tra.",
+            "example_en": "The exam is common in daily life.",
+            "example_vi": "Kỳ thi là phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To observe or inspect carefully or critically",
+            "vi": "Để quan sát hoặc kiểm tra một cách cẩn thận hoặc nghiêm túc",
+            "example_en": "He examined the crime scene for clues.",
+            "example_vi": "Anh ta kiểm tra hiện trường vụ án để tìm manh mối."
+          }
+        ]
+      },
+      {
+        "word": "university",
+        "cefr": "B1",
+        "pronunciation_uk": "/juːnɪˈvɜːsətiː/",
+        "pronunciation_us": "/junɨˈvɝsəti/",
+        "audio_uk": "university_uk.mp3",
+        "audio_us": "university_us.mp3",
+        "image": "university.jpg",
+        "meaning": [
+          {
+            "en": "Institution of higher education (typically accepting students from the age of about 17 or 18, depending on country, but in some exceptional cases able to take younger students) where subjects are studied and researched in depth and degrees are offered.",
+            "vi": "Cơ sở giáo dục đại học (thường nhận sinh viên từ khoảng 17 hoặc 18 tuổi, tùy theo quốc gia, nhưng trong một số trường hợp đặc biệt có thể nhận sinh viên trẻ hơn), nơi các môn học được học và nghiên cứu chuyên sâu và cấp bằng được cung cấp.",
+            "example_en": "The only reason why I haven't gone to university is because I can't afford it.",
+            "example_vi": "Lý do duy nhất khiến tôi không học đại học là vì tôi không đủ khả năng chi trả."
+          }
+        ]
+      },
+      {
+        "word": "lesson",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈlɛsn̩/",
+        "pronunciation_us": "/ˈlɛsn̩/",
+        "audio_uk": "lesson_uk.mp3",
+        "audio_us": "lesson_us.mp3",
+        "image": "lesson.jpg",
+        "meaning": [
+          {
+            "en": "A section of learning or teaching into which a wider learning content is divided.",
+            "vi": "Một phần của việc học hoặc dạy trong đó nội dung học tập rộng hơn được chia ra.",
+            "example_en": "In our school a typical working week consists of around twenty lessons and ten hours of related laboratory work.",
+            "example_vi": "Ở trường chúng tôi, một tuần làm việc điển hình bao gồm khoảng 20 giờ học và 10 giờ làm việc trong phòng thí nghiệm liên quan."
+          },
+          {
+            "en": "To give a lesson to; to teach.",
+            "vi": "Để đưa ra một bài học;để dạy.",
+            "example_en": "The lesson is common in daily life.",
+            "example_vi": "Bài học rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "study",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈstʌdi/",
+        "pronunciation_us": "/ˈstʌdi/",
+        "audio_uk": "study_uk.mp3",
+        "audio_us": "study_us.mp3",
+        "image": "study.jpg",
+        "meaning": [
+          {
+            "en": "(usually academic) To review materials already learned in order to make sure one does not forget them, usually in preparation for an examination.",
+            "vi": "(thường mang tính học thuật) Ôn lại những tài liệu đã học để đảm bảo không quên chúng, thường là để chuẩn bị cho kỳ thi.",
+            "example_en": "I need to study my biology notes.",
+            "example_vi": "Tôi cần nghiên cứu các ghi chú sinh học của mình."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Health",
+    "words": [
+      {
+        "word": "doctor",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈdɒktə/",
+        "pronunciation_us": "/ˈdɑktɚ/",
+        "audio_uk": "doctor_uk.mp3",
+        "audio_us": "doctor_us.mp3",
+        "image": "doctor.jpg",
+        "meaning": [
+          {
+            "en": "A physician; a member of the medical profession; one who is trained and licensed to heal the sick or injured. The final examination and qualification may award a doctor degree in which case the post-nominal letters are D.O., DPM, M.D., DMD, DDS, in the US or MBBS in the UK.",
+            "vi": "Một bác sĩ;một thành viên của ngành y tế;một người được đào tạo và cấp phép để chữa lành người bệnh hoặc bị thương.Kỳ thi cuối cùng và trình độ chuyên môn có thể cấp bằng tiến sĩ, trong trường hợp đó các chữ cái sau danh nghĩa là D.O., DPM, M.D., DMD, DDS, ở Hoa Kỳ hoặc MBBS ở Anh.",
+            "example_en": "If you still feel unwell tomorrow, see your doctor.",
+            "example_vi": "Nếu ngày mai bạn vẫn cảm thấy không khỏe, hãy đến gặp bác sĩ."
+          },
+          {
+            "en": "To act as a medical doctor to.",
+            "vi": "Để hoạt động như một bác sĩ y khoa.",
+            "example_en": "Her children doctored her back to health.",
+            "example_vi": "Các con của cô đã chữa trị cho cô khỏe mạnh trở lại."
+          }
+        ]
+      },
+      {
+        "word": "hospital",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈhɒs.pɪ.tl̩/",
+        "pronunciation_us": "/ˈhɑs.pɪ.tl̩/",
+        "audio_uk": "hospital_uk.mp3",
+        "audio_us": "hospital_us.mp3",
+        "image": "hospital.jpg",
+        "meaning": [
+          {
+            "en": "A large medical facility, usually in a building with multiple floors, where seriously ill or injured patients are given extensive medical and/or surgical treatment.",
+            "vi": "Một cơ sở y tế lớn, thường nằm trong một tòa nhà có nhiều tầng, nơi bệnh nhân bị bệnh nặng hoặc bị thương được điều trị y tế và/hoặc phẫu thuật chuyên sâu.",
+            "example_en": "The hospital is common in daily life.",
+            "example_vi": "Bệnh viện là điều bình thường trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "Hospitable.",
+            "vi": "hiếu khách.",
+            "example_en": "The hospital is common in daily life.",
+            "example_vi": "Bệnh viện là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "medicine",
+        "cefr": "B2",
+        "pronunciation_uk": "/ˈmed(ɪ).sn̩/",
+        "pronunciation_us": "/ˈmɛ.dɪ.sɪn/",
+        "audio_uk": "medicine_uk.mp3",
+        "audio_us": "medicine_us.mp3",
+        "image": "medicine.jpg",
+        "meaning": [
+          {
+            "en": "A substance which specifically promotes healing when ingested or consumed in some way.",
+            "vi": "Một chất đặc biệt thúc đẩy quá trình chữa lành khi ăn vào hoặc tiêu thụ theo một cách nào đó.",
+            "example_en": "The medicine is common in daily life.",
+            "example_vi": "Thuốc rất phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To treat with medicine.",
+            "vi": "Để điều trị bằng thuốc.",
+            "example_en": "The medicine is common in daily life.",
+            "example_vi": "Thuốc rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "nurse",
+        "cefr": "B1",
+        "pronunciation_uk": "/nɜːs/",
+        "pronunciation_us": "/nɝs/",
+        "audio_uk": "nurse_uk.mp3",
+        "audio_us": "nurse_us.mp3",
+        "image": "nurse.jpg",
+        "meaning": [
+          {
+            "en": "A wet nurse.",
+            "vi": "Một y tá ướt.",
+            "example_en": "The nurse is common in daily life.",
+            "example_vi": "Y tá là điều bình thường trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To breastfeed: to feed (a baby) at the breast; to suckle.",
+            "vi": "Cho con bú: cho (đứa bé) bú vú mẹ;để bú.",
+            "example_en": "She believes that nursing her baby will make him strong and healthy.",
+            "example_vi": "Cô tin rằng việc nuôi con bằng sữa mẹ sẽ giúp bé khỏe mạnh."
+          }
+        ]
+      },
+      {
+        "word": "headache",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈhɛdeɪk/",
+        "pronunciation_us": "/ˈhɛdeɪk/",
+        "audio_uk": "headache_uk.mp3",
+        "audio_us": "headache_us.mp3",
+        "image": "headache.jpg",
+        "meaning": [
+          {
+            "en": "A pain or ache in the head.",
+            "vi": "Đau hoặc nhức đầu.",
+            "example_en": "The headache is common in daily life.",
+            "example_vi": "Đau đầu là tình trạng thường gặp trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "fever",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈfiːvə/",
+        "pronunciation_us": "/ˈfivɚ/",
+        "audio_uk": "fever_uk.mp3",
+        "audio_us": "fever_us.mp3",
+        "image": "fever.jpg",
+        "meaning": [
+          {
+            "en": "A higher than normal body temperature of a person (or, generally, a mammal), usually caused by disease.",
+            "vi": "Nhiệt độ cơ thể cao hơn bình thường của một người (hoặc nói chung là động vật có vú), thường do bệnh tật gây ra.",
+            "example_en": "\"I have a fever. I think I've the flu.\"",
+            "example_vi": "\"Tôi bị sốt. Tôi nghĩ tôi bị cúm.\""
+          },
+          {
+            "en": "To put into a fever; to affect with fever.",
+            "vi": "Bị sốt;ảnh hưởng đến sốt.",
+            "example_en": "a fevered lip",
+            "example_vi": "môi bị sốt"
+          }
+        ]
+      },
+      {
+        "word": "tooth",
+        "cefr": "B1",
+        "pronunciation_uk": "/tuːθ/",
+        "pronunciation_us": "/tuːθ/",
+        "audio_uk": "tooth_uk.mp3",
+        "audio_us": "tooth_us.mp3",
+        "image": "tooth.jpg",
+        "meaning": [
+          {
+            "en": "A hard, calcareous structure present in the mouth of many vertebrate animals, generally used for eating.",
+            "vi": "Một cấu trúc cứng, chứa canxi có trong miệng của nhiều loài động vật có xương sống, thường được sử dụng để ăn.",
+            "example_en": "The tooth is common in daily life.",
+            "example_vi": "Răng là tình trạng phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To provide or furnish with teeth.",
+            "vi": "Để cung cấp hoặc cung cấp răng.",
+            "example_en": "The tooth is common in daily life.",
+            "example_vi": "Răng là tình trạng phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "exercise",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈɛk.sə.saɪz/",
+        "pronunciation_us": "/ˈɛk.sɚ.saɪz/",
+        "audio_uk": "exercise_uk.mp3",
+        "audio_us": "exercise_us.mp3",
+        "image": "exercise.jpg",
+        "meaning": [
+          {
+            "en": "Any activity designed to develop or hone a skill or ability.",
+            "vi": "Bất kỳ hoạt động nào được thiết kế để phát triển hoặc trau dồi kỹ năng hoặc khả năng.",
+            "example_en": "The teacher told us that the next exercise is to write an essay.",
+            "example_vi": "Giáo viên nói với chúng tôi rằng bài tập tiếp theo là viết một bài luận."
+          },
+          {
+            "en": "To exert for the sake of training or improvement; to practice in order to develop.",
+            "vi": "Nỗ lực vì mục đích đào tạo hoặc cải thiện;rèn luyện để phát triển.",
+            "example_en": "to exercise troops or horses;  to exercise one's brain with a puzzle",
+            "example_vi": "tập quân hoặc ngựa;rèn luyện trí não bằng một câu đố"
+          }
+        ]
+      },
+      {
+        "word": "sleep",
+        "cefr": "B1",
+        "pronunciation_uk": "/sliːp/",
+        "pronunciation_us": "/slip/",
+        "audio_uk": "sleep_uk.mp3",
+        "audio_us": "sleep_us.mp3",
+        "image": "sleep.jpg",
+        "meaning": [
+          {
+            "en": "To rest in a state of reduced consciousness.",
+            "vi": "Nghỉ ngơi trong trạng thái ý thức giảm sút.",
+            "example_en": "You should sleep 8 hours a day.",
+            "example_vi": "Bạn nên ngủ 8 tiếng mỗi ngày."
+          }
+        ]
+      },
+      {
+        "word": "diet",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈdaɪət/",
+        "pronunciation_us": "/ˈdaɪət/",
+        "audio_uk": "diet_uk.mp3",
+        "audio_us": "diet_us.mp3",
+        "image": "diet.jpg",
+        "meaning": [
+          {
+            "en": "The food and beverage a person or animal consumes.",
+            "vi": "Thực phẩm và đồ uống mà một người hoặc động vật tiêu thụ.",
+            "example_en": "The diet of the Giant Panda consists mainly of bamboo.",
+            "example_vi": "Chế độ ăn của Gấu trúc khổng lồ chủ yếu bao gồm tre."
+          },
+          {
+            "en": "(of a food or beverage) Containing less fat, salt, sugar, or calories than normal, or claimed to have such.",
+            "vi": "(của thực phẩm hoặc đồ uống) Chứa ít chất béo, muối, đường hoặc calo hơn bình thường hoặc được cho là có như vậy.",
+            "example_en": "diet soda",
+            "example_vi": "soda ăn kiêng"
+          }
+        ]
+      },
+      {
+        "word": "vitamin",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈvɑet.ə.mən/",
+        "pronunciation_us": "/ˈvaɪ.tə.mɪn/",
+        "audio_uk": "vitamin_uk.mp3",
+        "audio_us": "vitamin_us.mp3",
+        "image": "vitamin.jpg",
+        "meaning": [
+          {
+            "en": "Any of a specific group of organic compounds essential in small quantities for healthy human growth, metabolism, development, and body function; found in minute amounts in plant and animal foods or sometimes produced synthetically; deficiencies of specific vitamins produce specific disorders.",
+            "vi": "Bất kỳ nhóm hợp chất hữu cơ cụ thể nào cần thiết với số lượng nhỏ cho sự tăng trưởng, trao đổi chất, phát triển và chức năng cơ thể khỏe mạnh của con người;được tìm thấy với số lượng rất nhỏ trong thực phẩm thực vật và động vật hoặc đôi khi được sản xuất tổng hợp;sự thiếu hụt các vitamin cụ thể sẽ gây ra các rối loạn cụ thể.",
+            "example_en": "The vitamin is common in daily life.",
+            "example_vi": "Vitamin rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "heart",
+        "cefr": "B1",
+        "pronunciation_uk": "/hɑːt/",
+        "pronunciation_us": "hɑrt",
+        "audio_uk": "heart_uk.mp3",
+        "audio_us": "heart_us.mp3",
+        "image": "heart.jpg",
+        "meaning": [
+          {
+            "en": "A muscular organ that pumps blood through the body, traditionally thought to be the seat of emotion.",
+            "vi": "Một cơ quan cơ bắp bơm máu đi khắp cơ thể, theo truyền thống được cho là nơi chứa đựng cảm xúc.",
+            "example_en": "The heart is common in daily life.",
+            "example_vi": "Tâm là điều bình thường trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To be fond of. Often bracketed or abbreviated with a heart symbol.",
+            "vi": "Để được yêu thích.Thường được đặt trong ngoặc hoặc viết tắt bằng biểu tượng trái tim.",
+            "example_en": "2008 July 25, \"The Media Hearts Obama?\", On The Media, National Public Radio",
+            "example_vi": "2008 Ngày 25 tháng 7, \"Truyền thông có yêu mến Obama?\", Trên Truyền thông, Đài Phát thanh Công cộng Quốc gia"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Technology",
+    "words": [
+      {
+        "word": "computer",
+        "cefr": "B1",
+        "pronunciation_uk": "/kəmˈpjuːtə/",
+        "pronunciation_us": "/kəmˈpjutɚ/",
+        "audio_uk": "computer_uk.mp3",
+        "audio_us": "computer_us.mp3",
+        "image": "computer.jpg",
+        "meaning": [
+          {
+            "en": "A person employed to perform computations; one who computes.",
+            "vi": "Người được thuê để thực hiện tính toán;một người tính toán.",
+            "example_en": "The computer is common in daily life.",
+            "example_vi": "Máy tính rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "phone",
+        "cefr": "A2",
+        "pronunciation_uk": "/fəʊ̯n/",
+        "pronunciation_us": "/foʊ̯n/",
+        "audio_uk": "phone_uk.mp3",
+        "audio_us": "phone_us.mp3",
+        "image": "phone.jpg",
+        "meaning": [
+          {
+            "en": "A device for transmitting conversations and other sounds in real time across distances, now often a small portable unit also capable of running software etc.",
+            "vi": "Một thiết bị để truyền các cuộc hội thoại và các âm thanh khác trong thời gian thực qua khoảng cách xa, hiện nay thường là một thiết bị di động nhỏ cũng có khả năng chạy phần mềm, v.v.",
+            "example_en": "The phone is common in daily life.",
+            "example_vi": "Điện thoại là vật dụng phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To call (someone) using a telephone.",
+            "vi": "Để gọi (ai đó) bằng điện thoại.",
+            "example_en": "The phone is common in daily life.",
+            "example_vi": "Điện thoại là vật dụng phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "internet",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈɪntəˌnɛt/",
+        "pronunciation_us": "/ˈɪntɚˌnɛt/",
+        "audio_uk": "internet_uk.mp3",
+        "audio_us": "internet_us.mp3",
+        "image": "internet.jpg",
+        "meaning": [
+          {
+            "en": "Any set of computer networks that communicate using the Internet Protocol. (An intranet.)",
+            "vi": "Bất kỳ tập hợp mạng máy tính nào giao tiếp bằng Giao thức Internet.(Mạng nội bộ.)",
+            "example_en": "The internet is common in daily life.",
+            "example_vi": "Internet rất phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To use the Internet; to search for something using the Internet; to surf the Internet.",
+            "vi": "Để sử dụng Internet;tìm kiếm thứ gì đó bằng Internet;để lướt Internet.",
+            "example_en": "Having no idea what that means, I am internetting like mad.",
+            "example_vi": "Không biết điều đó có nghĩa là gì, tôi đang truy cập internet như điên."
+          }
+        ]
+      },
+      {
+        "word": "camera",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈkæməɹə/",
+        "pronunciation_us": "/ˈkæməɹə/",
+        "audio_uk": "camera_uk.mp3",
+        "audio_us": "camera_us.mp3",
+        "image": "camera.jpg",
+        "meaning": [
+          {
+            "en": "A device for taking still or moving pictures or photographs.",
+            "vi": "Một thiết bị để chụp ảnh tĩnh hoặc chuyển động hoặc ảnh.",
+            "example_en": "The camera is common in daily life.",
+            "example_vi": "Máy ảnh rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "television",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈtɛləˌvɪʒən/",
+        "pronunciation_us": "/ˈtɛləˌvɪʒən/",
+        "audio_uk": "television_uk.mp3",
+        "audio_us": "television_us.mp3",
+        "image": "television.jpg",
+        "meaning": [
+          {
+            "en": "An electronic communication medium that allows the transmission of real-time visual images, and often sound.",
+            "vi": "Một phương tiện truyền thông điện tử cho phép truyền hình ảnh trực quan theo thời gian thực và thường là âm thanh.",
+            "example_en": "It’s a good thing that television doesn’t transmit smell.",
+            "example_vi": "Thật tốt khi tivi không truyền mùi."
+          },
+          {
+            "en": "To watch television.",
+            "vi": "Để xem tivi.",
+            "example_en": "The television is common in daily life.",
+            "example_vi": "Tivi rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "robot",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈɹoʊbət/",
+        "pronunciation_us": "/ˈɹoʊbɑt/",
+        "audio_uk": "robot_uk.mp3",
+        "audio_us": "robot_us.mp3",
+        "image": "robot.jpg",
+        "meaning": [
+          {
+            "en": "A machine built to carry out some complex task or group of tasks by physically moving, especially one which can be programmed.",
+            "vi": "Một cỗ máy được chế tạo để thực hiện một số nhiệm vụ hoặc nhóm nhiệm vụ phức tạp bằng cách di chuyển vật lý, đặc biệt là những nhiệm vụ có thể được lập trình.",
+            "example_en": "The robot is common in daily life.",
+            "example_vi": "Robot rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "software",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈsɑftˌwɛɹ/",
+        "pronunciation_us": "/ˈsɔftˌwɛɹ/",
+        "audio_uk": "software_uk.mp3",
+        "audio_us": "software_us.mp3",
+        "image": "software.jpg",
+        "meaning": [
+          {
+            "en": "Encoded computer instructions, usually modifiable (unless stored in some form of unalterable memory such as ROM).",
+            "vi": "Hướng dẫn máy tính được mã hóa, thường có thể sửa đổi được (trừ khi được lưu trữ ở một số dạng bộ nhớ không thể thay đổi như ROM).",
+            "example_en": "The software is common in daily life.",
+            "example_vi": "Phần mềm này rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "keyboard",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈkiːbɔːd/",
+        "pronunciation_us": "/ˈkibɔɹd/",
+        "audio_uk": "keyboard_uk.mp3",
+        "audio_us": "keyboard_us.mp3",
+        "image": "keyboard.jpg",
+        "meaning": [
+          {
+            "en": "(etc.) A set of keys used to operate a typewriter, computer etc.",
+            "vi": "(v.v.) Một bộ phím dùng để vận hành máy đánh chữ, máy tính, v.v.",
+            "example_en": "The keyboard is common in daily life.",
+            "example_vi": "Bàn phím rất phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To type on a computer keyboard.",
+            "vi": "Để gõ trên bàn phím máy tính.",
+            "example_en": "Keyboarding is the part of this job I hate the most.",
+            "example_vi": "Đánh bàn phím là phần công việc mà tôi ghét nhất."
+          }
+        ]
+      },
+      {
+        "word": "mouse",
+        "cefr": "B1",
+        "pronunciation_uk": "maʊs",
+        "pronunciation_us": "maʊs",
+        "audio_uk": "mouse_uk.mp3",
+        "audio_us": "mouse_us.mp3",
+        "image": "mouse.jpg",
+        "meaning": [
+          {
+            "en": "Any small rodent of the genus Mus.",
+            "vi": "Bất kỳ loài gặm nhấm nhỏ nào thuộc chi Mus.",
+            "example_en": "The mouse is common in daily life.",
+            "example_vi": "Chuột là hiện tượng phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To move cautiously or furtively, in the manner of a mouse (the rodent) (frequently used in the phrasal verb to mouse around).",
+            "vi": "Di chuyển thận trọng hoặc lén lút, theo cách của một con chuột (loài gặm nhấm) (thường được sử dụng trong cụm động từ để di chuột xung quanh).",
+            "example_en": "The mouse is common in daily life.",
+            "example_vi": "Chuột là hiện tượng phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "screen",
+        "cefr": "B1",
+        "pronunciation_uk": "/skɹiːn/",
+        "pronunciation_us": "/skɹiːn/",
+        "audio_uk": "screen_uk.mp3",
+        "audio_us": "screen_us.mp3",
+        "image": "screen.jpg",
+        "meaning": [
+          {
+            "en": "A physical divider intended to block an area from view, or provide shelter from something dangerous.",
+            "vi": "Dải phân cách vật lý nhằm mục đích chặn tầm nhìn của một khu vực hoặc cung cấp nơi trú ẩn khỏi thứ gì đó nguy hiểm.",
+            "example_en": "a fire screen",
+            "example_vi": "màn lửa"
+          },
+          {
+            "en": "To filter by passing through a screen.",
+            "vi": "Để lọc bằng cách đi qua một màn hình.",
+            "example_en": "Mary screened the beans to remove the clumps of gravel.",
+            "example_vi": "Mary sàng lọc những hạt đậu để loại bỏ những cục sỏi."
+          }
+        ]
+      },
+      {
+        "word": "battery",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈbætəɹi/",
+        "pronunciation_us": "/ˈbætəɹi/",
+        "audio_uk": "battery_uk.mp3",
+        "audio_us": "battery_us.mp3",
+        "image": "battery.jpg",
+        "meaning": [
+          {
+            "en": "A device used to power electric devices, consisting of a set of electrically connected electrochemical or, archaically, electrostatic cells. A single such cell when used by itself.",
+            "vi": "Một thiết bị được sử dụng để cấp nguồn cho các thiết bị điện, bao gồm một bộ các tế bào điện hóa hoặc tĩnh điện cổ xưa được kết nối điện.Một ô như vậy khi được sử dụng bởi chính nó.",
+            "example_en": "The battery is common in daily life.",
+            "example_vi": "Pin là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "wifi",
+        "cefr": "B1",
+        "pronunciation_uk": "ˈwiˌfi",
+        "pronunciation_us": "ˈwiˌfi",
+        "audio_uk": "wifi_uk.mp3",
+        "audio_us": "wifi_us.mp3",
+        "image": "wifi.jpg",
+        "meaning": [
+          {
+            "en": "Any of several standards for short-range wireless data transmission (IEEE 802.11).",
+            "vi": "Bất kỳ tiêu chuẩn nào để truyền dữ liệu không dây tầm ngắn (IEEE 802.11).",
+            "example_en": "The wifi is common in daily life.",
+            "example_vi": "Wi-Fi rất phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Sport",
+    "words": [
+      {
+        "word": "football",
+        "cefr": "B1",
+        "pronunciation_uk": "[fʷʊʔt̚bɑɫ]",
+        "pronunciation_us": "ˈfʊtˌbɔl",
+        "audio_uk": "football_uk.mp3",
+        "audio_us": "football_us.mp3",
+        "image": "football.jpg",
+        "meaning": [
+          {
+            "en": "(general) A sport played on foot in which teams attempt to get a ball into a goal or zone defended by the other team.",
+            "vi": "(nói chung) Một môn thể thao chơi bằng chân trong đó các đội cố gắng đưa bóng vào khung thành hoặc khu vực được đội kia bảo vệ.",
+            "example_en": "Roman and medieval football matches were more violent than any modern type of football.",
+            "example_vi": "Các trận đấu bóng đá thời La Mã và thời Trung cổ bạo lực hơn bất kỳ loại hình bóng đá hiện đại nào."
+          },
+          {
+            "en": "To play football.",
+            "vi": "Để chơi bóng đá.",
+            "example_en": "The football is common in daily life.",
+            "example_vi": "Bóng đá là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "basketball",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈbɑːs.kɪt.bɔːl/",
+        "pronunciation_us": "/ˈbæs.kɪt.bɔːl/",
+        "audio_uk": "basketball_uk.mp3",
+        "audio_us": "basketball_us.mp3",
+        "image": "basketball.jpg",
+        "meaning": [
+          {
+            "en": "A sport in which two opposing teams of five players strive to put a ball through a hoop.",
+            "vi": "Một môn thể thao trong đó hai đội đối lập gồm năm người chơi cố gắng đưa một quả bóng qua vòng.",
+            "example_en": "The basketball is common in daily life.",
+            "example_vi": "Bóng rổ là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "tennis",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈtɛn.ɪs/",
+        "pronunciation_us": "ˈtɛnɪs",
+        "audio_uk": "tennis_uk.mp3",
+        "audio_us": "tennis_us.mp3",
+        "image": "tennis.jpg",
+        "meaning": [
+          {
+            "en": "A sport played by two players (or four in doubles), who alternately strike the ball over a net using racquets.",
+            "vi": "Một môn thể thao được chơi bởi hai người chơi (hoặc bốn người trong trận đấu đôi), họ luân phiên đánh bóng qua lưới bằng vợt.",
+            "example_en": "The tennis is common in daily life.",
+            "example_vi": "Quần vợt là phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To play tennis.",
+            "vi": "Để chơi quần vợt.",
+            "example_en": "The tennis is common in daily life.",
+            "example_vi": "Quần vợt là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "swimming",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈswɪmɪŋ/",
+        "pronunciation_us": "/ˈswɪmɪŋ/",
+        "audio_uk": "swimming_uk.mp3",
+        "audio_us": "swimming_us.mp3",
+        "image": "swimming.jpg",
+        "meaning": [
+          {
+            "en": "The act or art of sustaining and propelling the body in water.",
+            "vi": "Hành động hoặc nghệ thuật duy trì và đẩy cơ thể trong nước.",
+            "example_en": "The swimming is common in daily life.",
+            "example_vi": "Bơi lội là hoạt động phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "running",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈɹʌnɪŋ/",
+        "pronunciation_us": "/ˈɹʌnɪŋ/",
+        "audio_uk": "running_uk.mp3",
+        "audio_us": "running_us.mp3",
+        "image": "running.jpg",
+        "meaning": [
+          {
+            "en": "To move swiftly.",
+            "vi": "Để di chuyển nhanh chóng.",
+            "example_en": "The running is common in daily life.",
+            "example_vi": "Việc chạy bộ là điều bình thường trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "The action of the verb to run.",
+            "vi": "Hành động của động từ là chạy.",
+            "example_en": "His running of the business leaves something to be desired.",
+            "example_vi": "Việc điều hành công việc kinh doanh của anh ấy để lại điều gì đó đáng mong đợi."
+          }
+        ]
+      },
+      {
+        "word": "cycling",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈsaɪk(ə)lɪŋ/",
+        "pronunciation_us": "/ˈsaɪk(ə)lɪŋ/",
+        "audio_uk": "cycling_uk.mp3",
+        "audio_us": "cycling_us.mp3",
+        "image": "cycling.jpg",
+        "meaning": [
+          {
+            "en": "To ride a bicycle or other cycle.",
+            "vi": "Để đi xe đạp hoặc xe đạp khác.",
+            "example_en": "The cycling is common in daily life.",
+            "example_vi": "Việc đi xe đạp là phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "The sport of riding and racing cycles, especially bicycles.",
+            "vi": "Môn thể thao cưỡi ngựa và đua xe đạp, đặc biệt là xe đạp.",
+            "example_en": "In all my years as a cycling fan, I've never seen a breakaway like this.",
+            "example_vi": "Trong suốt những năm là một người hâm mộ môn đua xe đạp, tôi chưa bao giờ chứng kiến ​​một cuộc ly khai như thế này."
+          }
+        ]
+      },
+      {
+        "word": "gym",
+        "cefr": "B1",
+        "pronunciation_uk": "/dʒɪm/",
+        "pronunciation_us": "ʤɪm",
+        "audio_uk": "gym_uk.mp3",
+        "audio_us": "gym_us.mp3",
+        "image": "gym.jpg",
+        "meaning": [
+          {
+            "en": "A sports facility specialized for lifting weights and exercise.",
+            "vi": "Một cơ sở thể thao chuyên dùng để nâng tạ và tập thể dục.",
+            "example_en": "The gym is common in daily life.",
+            "example_vi": "Phòng tập thể dục là phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To go to the gym.",
+            "vi": "Để đi đến phòng tập thể dục.",
+            "example_en": "On Wednesdays I hike; on Fridays I gym.",
+            "example_vi": "Vào thứ Tư tôi đi bộ đường dài;vào thứ Sáu tôi tập thể dục."
+          }
+        ]
+      },
+      {
+        "word": "player",
+        "cefr": "B1",
+        "pronunciation_uk": "/ˈpleɪə(ɹ)/",
+        "pronunciation_us": "pleɪər",
+        "audio_uk": "player_uk.mp3",
+        "audio_us": "player_us.mp3",
+        "image": "player.jpg",
+        "meaning": [
+          {
+            "en": "One that plays",
+            "vi": "Một cái chơi",
+            "example_en": "The player is common in daily life.",
+            "example_vi": "Người chơi là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "team",
+        "cefr": "B1",
+        "pronunciation_uk": "/tiːm/",
+        "pronunciation_us": "/tiːm/",
+        "audio_uk": "team_uk.mp3",
+        "audio_us": "team_us.mp3",
+        "image": "team.jpg",
+        "meaning": [
+          {
+            "en": "A set of draught animals, such as two horses in front of a carriage.",
+            "vi": "Một tập hợp các con vật kéo, chẳng hạn như hai con ngựa ở phía trước một chiếc xe ngựa.",
+            "example_en": "The team is common in daily life.",
+            "example_vi": "Đội là phổ biến trong cuộc sống hàng ngày."
+          },
+          {
+            "en": "To form a group, as for sports or work.",
+            "vi": "Để thành lập một nhóm, như thể thao hoặc công việc.",
+            "example_en": "They teamed to complete the project.",
+            "example_vi": "Họ hợp tác để hoàn thành dự án."
+          }
+        ]
+      },
+      {
+        "word": "ball",
+        "cefr": "B1",
+        "pronunciation_uk": "/bɔːl/",
+        "pronunciation_us": "/bɔːl/",
+        "audio_uk": "ball_uk.mp3",
+        "audio_us": "ball_us.mp3",
+        "image": "ball.jpg",
+        "meaning": [
+          {
+            "en": "A solid or hollow sphere, or roughly spherical mass.",
+            "vi": "Một quả cầu đặc hoặc rỗng, hoặc một khối gần như hình cầu.",
+            "example_en": "a ball of spittle; a fecal ball",
+            "example_vi": "một cục nước bọt;một quả bóng phân"
+          },
+          {
+            "en": "To form or wind into a ball.",
+            "vi": "Để tạo thành hoặc cuộn thành một quả bóng.",
+            "example_en": "to ball cotton",
+            "example_vi": "để bóng bông"
+          }
+        ]
+      },
+      {
+        "word": "goal",
+        "cefr": "B1",
+        "pronunciation_uk": "/ɡɒʊl/",
+        "pronunciation_us": "/ɡoʊl/",
+        "audio_uk": "goal_uk.mp3",
+        "audio_us": "goal_us.mp3",
+        "image": "goal.jpg",
+        "meaning": [
+          {
+            "en": "A result that one is attempting to achieve.",
+            "vi": "Một kết quả mà một người đang cố gắng đạt được.",
+            "example_en": "My lifelong goal is to get into a Hollywood movie.",
+            "example_vi": "Mục tiêu cả đời của tôi là được tham gia một bộ phim Hollywood."
+          },
+          {
+            "en": "To score a goal.",
+            "vi": "Để ghi một bàn thắng.",
+            "example_en": "The goal is common in daily life.",
+            "example_vi": "Mục tiêu là phổ biến trong cuộc sống hàng ngày."
+          }
+        ]
+      },
+      {
+        "word": "win",
+        "cefr": "B1",
+        "pronunciation_uk": "/wɪn/",
+        "pronunciation_us": "/wɪn/",
+        "audio_uk": "win_uk.mp3",
+        "audio_us": "win_us.mp3",
+        "image": "win.jpg",
+        "meaning": [
+          {
+            "en": "To conquer, defeat.",
+            "vi": "Để chinh phục, đánh bại.",
+            "example_en": "The win is common in daily life.",
+            "example_vi": "Chiến thắng là điều bình thường trong cuộc sống hàng ngày."
+          }
+        ]
+      }
+    ]
+  }
+]

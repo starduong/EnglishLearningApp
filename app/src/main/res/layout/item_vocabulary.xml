@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardVocabulary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header với từ và CEFR -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvWord"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="mother"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCefr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_cefr_level"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="4dp"
+                android:text="A1"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Hình ảnh từ vựng -->
+        <ImageView
+            android:id="@+id/ivWordImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:contentDescription="Hình ảnh minh họa từ vựng"
+            android:scaleType="centerCrop" />
+
+        <!-- Phát âm UK -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UK:"
+                android:textColor="#666666"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPronunciationUk"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:text="/ˈməðər/"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btnAudioUk"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Phát âm UK"
+                android:src="@drawable/ic_volume_up"
+                app:tint="#2196F3" />
+
+        </LinearLayout>
+
+        <!-- Phát âm US -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="US:"
+                android:textColor="#666666"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPronunciationUs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:text="/ˈmʌðɚ/"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/btnAudioUs"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Phát âm US"
+                android:src="@drawable/ic_volume_up"
+                app:tint="#FF5722" />
+
+        </LinearLayout>
+
+        <!-- Nghĩa tiếng Anh -->
+        <TextView
+            android:id="@+id/tvMeaningEn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif"
+            android:text="A (human) female who has given birth to a baby"
+            android:textColor="#2E7D32"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <!-- Nghĩa tiếng Việt -->
+        <TextView
+            android:id="@+id/tvMeaningVi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Một phụ nữ (con người) đã sinh con"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Ví dụ tiếng Anh -->
+        <TextView
+            android:id="@+id/tvExampleEn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-light"
+            android:text="He had something of his mother in him."
+            android:textColor="#666666"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <!-- Ví dụ tiếng Việt -->
+        <TextView
+            android:id="@+id/tvExampleVi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Anh có cái gì đó của mẹ anh trong người."
+            android:textColor="#666666"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
