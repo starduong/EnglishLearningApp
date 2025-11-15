@@ -149,7 +149,7 @@ public class VocabularyActivity extends AppCompatActivity implements TopicVocabu
         Intent intent = new Intent(this, VocabularyDetailActivity.class);
         intent.putExtra("topic", topic);
         startActivity(intent);
-        overridePendingTransition(R.anim.slide_out_right, R.anim.slide_in_left);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 
     /**

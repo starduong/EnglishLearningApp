@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:orientation="vertical">
+
+    <!-- Speaker chip -->
+    <TextView
+        android:id="@+id/tv_speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="4dp"
+        android:text="Neil"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#334155"
+        android:background="@drawable/bg_speaker_chip" />
+
+    <!-- Đoạn văn tiếng Anh -->
+    <TextView
+        android:id="@+id/tv_text_en"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="7dp"
+        android:text="This is a sample paragraph text that demonstrates the improved design with better spacing and typography."
+        android:textColor="#1E293B"
+        android:textIsSelectable="true"
+        android:textSize="16sp" />
+
+    <!-- Đoạn văn tiếng Việt (dịch) -->
+    <TextView
+        android:id="@+id/tv_text_vi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:lineSpacingExtra="7dp"
+        android:text="Đây là đoạn văn mẫu minh họa thiết kế được cải thiện với khoảng cách và kiểu chữ đẹp hơn."
+        android:textColor="#475569"
+        android:textIsSelectable="true"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <!-- Nút hành động (Translate, Speak, Repeat) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_translate"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Dịch"
+            android:src="@drawable/ic_g_translate"
+            app:tint="#64748B" />
+
+        <ImageButton
+            android:id="@+id/btn_speaker"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Phát âm"
+            android:src="@drawable/ic_volume_up"
+            app:tint="#64748B" />
+
+        <ImageButton
+            android:id="@+id/btn_repeat"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Lặp lại"
+            android:src="@drawable/ic_repeat"
+            app:tint="#64748B" />
+
+    </LinearLayout>
+
+</LinearLayout>
