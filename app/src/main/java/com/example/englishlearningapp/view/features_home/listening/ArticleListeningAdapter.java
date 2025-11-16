@@ -2,7 +2,6 @@ package com.example.englishlearningapp.view.features_home.listening;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,10 +11,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bumptech.glide.Glide;
 import com.example.englishlearningapp.R;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 import java.util.Locale;
 
@@ -58,7 +56,7 @@ public class ArticleListeningAdapter extends BaseAdapter {
         }
 
         ArticleListening article = articles.get(position);
-        holder.bind(article);
+        holder.bind(article, context);
 
         // BẮT CLICK TRỰC TIẾP TRÊN ITEM
         convertView.setOnClickListener(v -> {
@@ -69,10 +67,7 @@ public class ArticleListeningAdapter extends BaseAdapter {
 
             // Animation mượt
             if (context instanceof AppCompatActivity) {
-                ((AppCompatActivity) context).overridePendingTransition(
-                        R.anim.slide_in_right,
-                        R.anim.slide_out_left
-                );
+                ((AppCompatActivity) context).overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
 
@@ -92,7 +87,7 @@ public class ArticleListeningAdapter extends BaseAdapter {
             tvDuration = itemView.findViewById(R.id.tv_article_duration);
         }
 
-        void bind(ArticleListening article) {
+        void bind(ArticleListening article, Context context) {
             tvTitle.setText(article.title);
             tvLevel.setText(article.level);
 
@@ -100,16 +95,8 @@ public class ArticleListeningAdapter extends BaseAdapter {
             int seconds = article.duration % 60;
             tvDuration.setText(String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds));
 
-            String imagePath = article.getFullThumbnailPath();
-            try {
-                InputStream inputStream = ivThumbnail.getContext().getAssets().open(imagePath);
-                Drawable drawable = Drawable.createFromStream(inputStream, null);
-                inputStream.close();
-                ivThumbnail.setImageDrawable(drawable);
-                ivThumbnail.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            } catch (IOException e) {
-                ivThumbnail.setImageResource(R.drawable.bg_placeholder_topic_listening);
-            }
+            String imagePath = "file:///android_asset/" + article.getFullThumbnailPath();
+            Glide.with(context).load(imagePath).placeholder(R.drawable.bg_placeholder_topic_listening).error(R.drawable.bg_placeholder_topic_listening).into(ivThumbnail);
         }
     }
 }

@@ -35,96 +35,217 @@
 
     </LinearLayout>
 
-    <!-- LinearLayout -->
-    <LinearLayout
-        android:id="@+id/content_container"
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:orientation="vertical"
-        android:paddingStart="20dp"
-        android:paddingTop="20dp"
-        android:paddingEnd="20dp"
-        android:paddingBottom="24dp"
         app:layout_constraintBottom_toTopOf="@id/player_container"
         app:layout_constraintTop_toBottomOf="@id/header">
 
-        <!-- Article Title -->
-        <TextView
-            android:id="@+id/tv_article_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:lineSpacingExtra="6dp"
-            android:paddingBottom="4dp"
-            android:text="Article Title"
-            android:textColor="#1A1A1A"
-            android:textSize="26sp"
-            android:textStyle="bold" />
-
-        <!-- Metadata -->
+        <!-- LinearLayout -->
         <LinearLayout
+            android:id="@+id/content_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="20dp"
-            android:gravity="start"
-            android:orientation="horizontal">
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="24dp">
 
+            <!-- Article Title -->
             <TextView
-                android:id="@+id/tv_article_duration"
-                android:layout_width="wrap_content"
+                android:id="@+id/tv_article_title"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableStart="@drawable/ic_duration"
-                android:drawablePadding="6dp"
-                android:text="5 minute"
-                android:textColor="#6A6A6A"
-                android:textSize="14sp" />
+                android:lineSpacingExtra="6dp"
+                android:paddingBottom="4dp"
+                android:text="Article Title"
+                android:textColor="#1A1A1A"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <!-- Metadata -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_article_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_duration"
+                    android:drawablePadding="6dp"
+                    android:text="5 minute"
+                    android:textColor="#6A6A6A"
+                    android:textSize="14sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="14dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:background="#DDDDDD" />
+
+                <TextView
+                    android:id="@+id/tv_article_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Intermediate"
+                    android:textColor="#6A6A6A"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <!-- image thumbnail -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/iv_article_thumbnail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Script Section Header -->
+            <LinearLayout
+                android:id="@+id/script_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:paddingVertical="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Script"
+                    android:textColor="#1A1A1A"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_script_arrow"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_arrow_drop_down_24dp"
+                    app:tint="#666666" />
+
+            </LinearLayout>
 
             <View
-                android:layout_width="1dp"
-                android:layout_height="14dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginEnd="12dp"
-                android:background="#DDDDDD" />
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0" />
 
-            <TextView
-                android:id="@+id/tv_article_level"
-                android:layout_width="wrap_content"
+            <!-- Article Content - RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Intermediate"
-                android:textColor="#6A6A6A"
-                android:textSize="14sp" />
+                android:clipToPadding="false"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:visibility="gone" />
+
+            <!-- Exercise Section Header -->
+            <LinearLayout
+                android:id="@+id/exercise_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:paddingVertical="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Questions"
+                    android:textColor="#1A1A1A"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_exercise_arrow"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_arrow_drop_down_24dp"
+                    app:tint="#666666" />
+
+            </LinearLayout>
+
+            <!-- Questions RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_multiple_choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:visibility="gone" />
+            <!-- Submit & Try Again Buttons -->
+
+            <!-- Submit & Try Again Buttons (Vertical) -->
+            <LinearLayout
+                android:id="@+id/layout_question_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="16dp"
+                android:visibility="gone">
+
+                <!-- Submit Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_submit"
+                    style="@style/Widget.MaterialComponents.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Submit"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="#4CAF50"
+                    app:cornerRadius="12dp" />
+
+                <!-- Try Again Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_try_again"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="Try Again"
+                    android:textColor="#4CAF50"
+                    android:visibility="gone"
+                    app:backgroundTint="#00FFFFFF"
+                    app:cornerRadius="12dp"
+                    app:strokeColor="#4CAF50" />
+
+            </LinearLayout>
 
         </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 
-        <!-- image thumbnail -->
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_marginBottom="10dp"
-            app:cardCornerRadius="12dp"
-            app:cardUseCompatPadding="true"
-            app:cardElevation="4dp">
-
-            <ImageView
-                android:id="@+id/iv_article_thumbnail"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop" />
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- Article Content - RecyclerView với chiều cao match_parent -->
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_content"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:clipToPadding="false"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp" />
-
-    </LinearLayout>
-
+    <!-- Player Container -->
     <LinearLayout
         android:id="@+id/player_container"
         android:layout_width="match_parent"
