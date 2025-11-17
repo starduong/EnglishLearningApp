@@ -7,6 +7,11 @@ User
     birth string
     avatar string
 
+MessageChat
+    int id
+    String content;
+    boolean isUser;
+    long timestamp;
 
 
 

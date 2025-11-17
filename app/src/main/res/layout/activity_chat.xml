@@ -8,7 +8,7 @@
     android:background="#F5F5F5"
     tools:context=".view.features_home.chat.ChatActivity">
 
-    <!-- Header Layout với shadow và border -->
+    <!-- Header -->
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
@@ -23,7 +23,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <!-- Back Button -->
         <ImageButton
             android:id="@+id/btnBack"
             android:layout_width="40dp"
@@ -33,7 +32,6 @@
             android:src="@drawable/ic_arrow_back_24dp"
             app:tint="#000000" />
 
-        <!-- Title -->
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -43,40 +41,88 @@
             android:textColor="#000000"
             android:textSize="20sp" />
 
-        <!-- Placeholder for right side -->
         <Space
             android:layout_width="40dp"
             android:layout_height="40dp" />
-
     </LinearLayout>
 
-    <!-- Nội dung chính -->
-    <androidx.core.widget.NestedScrollView
-        android:id="@+id/scroll_content"
-        android:layout_width="match_parent"
+    <!-- ScrollView Chat -->
+    <ScrollView
+        android:id="@+id/scrollViewChat"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#FAFAFA"
+        android:background="#1E2632"
         android:fillViewport="true"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@id/inputArea"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/header">
 
         <LinearLayout
+            android:id="@+id/layoutMessages"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:paddingBottom="24dp" />
+    </ScrollView>
 
-            <!-- Ví dụ placeholder -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Danh sách tin nhắn sẽ hiển thị ở đây..."
-                android:textColor="#666666"
-                android:textSize="16sp" />
+    <!-- Input Area -->
+    <LinearLayout
+        android:id="@+id/inputArea"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#1E2632"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_text_chat"
+            android:hint="Type your message..."
+            android:maxLines="4"
+            android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A0A8B8"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonClear"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_btn_clear_chat"
+                android:paddingHorizontal="24dp"
+                android:text="Clear"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/buttonSend"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_btn_send_chat"
+                android:paddingHorizontal="24dp"
+                android:text="Send"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@null" />
 
         </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
