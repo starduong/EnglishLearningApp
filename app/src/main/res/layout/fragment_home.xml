@@ -80,6 +80,7 @@
 
                 <!-- Search từ điển -->
                 <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/dictionarySearchLayout"
                     style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -91,12 +92,201 @@
                     app:endIconMode="custom">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etDictionarySearch"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Tra từ điển"
+                        android:hint="Nhập từ cần tra cứu..."
+                        android:imeOptions="actionSearch"
+                        android:maxLines="1"
                         android:padding="12dp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Kết quả tra từ -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardDictionaryResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:visibility="gone"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:id="@+id/layoutDictionaryContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+                        <!-- Từ và phiên âm -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvWord"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Hello"
+                                android:textColor="#2196F3"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvPhonetic"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:background="@color/light_gray"
+                                android:paddingHorizontal="8dp"
+                                android:paddingVertical="4dp"
+                                android:text="/həˈləʊ/"
+                                android:textColor="#666666"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <!-- Âm thanh và loading -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/btnSound"
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:src="@drawable/ic_volume_up"
+                                app:tint="#2196F3" />
+
+                            <ProgressBar
+                                android:id="@+id/progressBarDictionary"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_marginStart="8dp"
+                                android:visibility="gone" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+
+                        <!-- Nghĩa chính -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvMeaning"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:lineSpacingExtra="4dp"
+                                android:text="Hello! or an equivalent greeting."
+                                android:textColor="#333333"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tvMeaningVietnamese"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:lineSpacingExtra="4dp"
+                                android:text="Xin chào! hoặc một lời chào tương đương."
+                                android:textColor="#2196F3"
+                                android:textSize="15sp"
+                                android:textStyle="italic" />
+
+                        </LinearLayout>
+
+                        <!-- Synonyms/Antonyms for main meaning -->
+                        <LinearLayout
+                            android:id="@+id/layoutMainSynonymsAntonyms"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:orientation="vertical"
+                            android:visibility="gone" />
+
+                        <!-- Ví dụ -->
+                        <LinearLayout
+                            android:id="@+id/layoutExample"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:background="@color/light_blue"
+                            android:orientation="vertical"
+                            android:padding="12dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:text="📝 Ví dụ:"
+                                android:textColor="#1976D2"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvExample"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="4dp"
+                                android:fontFamily="monospace"
+                                android:text="Hello, how are you?"
+                                android:textColor="#333333"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/tvExampleTranslation"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontStyle="italic"
+                                android:text="Xin chào, bạn khỏe không?"
+                                android:textColor="#666666"
+                                android:textSize="13sp" />
+
+                        </LinearLayout>
+
+                        <!-- Các nghĩa khác -->
+                        <LinearLayout
+                            android:id="@+id/layoutAdditionalMeanings"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <!-- Sẽ được thêm động -->
+
+                        </LinearLayout>
+
+                        <!-- Error message -->
+                        <TextView
+                            android:id="@+id/tvDictionaryError"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="16dp"
+                            android:text="Không tìm thấy kết quả"
+                            android:textColor="#F44336"
+                            android:textSize="14sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
 
             </LinearLayout>
 
@@ -118,7 +308,6 @@
             android:textSize="16sp"
             android:textStyle="bold" />
 
-
         <!-- Divider -->
         <View
             android:layout_width="match_parent"
@@ -126,51 +315,28 @@
             android:layout_marginBottom="16dp"
             android:background="#E0E0E0" />
 
-        <!-- Bộ từ vựng IELTS section -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="160dp"
             android:layout_marginBottom="16dp"
-            android:backgroundTint="#E3F2FD"
             app:cardCornerRadius="12dp"
             app:cardElevation="2dp">
 
-            <LinearLayout
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/bannerViewPager"
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:padding="0dp" />
+
+            <LinearLayout
+                android:id="@+id/bannerIndicator"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="4dp"
-                    android:text="Bộ TỪ VỰNG IELTS THEO CHỦ ĐỀ"
-                    android:textColor="#1976D2"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="12dp"
-                    android:text="Học hay - Điểm cao trong tầm tay"
-                    android:textColor="#666666"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="HỌC NGAY"
-                    android:textColor="#2196F3"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal" />
 
         </com.google.android.material.card.MaterialCardView>
 

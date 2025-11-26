@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="4dp"
+    android:background="@drawable/bg_meaning_item">
+
+    <!-- Loại từ và nghĩa tiếng Anh -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvWordType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="8dp"
+            android:text="Danh từ"
+            android:textColor="#2196F3"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvWordMeaning"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nghĩa của từ"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <!-- Nghĩa tiếng Việt -->
+    <TextView
+        android:id="@+id/tvWordMeaningVietnamese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="36dp"
+        android:text="Nghĩa tiếng Việt"
+        android:textColor="#2196F3"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:lineSpacingExtra="2dp" />
+
+    <!-- Synonyms -->
+    <LinearLayout
+        android:id="@+id/layoutSynonyms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Từ đồng nghĩa: "
+            android:textColor="#666666"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSynonyms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="hello, hi"
+            android:textColor="#4CAF50"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <!-- Antonyms -->
+    <LinearLayout
+        android:id="@+id/layoutAntonyms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Từ trái nghĩa: "
+            android:textColor="#666666"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAntonyms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="goodbye"
+            android:textColor="#F44336"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
