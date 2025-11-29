@@ -1,0 +1,1631 @@
+{
+  "reading_list": {
+    "total_articles": 12,
+    "articles": [
+      {
+        "article_id": 1,
+        "title": "What happens when your job is just too boring?",
+        "level": "Intermediate",
+        "image": "trr_what_happens_when_your_job_is_just_too_boring.jpg",
+        "audio": "trr_what_happens_when_your_job_is_just_too_boring.mp3",
+        "duration": "02:11",
+        "created_date": "2024-01-10",
+        "content": {
+          "reading_text_en": [
+            "We all know that having too much work and too much stress can lead to burnout, but did you know that the opposite can also be a problem? Have you ever felt that your job was too easy and that everything was just a bit too boring? If so, you might be suffering from rust out.",
+            "Rust out happens when there isn't enough challenge to motivate you to keep going in your job. Without some challenge, it can be hard to feel growth in your role. If a job has lots of repetitive and monotonous tasks, it can make it hard to see the purpose of a role. Having a lower level of responsibility at work than before can also make it harder to feel fulfilled in a job. This can affect people who have taken time out from their career for family or personal reasons.",
+            "If you think that you might be suffering from rust out, then there are a number of signs to watch out for. You might dread finding your schedule each week and not seeing anything stimulating on it. It might be that you often find yourself clock-watching at work, willing the time to pass. Focus and motivation can drop, leading you to get less done than you had before, or to make more mistakes. You may start to feel apathetic and disengaged towards your job. These feelings can lead to anxiety and depression which can then spread from work into people's personal lives.",
+            "Finding yourself suffering from rust out can sometimes be an opportunity. Some experts suggest that self-awareness is key. By taking some time to realise what you are really looking for in work and life, you can take steps to re-discover your motivation. Setting yourself goals and allowing yourself to try new things can help you find a new purpose. Considering what you really need for a job can also lead you to find a new one that's better suited to your goals in life."
+          ],
+          "reading_text_vi": [
+            "Tất cả chúng ta đều biết rằng có quá nhiều công việc và căng thẳng có thể dẫn đến kiệt sức, nhưng bạn có biết rằng điều ngược lại cũng có thể là một vấn đề? Bạn đã bao giờ cảm thấy công việc của mình quá dễ dàng và mọi thứ chỉ là hơi nhàm chán? Nếu vậy, bạn có thể đang mắc phải tình trạng 'rust out' (hao mòn do nhàm chán).",
+            "Rust out xảy ra khi không có đủ thách thức để thúc đẩy bạn tiếp tục trong công việc. Không có một số thách thức, thật khó để cảm thấy sự phát triển trong vai trò của bạn. Nếu một công việc có nhiều nhiệm vụ lặp đi lặp lại và đơn điệu, nó có thể khiến bạn khó nhìn thấy mục đích của vai trò đó. Có mức độ trách nhiệm tại nơi làm việc thấp hơn trước đây cũng có thể khiến bạn khó cảm thấy hài lòng với công việc hơn. Điều này có thể ảnh hưởng đến những người đã tạm dừng sự nghiệp vì lý do gia đình hoặc cá nhân.",
+            "Nếu bạn nghĩ rằng mình có thể đang bị rust out, thì có một số dấu hiệu cần đề phòng. Bạn có thể cảm thấy sợ hãi khi nhìn thấy lịch trình mỗi tuần và không thấy bất cứ điều gì kích thích trong đó. Có thể bạn thường xuyên thấy mình liên tục nhìn đồng hồ tại nơi làm việc, mong thời gian trôi qua nhanh. Sự tập trung và động lực có thể giảm sút, khiến bạn hoàn thành ít việc hơn trước đây hoặc mắc nhiều sai lầm hơn. Bạn có thể bắt đầu cảm thấy thờ ơ và không còn hứng thú với công việc của mình. Những cảm giác này có thể dẫn đến lo lắng và trầm cảm, sau đó có thể lan từ công việc sang cuộc sống cá nhân của mọi người.",
+            "Việc phát hiện mình bị rust out đôi khi có thể là một cơ hội. Một số chuyên gia cho rằng tự nhận thức là chìa khóa. Bằng cách dành thời gian để nhận ra những gì bạn thực sự tìm kiếm trong công việc và cuộc sống, bạn có thể thực hiện các bước để khám phá lại động lực của mình. Tự đặt mục tiêu và cho phép bản thân thử những điều mới có thể giúp bạn tìm thấy một mục đích mới. Suy nghĩ về những gì bạn thực sự cần trong một công việc cũng có thể dẫn bạn đến việc tìm được một công việc mới phù hợp hơn với mục tiêu cuộc sống của bạn."
+          ],
+          "vocabulary": [
+            {
+              "word": "burnout",
+              "definition": "exhaustion caused by stress or over work"
+            },
+            {
+              "word": "rust out",
+              "definition": "boredom caused by work that is not challenging enough"
+            },
+            {
+              "word": "repetitive",
+              "definition": "something done again and again that doesn't change"
+            },
+            {
+              "word": "monotonous",
+              "definition": "boring, without variety"
+            },
+            {
+              "word": "dread",
+              "definition": "to feel fear or worry about something"
+            },
+            {
+              "word": "clock-watching",
+              "definition": "continually checking to see if it is time to stop work yet"
+            },
+            {
+              "word": "apathetic",
+              "definition": "having no feelings or interest towards something"
+            },
+            {
+              "word": "disengaged",
+              "definition": "having little interest in something that you are doing"
+            },
+            {
+              "word": "self-awareness",
+              "definition": "knowing your own positive and negative qualities"
+            },
+            {
+              "word": "suited",
+              "definition": "having features that makes something good for a particular purpose or person"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "It's not always great to have an easy job.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 2,
+                  "question": "What can help you grow in your job role?",
+                  "options": [
+                    "a. monotonous routines",
+                    "b. repetitive tasks",
+                    "c. challenge"
+                  ],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 3,
+                  "question": "What does 'this' mean in this sentence? *This can often affect people who have taken time out from their career for family reasons.*",
+                  "options": [
+                    "a. Feeling burnout",
+                    "b. Difficulty in feeling fulfilled",
+                    "c. Being too motivated"
+                  ],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Which of these could be a sign of rust out?",
+                  "options": [
+                    "a. Being disappointed by your rota",
+                    "b. Losing track of time",
+                    "c. Setting targets"
+                  ],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 5,
+                  "question": "Thinking about what you really want can help fight rust out.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary",
+              "text": "We've all heard about the {1} that comes from work that is too stressful. Some people have the opposite problem. Work that is too easy can cause {2}. We may have too many {3} tasks or find ourselves clock-{4}. If that happens, it can be useful to work on our {5} and work out what we really want from work.",
+              "word_bank": [
+                "burnout",
+                "self-awareness",
+                "monotonous",
+                "rust out",
+                "apathetic",
+                "watching",
+                "suited"
+              ],
+              "answers": {
+                "1": "burnout",
+                "2": "rust out",
+                "3": "monotonous",
+                "4": "watching",
+                "5": "self-awareness"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "article_id": 2,
+        "title": "Small steps to build long-lasting habits",
+        "level": "Beginner",
+        "image": "trr_small_steps_to_build_long-lasting_habits.jpg",
+        "audio": "trr_small_steps_to_build_long-lasting_habits.mp3",
+        "duration": "02:37",
+        "created_date": "2024-01-15",
+        "content": {
+          "reading_text_en": [
+            "It's day one of a healthier, smarter, better you. You're full of zest and good intentions. You woke up at 5am to run before work, you read a book in your lunchbreak, and you listened to an English podcast on your commute. Now, fast forward three months. Life is getting in the way, and you've slipped into old habits... snoozing your alarm and eating chocolate for breakfast. Sound familiar?",
+            "Don't be hard on yourself. It's unrealistic to rely on willpower alone. As James Clear, author of the bestselling book 'Atomic Habits', writes, \"The problem isn't you. The problem is your system.\" Our habits come from goals, so start by getting really clear. Goals, according to George T Doran, should be SMART: specific, measurable, achievable, relevant and time-bound. It's not enough to say, \"I'll exercise more\" – that's too vague! A SMART goal would be \"I'm going to walk for 20 minutes in the evenings on weekdays.\" Now you have a clear action that you can stick to.",
+            "Once you're clear on your goals, you need to make the associated habits as automatic as possible. Try 'habit stacking', a technique popularised in the book 'Atomic Habits', which involves attaching a new habit onto something you already do regularly. For example, if you already make coffee every morning, use that moment to read your book for 20 minutes. That way, your new reading habit is now intertwined with something you're going to do anyway. Another key strategy is to reward yourself, to transform the habit from a chore into something pleasurable. If it's hard to get yourself to the gym, promise yourself that after each visit, you'll allow yourself a treat – a takeaway meal or an episode of your favourite TV show.",
+            "Even with our best intentions and a great system, stress and interruptions to your routine like social events can still make keeping habits feel like an uphill battle. If or when you have setbacks, accept it as part of the process. Life is full of spontaneity and uncertainty – one could argue that's what keeps it interesting! Use setbacks as a pause for reflection and review. What about your system is working? What's no longer serving you? Then, get back on track."
+          ],
+          "reading_text_vi": [
+            "Đây là ngày đầu tiên của một phiên bản tốt hơn, thông minh hơn và khỏe mạnh hơn của bạn. Bạn tràn đầy nhiệt huyết và ý định tốt. Bạn thức dậy lúc 5 giờ sáng để chạy bộ trước khi làm việc, đọc sách trong giờ nghỉ trưa và nghe podcast tiếng Anh trên đường đi làm. Giờ hãy tua nhanh ba tháng sau. Cuộc sống xen vào, và bạn đã trượt về những thói quen cũ... tắt chuông báo thức và ăn sô cô la cho bữa sáng. Nghe có quen không?",
+            "Đừng quá khắt khe với bản thân. Thật không thực tế khi chỉ dựa vào ý chí. Như James Clear, tác giả cuốn sách bán chạy 'Atomic Habits' viết: \"Vấn đề không phải là bạn. Vấn đề là hệ thống của bạn.\" Thói quen của chúng ta bắt nguồn từ mục tiêu, vì vậy hãy bắt đầu bằng cách làm rõ chúng. Theo George T Doran, mục tiêu nên là SMART: cụ thể, có thể đo lường, có thể đạt được, liên quan và có thời hạn. Chỉ nói \"Tôi sẽ tập thể dục nhiều hơn\" là không đủ - điều đó quá mơ hồ! Một mục tiêu SMART sẽ là \"Tôi sẽ đi bộ 20 phút vào các buổi tối trong tuần.\" Giờ bạn đã có một hành động rõ ràng mà bạn có thể tuân theo.",
+            "Một khi bạn đã rõ ràng về mục tiêu, bạn cần biến những thói quen liên quan trở nên tự động nhất có thể. Hãy thử 'xếp chồng thói quen', một kỹ thuật được phổ biến trong cuốn sách 'Atomic Habits', liên quan đến việc gắn một thói quen mới vào việc gì đó bạn đã làm thường xuyên. Ví dụ, nếu bạn đã pha cà phê mỗi sáng, hãy sử dụng khoảnh khắc đó để đọc sách trong 20 phút. Bằng cách đó, thói quen đọc sách mới của bạn giờ đã gắn liền với việc bạn vẫn sẽ làm. Một chiến lược quan trọng khác là tự thưởng cho bản thân, để biến thói quen từ một việc vặt thành điều gì đó thú vị. Nếu bạn khó đến phòng tập, hãy hứa với bản thân rằng sau mỗi lần đến, bạn sẽ cho phép mình một phần thưởng - một bữa ăn mang về hoặc một tập phim yêu thích.",
+            "Ngay cả với ý định tốt nhất và một hệ thống tuyệt vời, căng thẳng và những gián đoạn thói quen như sự kiện xã hội vẫn có thể khiến việc duy trì thói quen cảm thấy như một cuộc chiến khó khăn. Nếu hoặc khi bạn gặp thất bại, hãy chấp nhận nó như một phần của quá trình. Cuộc sống luôn chứa đầy sự tự phát và không chắc chắn - người ta có thể lập luận rằng đó là điều khiến cuộc sống thú vị! Hãy sử dụng thất bại như một khoảng dừng để suy ngẫm và đánh giá. Hệ thống của bạn đang hoạt động như thế nào? Điều gì không còn phục vụ bạn? Sau đó, hãy quay lại đúng hướng."
+          ],
+          "vocabulary": [
+            {
+              "word": "zest",
+              "definition": "energy, enthusiasm or interest"
+            },
+            {
+              "word": "be hard on oneself",
+              "definition": "be very self-critical"
+            },
+            {
+              "word": "willpower",
+              "definition": "the ability to control oneself"
+            },
+            {
+              "word": "time-bound",
+              "definition": "has a deadline or is within a specific timeline"
+            },
+            {
+              "word": "vague",
+              "definition": "not clearly understandable"
+            },
+            {
+              "word": "stick to (something)",
+              "definition": "continue doing something consistently, even if it's difficult"
+            },
+            {
+              "word": "intertwined",
+              "definition": "closely connected"
+            },
+            {
+              "word": "uphill battle",
+              "definition": "something that is difficult to do"
+            },
+            {
+              "word": "setback",
+              "definition": "something that delays progress"
+            },
+            {
+              "word": "back on track",
+              "definition": "continue as planned after a problem or distraction"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "Which habit does the writer imply is negative?",
+                  "options": [
+                    "a. waking up at 5am",
+                    "b. making coffee every morning",
+                    "c. snoozing your alarm"
+                  ],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 2,
+                  "question": "\"I'll exercise more\" is a SMART goal.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 3,
+                  "question": "Which word in paragraph 2 is the opposite of 'specific'?",
+                  "options": ["a. unrealistic", "b. vague", "c. clear"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Which statement best describes 'habit stacking'?",
+                  "options": [
+                    "a. Linking a new habit to an existing habit to make it easier to remember.",
+                    "b. Creating habits based on specific goals.",
+                    "c. Replacing a bad habit with a good habit to break unhealthy routines."
+                  ],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 5,
+                  "question": "Social events can interrupt our habit routines.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary",
+              "text": "Maintaining good habits can sometimes feel like {1}. It can be hard to {2} a good routine. But when life sends you {3}, it's important not to be too {4}. Instead, search for the willpower to get {5}.",
+              "word_bank": [
+                "an uphill battle",
+                "setbacks",
+                "back on track",
+                "vague",
+                "stick to",
+                "zest",
+                "hard on yourself"
+              ],
+              "answers": {
+                "1": "an uphill battle",
+                "2": "stick to",
+                "3": "setbacks",
+                "4": "hard on yourself",
+                "5": "back on track"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "article_id": 3,
+        "title": "How can restaurants earn a Michelin star?",
+        "level": "Intermediate",
+        "image": "trr_how_can_restaurants_earn_a_michelin_star.jpg",
+        "audio": "trr_how_can_restaurants_earn_a_michelin_star.mp3",
+        "duration": "02:29",
+        "created_date": "2024-01-20",
+        "content": {
+          "reading_text_en": [
+            "What do rubber tyres have to do with delicious food? The answer lies in the story of the Michelin brothers. French inventors Edouard and Andre Michelin created the Michelin tyre company in 1889 and transformed the travel industry. A few decades later, they began publishing a guide to highlight food in restaurants worth travelling for, which, of course, they'd need strong Michelin tyres to reach. Nowadays, the coveted Michelin star – an award given to only the world's finest restaurants – is one of the culinary world's highest accolades. But the rating system is somewhat shrouded in mystery.",
+            "The Michelin Guide itself says their inspectors take into account five criteria: the quality of the ingredients, the harmony of flavours, the mastery of techniques, the personality of the chef as expressed through their cuisine and consistency both across the entire menu and over time. But the inspectors are anonymous, and chefs are always kept in the dark about when they are going to visit. \"We're never aware of the inspectors' visit,\" said Julia Sedefdjian, who became France's youngest Michelin-starred chef at the age of 21. \"If they introduce themselves, it's only after they've eaten. And often – very often – they never introduce themselves at all.\"",
+            "And how much does the overall ambience of a restaurant play into the ratings? Ideas vary. Chef Maxime Bouttier, who has worked in Michelin-starred restaurants across France for 15 years, thinks details like white tablecloths and background piano music can help to tick boxes for inspectors. Despite this, Bouttier's own restaurant doesn't have tablecloths, and his clientele listen to '80s rap while dining, yet his restaurant earnt a star less than a year after opening. The Michelin Guide says a Michelin star is awarded for the food on the plate, nothing else, and that the style and degree of formality have no bearing on the award whatsoever.",
+            "Michelin stars can make or break a chef's culinary career. Earning one gives a chef more recognition, more table bookings and can allow them to raise their prices. But there's also the risk of losing one, and with that comes a lot of pressure."
+          ],
+          "reading_text_vi": [
+            "Lốp xe cao su có liên quan gì đến thức ăn ngon? Câu trả lời nằm trong câu chuyện về anh em nhà Michelin. Những nhà phát minh người Pháp Edouard và Andre Michelin đã thành lập công ty lốp xe Michelin vào năm 1889 và cách mạng hóa ngành công nghiệp du lịch. Vài thập kỷ sau, họ bắt đầu xuất bản một cuốn guide để giới thiệu những nhà hàng có món ăn đáng để du khách di chuyển đến thưởng thức - và tất nhiên, họ sẽ cần những chiếc lốp Michelin bền bỉ để đến đó. Ngày nay, ngôi sao Michelin danh giá - giải thưởng chỉ được trao cho những nhà hàng tốt nhất thế giới - là một trong những vinh dự cao nhất trong giới ẩm thực. Nhưng hệ thống đánh giá này phần nào bị bao phủ trong bí ẩn.",
+            "Bản thân Michelin Guide tuyên bố rằng các thanh tra của họ xem xét năm tiêu chí: chất lượng nguyên liệu, sự hài hòa của hương vị, sự tinh thông về kỹ thuật, cá tính của đầu bếp thể hiện qua ẩm thực và sự nhất quán trên toàn bộ thực đơn cũng như theo thời gian. Nhưng các thanh tra viên đều ẩn danh, và các đầu bếp luôn không biết khi nào họ sẽ đến thăm. \"Chúng tôi không bao giờ biết trước về chuyến thăm của các thanh tra,\" Julia Sedefdjian, người trở thành đầu bếp trẻ nhất Pháp đạt sao Michelin ở tuổi 21, cho biết. \"Nếu họ giới thiệu bản thân, thì chỉ sau khi họ đã ăn xong. Và thường - rất thường xuyên - họ không bao giờ tự giới thiệu mình.\"",
+            "Và không khí tổng thể của nhà hàng ảnh hưởng bao nhiêu đến xếp hạng? Ý kiến khác nhau. Đầu bếp Maxime Bouttier, người đã làm việc tại các nhà hàng đạt sao Michelin khắp nước Pháp trong 15 năm, nghĩ rằng các chi tiết như khăn trải bàn trắng và nhạc piano nền có thể giúp ghi điểm với các thanh tra viên. Mặc dù vậy, chính nhà hàng của Bouttier không có khăn trải bàn, và thực khách của ông nghe nhạc rap thập niên 80 trong khi dùng bữa, thế mà nhà hàng của ông vẫn giành được một ngôi sao chưa đầy một năm sau khi khai trương. Michelin Guide khẳng định rằng một ngôi sao Michelin được trao cho thức ăn trên đĩa, không gì khác, và rằng phong cách và mức độ trang trọng hoàn toàn không ảnh hưởng đến giải thưởng.",
+            "Những ngôi sao Michelin có thể tạo nên hoặc phá vỡ sự nghiệp ẩm thực của một đầu bếp. Việc giành được một ngôi sao mang lại cho đầu bếp sự công nhận nhiều hơn, nhiều đặt bàn hơn và có thể cho phép họ tăng giá. Nhưng cũng có rủi ro mất ngôi sao, và đi kèm với đó là rất nhiều áp lực."
+          ],
+          "vocabulary": [
+            {
+              "word": "to do with (something)",
+              "definition": "related to (something)"
+            },
+            {
+              "word": "coveted",
+              "definition": "wanted by many"
+            },
+            {
+              "word": "accolade",
+              "definition": "praise or award"
+            },
+            {
+              "word": "be shrouded in mystery",
+              "definition": "not be very well understood"
+            },
+            {
+              "word": "take (something) into account",
+              "definition": "consider (something) when thinking about a situation"
+            },
+            {
+              "word": "harmony",
+              "definition": "how well things work together"
+            },
+            {
+              "word": "keep (someone) in the dark",
+              "definition": "not tell someone something"
+            },
+            {
+              "word": "play into (something)",
+              "definition": "contribute to or help support"
+            },
+            {
+              "word": "have no bearing",
+              "definition": "are not relevant"
+            },
+            {
+              "word": "make or break",
+              "definition": "make something a success or failure"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "The Michelin brothers created a restaurant guide and then created a tyre business.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 2,
+                  "question": "Michelin stars are given to 300 restaurants per year.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 3,
+                  "question": "What makes the Michelin star rating system mysterious?",
+                  "options": [
+                    "a. The Michelin Guide doesn't share their scoring criteria.",
+                    "b. The inspectors don't say when they are going to visit the restaurant.",
+                    "c. Chefs never find out who the inspectors are."
+                  ],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Chef Maxime Bouttier's restaurant has white tablecloths and piano music playing.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 5,
+                  "question": "What does 'one' refer to in the following sentence in paragraph 4? Earning one gives a chef more recognition, more table bookings and can allow them to raise their prices.",
+                  "options": [
+                    "a. a culinary career",
+                    "b. a Michelin star",
+                    "c. a plate of food"
+                  ],
+                  "correct_answer": "b"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary of the article",
+              "text": "The Michelin star is a(n) {1} that many chefs desire, but how they are awarded is {2}. Inspectors {3} factors such as the quality of ingredients and the mastery of techniques – it has nothing {4} the style or degree of formality of the restaurant. If chefs want recognition for their {5} skills, one way to do that is to earn a Michelin star.",
+              "word_bank": [
+                "culinary",
+                "kept in the dark",
+                "take into account",
+                "to do with",
+                "accolade",
+                "harmony",
+                "shrouded in mystery"
+              ],
+              "answers": {
+                "1": "accolade",
+                "2": "shrouded in mystery",
+                "3": "take into account",
+                "4": "to do with",
+                "5": "culinary"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "article_id": 4,
+        "title": "What happens when your job is just too boring?",
+        "level": "Advanced",
+        "image": "trr_what_happens_when_your_job_is_just_too_boring_1.jpg",
+        "audio": "trr_what_happens_when_your_job_is_just_too_boring.mp3",
+        "duration": "02:11",
+        "created_date": "2024-01-10",
+        "content": {
+          "reading_text_en": [
+            "We all know that having too much work and too much stress can lead to burnout, but did you know that the opposite can also be a problem? Have you ever felt that your job was too easy and that everything was just a bit too boring? If so, you might be suffering from rust out.",
+            "Rust out happens when there isn't enough challenge to motivate you to keep going in your job. Without some challenge, it can be hard to feel growth in your role. If a job has lots of repetitive and monotonous tasks, it can make it hard to see the purpose of a role. Having a lower level of responsibility at work than before can also make it harder to feel fulfilled in a job. This can affect people who have taken time out from their career for family or personal reasons.",
+            "If you think that you might be suffering from rust out, then there are a number of signs to watch out for. You might dread finding your schedule each week and not seeing anything stimulating on it. It might be that you often find yourself clock-watching at work, willing the time to pass. Focus and motivation can drop, leading you to get less done than you had before, or to make more mistakes. You may start to feel apathetic and disengaged towards your job. These feelings can lead to anxiety and depression which can then spread from work into people's personal lives.",
+            "Finding yourself suffering from rust out can sometimes be an opportunity. Some experts suggest that self-awareness is key. By taking some time to realise what you are really looking for in work and life, you can take steps to re-discover your motivation. Setting yourself goals and allowing yourself to try new things can help you find a new purpose. Considering what you really need for a job can also lead you to find a new one that's better suited to your goals in life."
+          ],
+          "reading_text_vi": [
+            "Tất cả chúng ta đều biết rằng có quá nhiều công việc và căng thẳng có thể dẫn đến kiệt sức, nhưng bạn có biết rằng điều ngược lại cũng có thể là một vấn đề? Bạn đã bao giờ cảm thấy công việc của mình quá dễ dàng và mọi thứ chỉ là hơi nhàm chán? Nếu vậy, bạn có thể đang mắc phải tình trạng 'rust out' (hao mòn do nhàm chán).",
+            "Rust out xảy ra khi không có đủ thách thức để thúc đẩy bạn tiếp tục trong công việc. Không có một số thách thức, thật khó để cảm thấy sự phát triển trong vai trò của bạn. Nếu một công việc có nhiều nhiệm vụ lặp đi lặp lại và đơn điệu, nó có thể khiến bạn khó nhìn thấy mục đích của vai trò đó. Có mức độ trách nhiệm tại nơi làm việc thấp hơn trước đây cũng có thể khiến bạn khó cảm thấy hài lòng với công việc hơn. Điều này có thể ảnh hưởng đến những người đã tạm dừng sự nghiệp vì lý do gia đình hoặc cá nhân.",
+            "Nếu bạn nghĩ rằng mình có thể đang bị rust out, thì có một số dấu hiệu cần đề phòng. Bạn có thể cảm thấy sợ hãi khi nhìn thấy lịch trình mỗi tuần và không thấy bất cứ điều gì kích thích trong đó. Có thể bạn thường xuyên thấy mình liên tục nhìn đồng hồ tại nơi làm việc, mong thời gian trôi qua nhanh. Sự tập trung và động lực có thể giảm sút, khiến bạn hoàn thành ít việc hơn trước đây hoặc mắc nhiều sai lầm hơn. Bạn có thể bắt đầu cảm thấy thờ ơ và không còn hứng thú với công việc của mình. Những cảm giác này có thể dẫn đến lo lắng và trầm cảm, sau đó có thể lan từ công việc sang cuộc sống cá nhân của mọi người.",
+            "Việc phát hiện mình bị rust out đôi khi có thể là một cơ hội. Một số chuyên gia cho rằng tự nhận thức là chìa khóa. Bằng cách dành thời gian để nhận ra những gì bạn thực sự tìm kiếm trong công việc và cuộc sống, bạn có thể thực hiện các bước để khám phá lại động lực của mình. Tự đặt mục tiêu và cho phép bản thân thử những điều mới có thể giúp bạn tìm thấy một mục đích mới. Suy nghĩ về những gì bạn thực sự cần trong một công việc cũng có thể dẫn bạn đến việc tìm được một công việc mới phù hợp hơn với mục tiêu cuộc sống của bạn."
+          ],
+          "vocabulary": [
+            {
+              "word": "burnout",
+              "definition": "exhaustion caused by stress or over work"
+            },
+            {
+              "word": "rust out",
+              "definition": "boredom caused by work that is not challenging enough"
+            },
+            {
+              "word": "repetitive",
+              "definition": "something done again and again that doesn't change"
+            },
+            {
+              "word": "monotonous",
+              "definition": "boring, without variety"
+            },
+            {
+              "word": "dread",
+              "definition": "to feel fear or worry about something"
+            },
+            {
+              "word": "clock-watching",
+              "definition": "continually checking to see if it is time to stop work yet"
+            },
+            {
+              "word": "apathetic",
+              "definition": "having no feelings or interest towards something"
+            },
+            {
+              "word": "disengaged",
+              "definition": "having little interest in something that you are doing"
+            },
+            {
+              "word": "self-awareness",
+              "definition": "knowing your own positive and negative qualities"
+            },
+            {
+              "word": "suited",
+              "definition": "having features that makes something good for a particular purpose or person"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "It's not always great to have an easy job.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 2,
+                  "question": "What can help you grow in your job role?",
+                  "options": [
+                    "a. monotonous routines",
+                    "b. repetitive tasks",
+                    "c. challenge"
+                  ],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 3,
+                  "question": "What does 'this' mean in this sentence? *This can often affect people who have taken time out from their career for family reasons.*",
+                  "options": [
+                    "a. Feeling burnout",
+                    "b. Difficulty in feeling fulfilled",
+                    "c. Being too motivated"
+                  ],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Which of these could be a sign of rust out?",
+                  "options": [
+                    "a. Being disappointed by your rota",
+                    "b. Losing track of time",
+                    "c. Setting targets"
+                  ],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 5,
+                  "question": "Thinking about what you really want can help fight rust out.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary",
+              "text": "We've all heard about the {1} that comes from work that is too stressful. Some people have the opposite problem. Work that is too easy can cause {2}. We may have too many {3} tasks or find ourselves clock-{4}. If that happens, it can be useful to work on our {5} and work out what we really want from work.",
+              "word_bank": [
+                "burnout",
+                "self-awareness",
+                "monotonous",
+                "rust out",
+                "apathetic",
+                "watching",
+                "suited"
+              ],
+              "answers": {
+                "1": "burnout",
+                "2": "rust out",
+                "3": "monotonous",
+                "4": "watching",
+                "5": "self-awareness"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "article_id": 5,
+        "title": "Small steps to build long-lasting habits",
+        "level": "Intermediate",
+        "image": "trr_small_steps_to_build_long-lasting_habits_1.jpg",
+        "audio": "trr_small_steps_to_build_long-lasting_habits.mp3",
+        "duration": "02:37",
+        "created_date": "2024-01-15",
+        "content": {
+          "reading_text_en": [
+            "It's day one of a healthier, smarter, better you. You're full of zest and good intentions. You woke up at 5am to run before work, you read a book in your lunchbreak, and you listened to an English podcast on your commute. Now, fast forward three months. Life is getting in the way, and you've slipped into old habits... snoozing your alarm and eating chocolate for breakfast. Sound familiar?",
+            "Don't be hard on yourself. It's unrealistic to rely on willpower alone. As James Clear, author of the bestselling book 'Atomic Habits', writes, \"The problem isn't you. The problem is your system.\" Our habits come from goals, so start by getting really clear. Goals, according to George T Doran, should be SMART: specific, measurable, achievable, relevant and time-bound. It's not enough to say, \"I'll exercise more\" – that's too vague! A SMART goal would be \"I'm going to walk for 20 minutes in the evenings on weekdays.\" Now you have a clear action that you can stick to.",
+            "Once you're clear on your goals, you need to make the associated habits as automatic as possible. Try 'habit stacking', a technique popularised in the book 'Atomic Habits', which involves attaching a new habit onto something you already do regularly. For example, if you already make coffee every morning, use that moment to read your book for 20 minutes. That way, your new reading habit is now intertwined with something you're going to do anyway. Another key strategy is to reward yourself, to transform the habit from a chore into something pleasurable. If it's hard to get yourself to the gym, promise yourself that after each visit, you'll allow yourself a treat – a takeaway meal or an episode of your favourite TV show.",
+            "Even with our best intentions and a great system, stress and interruptions to your routine like social events can still make keeping habits feel like an uphill battle. If or when you have setbacks, accept it as part of the process. Life is full of spontaneity and uncertainty – one could argue that's what keeps it interesting! Use setbacks as a pause for reflection and review. What about your system is working? What's no longer serving you? Then, get back on track."
+          ],
+          "reading_text_vi": [
+            "Đây là ngày đầu tiên của một phiên bản tốt hơn, thông minh hơn và khỏe mạnh hơn của bạn. Bạn tràn đầy nhiệt huyết và ý định tốt. Bạn thức dậy lúc 5 giờ sáng để chạy bộ trước khi làm việc, đọc sách trong giờ nghỉ trưa và nghe podcast tiếng Anh trên đường đi làm. Giờ hãy tua nhanh ba tháng sau. Cuộc sống xen vào, và bạn đã trượt về những thói quen cũ... tắt chuông báo thức và ăn sô cô la cho bữa sáng. Nghe có quen không?",
+            "Đừng quá khắt khe với bản thân. Thật không thực tế khi chỉ dựa vào ý chí. Như James Clear, tác giả cuốn sách bán chạy 'Atomic Habits' viết: \"Vấn đề không phải là bạn. Vấn đề là hệ thống của bạn.\" Thói quen của chúng ta bắt nguồn từ mục tiêu, vì vậy hãy bắt đầu bằng cách làm rõ chúng. Theo George T Doran, mục tiêu nên là SMART: cụ thể, có thể đo lường, có thể đạt được, liên quan và có thời hạn. Chỉ nói \"Tôi sẽ tập thể dục nhiều hơn\" là không đủ - điều đó quá mơ hồ! Một mục tiêu SMART sẽ là \"Tôi sẽ đi bộ 20 phút vào các buổi tối trong tuần.\" Giờ bạn đã có một hành động rõ ràng mà bạn có thể tuân theo.",
+            "Một khi bạn đã rõ ràng về mục tiêu, bạn cần biến những thói quen liên quan trở nên tự động nhất có thể. Hãy thử 'xếp chồng thói quen', một kỹ thuật được phổ biến trong cuốn sách 'Atomic Habits', liên quan đến việc gắn một thói quen mới vào việc gì đó bạn đã làm thường xuyên. Ví dụ, nếu bạn đã pha cà phê mỗi sáng, hãy sử dụng khoảnh khắc đó để đọc sách trong 20 phút. Bằng cách đó, thói quen đọc sách mới của bạn giờ đã gắn liền với việc bạn vẫn sẽ làm. Một chiến lược quan trọng khác là tự thưởng cho bản thân, để biến thói quen từ một việc vặt thành điều gì đó thú vị. Nếu bạn khó đến phòng tập, hãy hứa với bản thân rằng sau mỗi lần đến, bạn sẽ cho phép mình một phần thưởng - một bữa ăn mang về hoặc một tập phim yêu thích.",
+            "Ngay cả với ý định tốt nhất và một hệ thống tuyệt vời, căng thẳng và những gián đoạn thói quen như sự kiện xã hội vẫn có thể khiến việc duy trì thói quen cảm thấy như một cuộc chiến khó khăn. Nếu hoặc khi bạn gặp thất bại, hãy chấp nhận nó như một phần của quá trình. Cuộc sống luôn chứa đầy sự tự phát và không chắc chắn - người ta có thể lập luận rằng đó là điều khiến cuộc sống thú vị! Hãy sử dụng thất bại như một khoảng dừng để suy ngẫm và đánh giá. Hệ thống của bạn đang hoạt động như thế nào? Điều gì không còn phục vụ bạn? Sau đó, hãy quay lại đúng hướng."
+          ],
+          "vocabulary": [
+            {
+              "word": "zest",
+              "definition": "energy, enthusiasm or interest"
+            },
+            {
+              "word": "be hard on oneself",
+              "definition": "be very self-critical"
+            },
+            {
+              "word": "willpower",
+              "definition": "the ability to control oneself"
+            },
+            {
+              "word": "time-bound",
+              "definition": "has a deadline or is within a specific timeline"
+            },
+            {
+              "word": "vague",
+              "definition": "not clearly understandable"
+            },
+            {
+              "word": "stick to (something)",
+              "definition": "continue doing something consistently, even if it's difficult"
+            },
+            {
+              "word": "intertwined",
+              "definition": "closely connected"
+            },
+            {
+              "word": "uphill battle",
+              "definition": "something that is difficult to do"
+            },
+            {
+              "word": "setback",
+              "definition": "something that delays progress"
+            },
+            {
+              "word": "back on track",
+              "definition": "continue as planned after a problem or distraction"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "Which habit does the writer imply is negative?",
+                  "options": [
+                    "a. waking up at 5am",
+                    "b. making coffee every morning",
+                    "c. snoozing your alarm"
+                  ],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 2,
+                  "question": "\"I'll exercise more\" is a SMART goal.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 3,
+                  "question": "Which word in paragraph 2 is the opposite of 'specific'?",
+                  "options": ["a. unrealistic", "b. vague", "c. clear"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Which statement best describes 'habit stacking'?",
+                  "options": [
+                    "a. Linking a new habit to an existing habit to make it easier to remember.",
+                    "b. Creating habits based on specific goals.",
+                    "c. Replacing a bad habit with a good habit to break unhealthy routines."
+                  ],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 5,
+                  "question": "Social events can interrupt our habit routines.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary",
+              "text": "Maintaining good habits can sometimes feel like {1}. It can be hard to {2} a good routine. But when life sends you {3}, it's important not to be too {4}. Instead, search for the willpower to get {5}.",
+              "word_bank": [
+                "an uphill battle",
+                "setbacks",
+                "back on track",
+                "vague",
+                "stick to",
+                "zest",
+                "hard on yourself"
+              ],
+              "answers": {
+                "1": "an uphill battle",
+                "2": "stick to",
+                "3": "setbacks",
+                "4": "hard on yourself",
+                "5": "back on track"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "article_id": 6,
+        "title": "How can restaurants earn a Michelin star?",
+        "level": "Beginner",
+        "image": "trr_how_can_restaurants_earn_a_michelin_star_1.jpg",
+        "audio": "trr_how_can_restaurants_earn_a_michelin_star.mp3",
+        "duration": "02:29",
+        "created_date": "2024-01-20",
+        "content": {
+          "reading_text_en": [
+            "What do rubber tyres have to do with delicious food? The answer lies in the story of the Michelin brothers. French inventors Edouard and Andre Michelin created the Michelin tyre company in 1889 and transformed the travel industry. A few decades later, they began publishing a guide to highlight food in restaurants worth travelling for, which, of course, they'd need strong Michelin tyres to reach. Nowadays, the coveted Michelin star – an award given to only the world's finest restaurants – is one of the culinary world's highest accolades. But the rating system is somewhat shrouded in mystery.",
+            "The Michelin Guide itself says their inspectors take into account five criteria: the quality of the ingredients, the harmony of flavours, the mastery of techniques, the personality of the chef as expressed through their cuisine and consistency both across the entire menu and over time. But the inspectors are anonymous, and chefs are always kept in the dark about when they are going to visit. \"We're never aware of the inspectors' visit,\" said Julia Sedefdjian, who became France's youngest Michelin-starred chef at the age of 21. \"If they introduce themselves, it's only after they've eaten. And often – very often – they never introduce themselves at all.\"",
+            "And how much does the overall ambience of a restaurant play into the ratings? Ideas vary. Chef Maxime Bouttier, who has worked in Michelin-starred restaurants across France for 15 years, thinks details like white tablecloths and background piano music can help to tick boxes for inspectors. Despite this, Bouttier's own restaurant doesn't have tablecloths, and his clientele listen to '80s rap while dining, yet his restaurant earnt a star less than a year after opening. The Michelin Guide says a Michelin star is awarded for the food on the plate, nothing else, and that the style and degree of formality have no bearing on the award whatsoever.",
+            "Michelin stars can make or break a chef's culinary career. Earning one gives a chef more recognition, more table bookings and can allow them to raise their prices. But there's also the risk of losing one, and with that comes a lot of pressure."
+          ],
+          "reading_text_vi": [
+            "Lốp xe cao su có liên quan gì đến thức ăn ngon? Câu trả lời nằm trong câu chuyện về anh em nhà Michelin. Những nhà phát minh người Pháp Edouard và Andre Michelin đã thành lập công ty lốp xe Michelin vào năm 1889 và cách mạng hóa ngành công nghiệp du lịch. Vài thập kỷ sau, họ bắt đầu xuất bản một cuốn guide để giới thiệu những nhà hàng có món ăn đáng để du khách di chuyển đến thưởng thức - và tất nhiên, họ sẽ cần những chiếc lốp Michelin bền bỉ để đến đó. Ngày nay, ngôi sao Michelin danh giá - giải thưởng chỉ được trao cho những nhà hàng tốt nhất thế giới - là một trong những vinh dự cao nhất trong giới ẩm thực. Nhưng hệ thống đánh giá này phần nào bị bao phủ trong bí ẩn.",
+            "Bản thân Michelin Guide tuyên bố rằng các thanh tra của họ xem xét năm tiêu chí: chất lượng nguyên liệu, sự hài hòa của hương vị, sự tinh thông về kỹ thuật, cá tính của đầu bếp thể hiện qua ẩm thực và sự nhất quán trên toàn bộ thực đơn cũng như theo thời gian. Nhưng các thanh tra viên đều ẩn danh, và các đầu bếp luôn không biết khi nào họ sẽ đến thăm. \"Chúng tôi không bao giờ biết trước về chuyến thăm của các thanh tra,\" Julia Sedefdjian, người trở thành đầu bếp trẻ nhất Pháp đạt sao Michelin ở tuổi 21, cho biết. \"Nếu họ giới thiệu bản thân, thì chỉ sau khi họ đã ăn xong. Và thường - rất thường xuyên - họ không bao giờ tự giới thiệu mình.\"",
+            "Và không khí tổng thể của nhà hàng ảnh hưởng bao nhiêu đến xếp hạng? Ý kiến khác nhau. Đầu bếp Maxime Bouttier, người đã làm việc tại các nhà hàng đạt sao Michelin khắp nước Pháp trong 15 năm, nghĩ rằng các chi tiết như khăn trải bàn trắng và nhạc piano nền có thể giúp ghi điểm với các thanh tra viên. Mặc dù vậy, chính nhà hàng của Bouttier không có khăn trải bàn, và thực khách của ông nghe nhạc rap thập niên 80 trong khi dùng bữa, thế mà nhà hàng của ông vẫn giành được một ngôi sao chưa đầy một năm sau khi khai trương. Michelin Guide khẳng định rằng một ngôi sao Michelin được trao cho thức ăn trên đĩa, không gì khác, và rằng phong cách và mức độ trang trọng hoàn toàn không ảnh hưởng đến giải thưởng.",
+            "Những ngôi sao Michelin có thể tạo nên hoặc phá vỡ sự nghiệp ẩm thực của một đầu bếp. Việc giành được một ngôi sao mang lại cho đầu bếp sự công nhận nhiều hơn, nhiều đặt bàn hơn và có thể cho phép họ tăng giá. Nhưng cũng có rủi ro mất ngôi sao, và đi kèm với đó là rất nhiều áp lực."
+          ],
+          "vocabulary": [
+            {
+              "word": "to do with (something)",
+              "definition": "related to (something)"
+            },
+            {
+              "word": "coveted",
+              "definition": "wanted by many"
+            },
+            {
+              "word": "accolade",
+              "definition": "praise or award"
+            },
+            {
+              "word": "be shrouded in mystery",
+              "definition": "not be very well understood"
+            },
+            {
+              "word": "take (something) into account",
+              "definition": "consider (something) when thinking about a situation"
+            },
+            {
+              "word": "harmony",
+              "definition": "how well things work together"
+            },
+            {
+              "word": "keep (someone) in the dark",
+              "definition": "not tell someone something"
+            },
+            {
+              "word": "play into (something)",
+              "definition": "contribute to or help support"
+            },
+            {
+              "word": "have no bearing",
+              "definition": "are not relevant"
+            },
+            {
+              "word": "make or break",
+              "definition": "make something a success or failure"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "The Michelin brothers created a restaurant guide and then created a tyre business.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 2,
+                  "question": "Michelin stars are given to 300 restaurants per year.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 3,
+                  "question": "What makes the Michelin star rating system mysterious?",
+                  "options": [
+                    "a. The Michelin Guide doesn't share their scoring criteria.",
+                    "b. The inspectors don't say when they are going to visit the restaurant.",
+                    "c. Chefs never find out who the inspectors are."
+                  ],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Chef Maxime Bouttier's restaurant has white tablecloths and piano music playing.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 5,
+                  "question": "What does 'one' refer to in the following sentence in paragraph 4? Earning one gives a chef more recognition, more table bookings and can allow them to raise their prices.",
+                  "options": [
+                    "a. a culinary career",
+                    "b. a Michelin star",
+                    "c. a plate of food"
+                  ],
+                  "correct_answer": "b"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary of the article",
+              "text": "The Michelin star is a(n) {1} that many chefs desire, but how they are awarded is {2}. Inspectors {3} factors such as the quality of ingredients and the mastery of techniques – it has nothing {4} the style or degree of formality of the restaurant. If chefs want recognition for their {5} skills, one way to do that is to earn a Michelin star.",
+              "word_bank": [
+                "culinary",
+                "kept in the dark",
+                "take into account",
+                "to do with",
+                "accolade",
+                "harmony",
+                "shrouded in mystery"
+              ],
+              "answers": {
+                "1": "accolade",
+                "2": "shrouded in mystery",
+                "3": "take into account",
+                "4": "to do with",
+                "5": "culinary"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "article_id": 7,
+        "title": "What happens when your job is just too boring?",
+        "level": "Beginner",
+        "image": "trr_what_happens_when_your_job_is_just_too_boring_2.jpg",
+        "audio": "trr_what_happens_when_your_job_is_just_too_boring.mp3",
+        "duration": "02:11",
+        "created_date": "2024-01-10",
+        "content": {
+          "reading_text_en": [
+            "We all know that having too much work and too much stress can lead to burnout, but did you know that the opposite can also be a problem? Have you ever felt that your job was too easy and that everything was just a bit too boring? If so, you might be suffering from rust out.",
+            "Rust out happens when there isn't enough challenge to motivate you to keep going in your job. Without some challenge, it can be hard to feel growth in your role. If a job has lots of repetitive and monotonous tasks, it can make it hard to see the purpose of a role. Having a lower level of responsibility at work than before can also make it harder to feel fulfilled in a job. This can affect people who have taken time out from their career for family or personal reasons.",
+            "If you think that you might be suffering from rust out, then there are a number of signs to watch out for. You might dread finding your schedule each week and not seeing anything stimulating on it. It might be that you often find yourself clock-watching at work, willing the time to pass. Focus and motivation can drop, leading you to get less done than you had before, or to make more mistakes. You may start to feel apathetic and disengaged towards your job. These feelings can lead to anxiety and depression which can then spread from work into people's personal lives.",
+            "Finding yourself suffering from rust out can sometimes be an opportunity. Some experts suggest that self-awareness is key. By taking some time to realise what you are really looking for in work and life, you can take steps to re-discover your motivation. Setting yourself goals and allowing yourself to try new things can help you find a new purpose. Considering what you really need for a job can also lead you to find a new one that's better suited to your goals in life."
+          ],
+          "reading_text_vi": [
+            "Tất cả chúng ta đều biết rằng có quá nhiều công việc và căng thẳng có thể dẫn đến kiệt sức, nhưng bạn có biết rằng điều ngược lại cũng có thể là một vấn đề? Bạn đã bao giờ cảm thấy công việc của mình quá dễ dàng và mọi thứ chỉ là hơi nhàm chán? Nếu vậy, bạn có thể đang mắc phải tình trạng 'rust out' (hao mòn do nhàm chán).",
+            "Rust out xảy ra khi không có đủ thách thức để thúc đẩy bạn tiếp tục trong công việc. Không có một số thách thức, thật khó để cảm thấy sự phát triển trong vai trò của bạn. Nếu một công việc có nhiều nhiệm vụ lặp đi lặp lại và đơn điệu, nó có thể khiến bạn khó nhìn thấy mục đích của vai trò đó. Có mức độ trách nhiệm tại nơi làm việc thấp hơn trước đây cũng có thể khiến bạn khó cảm thấy hài lòng với công việc hơn. Điều này có thể ảnh hưởng đến những người đã tạm dừng sự nghiệp vì lý do gia đình hoặc cá nhân.",
+            "Nếu bạn nghĩ rằng mình có thể đang bị rust out, thì có một số dấu hiệu cần đề phòng. Bạn có thể cảm thấy sợ hãi khi nhìn thấy lịch trình mỗi tuần và không thấy bất cứ điều gì kích thích trong đó. Có thể bạn thường xuyên thấy mình liên tục nhìn đồng hồ tại nơi làm việc, mong thời gian trôi qua nhanh. Sự tập trung và động lực có thể giảm sút, khiến bạn hoàn thành ít việc hơn trước đây hoặc mắc nhiều sai lầm hơn. Bạn có thể bắt đầu cảm thấy thờ ơ và không còn hứng thú với công việc của mình. Những cảm giác này có thể dẫn đến lo lắng và trầm cảm, sau đó có thể lan từ công việc sang cuộc sống cá nhân của mọi người.",
+            "Việc phát hiện mình bị rust out đôi khi có thể là một cơ hội. Một số chuyên gia cho rằng tự nhận thức là chìa khóa. Bằng cách dành thời gian để nhận ra những gì bạn thực sự tìm kiếm trong công việc và cuộc sống, bạn có thể thực hiện các bước để khám phá lại động lực của mình. Tự đặt mục tiêu và cho phép bản thân thử những điều mới có thể giúp bạn tìm thấy một mục đích mới. Suy nghĩ về những gì bạn thực sự cần trong một công việc cũng có thể dẫn bạn đến việc tìm được một công việc mới phù hợp hơn với mục tiêu cuộc sống của bạn."
+          ],
+          "vocabulary": [
+            {
+              "word": "burnout",
+              "definition": "exhaustion caused by stress or over work"
+            },
+            {
+              "word": "rust out",
+              "definition": "boredom caused by work that is not challenging enough"
+            },
+            {
+              "word": "repetitive",
+              "definition": "something done again and again that doesn't change"
+            },
+            {
+              "word": "monotonous",
+              "definition": "boring, without variety"
+            },
+            {
+              "word": "dread",
+              "definition": "to feel fear or worry about something"
+            },
+            {
+              "word": "clock-watching",
+              "definition": "continually checking to see if it is time to stop work yet"
+            },
+            {
+              "word": "apathetic",
+              "definition": "having no feelings or interest towards something"
+            },
+            {
+              "word": "disengaged",
+              "definition": "having little interest in something that you are doing"
+            },
+            {
+              "word": "self-awareness",
+              "definition": "knowing your own positive and negative qualities"
+            },
+            {
+              "word": "suited",
+              "definition": "having features that makes something good for a particular purpose or person"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "It's not always great to have an easy job.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 2,
+                  "question": "What can help you grow in your job role?",
+                  "options": [
+                    "a. monotonous routines",
+                    "b. repetitive tasks",
+                    "c. challenge"
+                  ],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 3,
+                  "question": "What does 'this' mean in this sentence? *This can often affect people who have taken time out from their career for family reasons.*",
+                  "options": [
+                    "a. Feeling burnout",
+                    "b. Difficulty in feeling fulfilled",
+                    "c. Being too motivated"
+                  ],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Which of these could be a sign of rust out?",
+                  "options": [
+                    "a. Being disappointed by your rota",
+                    "b. Losing track of time",
+                    "c. Setting targets"
+                  ],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 5,
+                  "question": "Thinking about what you really want can help fight rust out.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary",
+              "text": "We've all heard about the {1} that comes from work that is too stressful. Some people have the opposite problem. Work that is too easy can cause {2}. We may have too many {3} tasks or find ourselves clock-{4}. If that happens, it can be useful to work on our {5} and work out what we really want from work.",
+              "word_bank": [
+                "burnout",
+                "self-awareness",
+                "monotonous",
+                "rust out",
+                "apathetic",
+                "watching",
+                "suited"
+              ],
+              "answers": {
+                "1": "burnout",
+                "2": "rust out",
+                "3": "monotonous",
+                "4": "watching",
+                "5": "self-awareness"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "article_id": 8,
+        "title": "Small steps to build long-lasting habits",
+        "level": "Advanced",
+        "image": "trr_small_steps_to_build_long-lasting_habits_2.jpg",
+        "audio": "trr_small_steps_to_build_long-lasting_habits.mp3",
+        "duration": "02:37",
+        "created_date": "2024-01-15",
+        "content": {
+          "reading_text_en": [
+            "It's day one of a healthier, smarter, better you. You're full of zest and good intentions. You woke up at 5am to run before work, you read a book in your lunchbreak, and you listened to an English podcast on your commute. Now, fast forward three months. Life is getting in the way, and you've slipped into old habits... snoozing your alarm and eating chocolate for breakfast. Sound familiar?",
+            "Don't be hard on yourself. It's unrealistic to rely on willpower alone. As James Clear, author of the bestselling book 'Atomic Habits', writes, \"The problem isn't you. The problem is your system.\" Our habits come from goals, so start by getting really clear. Goals, according to George T Doran, should be SMART: specific, measurable, achievable, relevant and time-bound. It's not enough to say, \"I'll exercise more\" – that's too vague! A SMART goal would be \"I'm going to walk for 20 minutes in the evenings on weekdays.\" Now you have a clear action that you can stick to.",
+            "Once you're clear on your goals, you need to make the associated habits as automatic as possible. Try 'habit stacking', a technique popularised in the book 'Atomic Habits', which involves attaching a new habit onto something you already do regularly. For example, if you already make coffee every morning, use that moment to read your book for 20 minutes. That way, your new reading habit is now intertwined with something you're going to do anyway. Another key strategy is to reward yourself, to transform the habit from a chore into something pleasurable. If it's hard to get yourself to the gym, promise yourself that after each visit, you'll allow yourself a treat – a takeaway meal or an episode of your favourite TV show.",
+            "Even with our best intentions and a great system, stress and interruptions to your routine like social events can still make keeping habits feel like an uphill battle. If or when you have setbacks, accept it as part of the process. Life is full of spontaneity and uncertainty – one could argue that's what keeps it interesting! Use setbacks as a pause for reflection and review. What about your system is working? What's no longer serving you? Then, get back on track."
+          ],
+          "reading_text_vi": [
+            "Đây là ngày đầu tiên của một phiên bản tốt hơn, thông minh hơn và khỏe mạnh hơn của bạn. Bạn tràn đầy nhiệt huyết và ý định tốt. Bạn thức dậy lúc 5 giờ sáng để chạy bộ trước khi làm việc, đọc sách trong giờ nghỉ trưa và nghe podcast tiếng Anh trên đường đi làm. Giờ hãy tua nhanh ba tháng sau. Cuộc sống xen vào, và bạn đã trượt về những thói quen cũ... tắt chuông báo thức và ăn sô cô la cho bữa sáng. Nghe có quen không?",
+            "Đừng quá khắt khe với bản thân. Thật không thực tế khi chỉ dựa vào ý chí. Như James Clear, tác giả cuốn sách bán chạy 'Atomic Habits' viết: \"Vấn đề không phải là bạn. Vấn đề là hệ thống của bạn.\" Thói quen của chúng ta bắt nguồn từ mục tiêu, vì vậy hãy bắt đầu bằng cách làm rõ chúng. Theo George T Doran, mục tiêu nên là SMART: cụ thể, có thể đo lường, có thể đạt được, liên quan và có thời hạn. Chỉ nói \"Tôi sẽ tập thể dục nhiều hơn\" là không đủ - điều đó quá mơ hồ! Một mục tiêu SMART sẽ là \"Tôi sẽ đi bộ 20 phút vào các buổi tối trong tuần.\" Giờ bạn đã có một hành động rõ ràng mà bạn có thể tuân theo.",
+            "Một khi bạn đã rõ ràng về mục tiêu, bạn cần biến những thói quen liên quan trở nên tự động nhất có thể. Hãy thử 'xếp chồng thói quen', một kỹ thuật được phổ biến trong cuốn sách 'Atomic Habits', liên quan đến việc gắn một thói quen mới vào việc gì đó bạn đã làm thường xuyên. Ví dụ, nếu bạn đã pha cà phê mỗi sáng, hãy sử dụng khoảnh khắc đó để đọc sách trong 20 phút. Bằng cách đó, thói quen đọc sách mới của bạn giờ đã gắn liền với việc bạn vẫn sẽ làm. Một chiến lược quan trọng khác là tự thưởng cho bản thân, để biến thói quen từ một việc vặt thành điều gì đó thú vị. Nếu bạn khó đến phòng tập, hãy hứa với bản thân rằng sau mỗi lần đến, bạn sẽ cho phép mình một phần thưởng - một bữa ăn mang về hoặc một tập phim yêu thích.",
+            "Ngay cả với ý định tốt nhất và một hệ thống tuyệt vời, căng thẳng và những gián đoạn thói quen như sự kiện xã hội vẫn có thể khiến việc duy trì thói quen cảm thấy như một cuộc chiến khó khăn. Nếu hoặc khi bạn gặp thất bại, hãy chấp nhận nó như một phần của quá trình. Cuộc sống luôn chứa đầy sự tự phát và không chắc chắn - người ta có thể lập luận rằng đó là điều khiến cuộc sống thú vị! Hãy sử dụng thất bại như một khoảng dừng để suy ngẫm và đánh giá. Hệ thống của bạn đang hoạt động như thế nào? Điều gì không còn phục vụ bạn? Sau đó, hãy quay lại đúng hướng."
+          ],
+          "vocabulary": [
+            {
+              "word": "zest",
+              "definition": "energy, enthusiasm or interest"
+            },
+            {
+              "word": "be hard on oneself",
+              "definition": "be very self-critical"
+            },
+            {
+              "word": "willpower",
+              "definition": "the ability to control oneself"
+            },
+            {
+              "word": "time-bound",
+              "definition": "has a deadline or is within a specific timeline"
+            },
+            {
+              "word": "vague",
+              "definition": "not clearly understandable"
+            },
+            {
+              "word": "stick to (something)",
+              "definition": "continue doing something consistently, even if it's difficult"
+            },
+            {
+              "word": "intertwined",
+              "definition": "closely connected"
+            },
+            {
+              "word": "uphill battle",
+              "definition": "something that is difficult to do"
+            },
+            {
+              "word": "setback",
+              "definition": "something that delays progress"
+            },
+            {
+              "word": "back on track",
+              "definition": "continue as planned after a problem or distraction"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "Which habit does the writer imply is negative?",
+                  "options": [
+                    "a. waking up at 5am",
+                    "b. making coffee every morning",
+                    "c. snoozing your alarm"
+                  ],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 2,
+                  "question": "\"I'll exercise more\" is a SMART goal.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 3,
+                  "question": "Which word in paragraph 2 is the opposite of 'specific'?",
+                  "options": ["a. unrealistic", "b. vague", "c. clear"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Which statement best describes 'habit stacking'?",
+                  "options": [
+                    "a. Linking a new habit to an existing habit to make it easier to remember.",
+                    "b. Creating habits based on specific goals.",
+                    "c. Replacing a bad habit with a good habit to break unhealthy routines."
+                  ],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 5,
+                  "question": "Social events can interrupt our habit routines.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary",
+              "text": "Maintaining good habits can sometimes feel like {1}. It can be hard to {2} a good routine. But when life sends you {3}, it's important not to be too {4}. Instead, search for the willpower to get {5}.",
+              "word_bank": [
+                "an uphill battle",
+                "setbacks",
+                "back on track",
+                "vague",
+                "stick to",
+                "zest",
+                "hard on yourself"
+              ],
+              "answers": {
+                "1": "an uphill battle",
+                "2": "stick to",
+                "3": "setbacks",
+                "4": "hard on yourself",
+                "5": "back on track"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "article_id": 9,
+        "title": "How can restaurants earn a Michelin star?",
+        "level": "Intermediate",
+        "image": "trr_how_can_restaurants_earn_a_michelin_star.jpg",
+        "audio": "trr_how_can_restaurants_earn_a_michelin_star.mp3",
+        "duration": "02:29",
+        "created_date": "2024-01-20",
+        "content": {
+          "reading_text_en": [
+            "What do rubber tyres have to do with delicious food? The answer lies in the story of the Michelin brothers. French inventors Edouard and Andre Michelin created the Michelin tyre company in 1889 and transformed the travel industry. A few decades later, they began publishing a guide to highlight food in restaurants worth travelling for, which, of course, they'd need strong Michelin tyres to reach. Nowadays, the coveted Michelin star – an award given to only the world's finest restaurants – is one of the culinary world's highest accolades. But the rating system is somewhat shrouded in mystery.",
+            "The Michelin Guide itself says their inspectors take into account five criteria: the quality of the ingredients, the harmony of flavours, the mastery of techniques, the personality of the chef as expressed through their cuisine and consistency both across the entire menu and over time. But the inspectors are anonymous, and chefs are always kept in the dark about when they are going to visit. \"We're never aware of the inspectors' visit,\" said Julia Sedefdjian, who became France's youngest Michelin-starred chef at the age of 21. \"If they introduce themselves, it's only after they've eaten. And often – very often – they never introduce themselves at all.\"",
+            "And how much does the overall ambience of a restaurant play into the ratings? Ideas vary. Chef Maxime Bouttier, who has worked in Michelin-starred restaurants across France for 15 years, thinks details like white tablecloths and background piano music can help to tick boxes for inspectors. Despite this, Bouttier's own restaurant doesn't have tablecloths, and his clientele listen to '80s rap while dining, yet his restaurant earnt a star less than a year after opening. The Michelin Guide says a Michelin star is awarded for the food on the plate, nothing else, and that the style and degree of formality have no bearing on the award whatsoever.",
+            "Michelin stars can make or break a chef's culinary career. Earning one gives a chef more recognition, more table bookings and can allow them to raise their prices. But there's also the risk of losing one, and with that comes a lot of pressure."
+          ],
+          "reading_text_vi": [
+            "Lốp xe cao su có liên quan gì đến thức ăn ngon? Câu trả lời nằm trong câu chuyện về anh em nhà Michelin. Những nhà phát minh người Pháp Edouard và Andre Michelin đã thành lập công ty lốp xe Michelin vào năm 1889 và cách mạng hóa ngành công nghiệp du lịch. Vài thập kỷ sau, họ bắt đầu xuất bản một cuốn guide để giới thiệu những nhà hàng có món ăn đáng để du khách di chuyển đến thưởng thức - và tất nhiên, họ sẽ cần những chiếc lốp Michelin bền bỉ để đến đó. Ngày nay, ngôi sao Michelin danh giá - giải thưởng chỉ được trao cho những nhà hàng tốt nhất thế giới - là một trong những vinh dự cao nhất trong giới ẩm thực. Nhưng hệ thống đánh giá này phần nào bị bao phủ trong bí ẩn.",
+            "Bản thân Michelin Guide tuyên bố rằng các thanh tra của họ xem xét năm tiêu chí: chất lượng nguyên liệu, sự hài hòa của hương vị, sự tinh thông về kỹ thuật, cá tính của đầu bếp thể hiện qua ẩm thực và sự nhất quán trên toàn bộ thực đơn cũng như theo thời gian. Nhưng các thanh tra viên đều ẩn danh, và các đầu bếp luôn không biết khi nào họ sẽ đến thăm. \"Chúng tôi không bao giờ biết trước về chuyến thăm của các thanh tra,\" Julia Sedefdjian, người trở thành đầu bếp trẻ nhất Pháp đạt sao Michelin ở tuổi 21, cho biết. \"Nếu họ giới thiệu bản thân, thì chỉ sau khi họ đã ăn xong. Và thường - rất thường xuyên - họ không bao giờ tự giới thiệu mình.\"",
+            "Và không khí tổng thể của nhà hàng ảnh hưởng bao nhiêu đến xếp hạng? Ý kiến khác nhau. Đầu bếp Maxime Bouttier, người đã làm việc tại các nhà hàng đạt sao Michelin khắp nước Pháp trong 15 năm, nghĩ rằng các chi tiết như khăn trải bàn trắng và nhạc piano nền có thể giúp ghi điểm với các thanh tra viên. Mặc dù vậy, chính nhà hàng của Bouttier không có khăn trải bàn, và thực khách của ông nghe nhạc rap thập niên 80 trong khi dùng bữa, thế mà nhà hàng của ông vẫn giành được một ngôi sao chưa đầy một năm sau khi khai trương. Michelin Guide khẳng định rằng một ngôi sao Michelin được trao cho thức ăn trên đĩa, không gì khác, và rằng phong cách và mức độ trang trọng hoàn toàn không ảnh hưởng đến giải thưởng.",
+            "Những ngôi sao Michelin có thể tạo nên hoặc phá vỡ sự nghiệp ẩm thực của một đầu bếp. Việc giành được một ngôi sao mang lại cho đầu bếp sự công nhận nhiều hơn, nhiều đặt bàn hơn và có thể cho phép họ tăng giá. Nhưng cũng có rủi ro mất ngôi sao, và đi kèm với đó là rất nhiều áp lực."
+          ],
+          "vocabulary": [
+            {
+              "word": "to do with (something)",
+              "definition": "related to (something)"
+            },
+            {
+              "word": "coveted",
+              "definition": "wanted by many"
+            },
+            {
+              "word": "accolade",
+              "definition": "praise or award"
+            },
+            {
+              "word": "be shrouded in mystery",
+              "definition": "not be very well understood"
+            },
+            {
+              "word": "take (something) into account",
+              "definition": "consider (something) when thinking about a situation"
+            },
+            {
+              "word": "harmony",
+              "definition": "how well things work together"
+            },
+            {
+              "word": "keep (someone) in the dark",
+              "definition": "not tell someone something"
+            },
+            {
+              "word": "play into (something)",
+              "definition": "contribute to or help support"
+            },
+            {
+              "word": "have no bearing",
+              "definition": "are not relevant"
+            },
+            {
+              "word": "make or break",
+              "definition": "make something a success or failure"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "The Michelin brothers created a restaurant guide and then created a tyre business.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 2,
+                  "question": "Michelin stars are given to 300 restaurants per year.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 3,
+                  "question": "What makes the Michelin star rating system mysterious?",
+                  "options": [
+                    "a. The Michelin Guide doesn't share their scoring criteria.",
+                    "b. The inspectors don't say when they are going to visit the restaurant.",
+                    "c. Chefs never find out who the inspectors are."
+                  ],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Chef Maxime Bouttier's restaurant has white tablecloths and piano music playing.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 5,
+                  "question": "What does 'one' refer to in the following sentence in paragraph 4? Earning one gives a chef more recognition, more table bookings and can allow them to raise their prices.",
+                  "options": [
+                    "a. a culinary career",
+                    "b. a Michelin star",
+                    "c. a plate of food"
+                  ],
+                  "correct_answer": "b"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary of the article",
+              "text": "The Michelin star is a(n) {1} that many chefs desire, but how they are awarded is {2}. Inspectors {3} factors such as the quality of ingredients and the mastery of techniques – it has nothing {4} the style or degree of formality of the restaurant. If chefs want recognition for their {5} skills, one way to do that is to earn a Michelin star.",
+              "word_bank": [
+                "culinary",
+                "kept in the dark",
+                "take into account",
+                "to do with",
+                "accolade",
+                "harmony",
+                "shrouded in mystery"
+              ],
+              "answers": {
+                "1": "accolade",
+                "2": "shrouded in mystery",
+                "3": "take into account",
+                "4": "to do with",
+                "5": "culinary"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "article_id": 10,
+        "title": "What happens when your job is just too boring?",
+        "level": "Intermediate",
+        "image": "trr_what_happens_when_your_job_is_just_too_boring.jpg",
+        "audio": "trr_what_happens_when_your_job_is_just_too_boring.mp3",
+        "duration": "02:11",
+        "created_date": "2024-01-10",
+        "content": {
+          "reading_text_en": [
+            "We all know that having too much work and too much stress can lead to burnout, but did you know that the opposite can also be a problem? Have you ever felt that your job was too easy and that everything was just a bit too boring? If so, you might be suffering from rust out.",
+            "Rust out happens when there isn't enough challenge to motivate you to keep going in your job. Without some challenge, it can be hard to feel growth in your role. If a job has lots of repetitive and monotonous tasks, it can make it hard to see the purpose of a role. Having a lower level of responsibility at work than before can also make it harder to feel fulfilled in a job. This can affect people who have taken time out from their career for family or personal reasons.",
+            "If you think that you might be suffering from rust out, then there are a number of signs to watch out for. You might dread finding your schedule each week and not seeing anything stimulating on it. It might be that you often find yourself clock-watching at work, willing the time to pass. Focus and motivation can drop, leading you to get less done than you had before, or to make more mistakes. You may start to feel apathetic and disengaged towards your job. These feelings can lead to anxiety and depression which can then spread from work into people's personal lives.",
+            "Finding yourself suffering from rust out can sometimes be an opportunity. Some experts suggest that self-awareness is key. By taking some time to realise what you are really looking for in work and life, you can take steps to re-discover your motivation. Setting yourself goals and allowing yourself to try new things can help you find a new purpose. Considering what you really need for a job can also lead you to find a new one that's better suited to your goals in life."
+          ],
+          "reading_text_vi": [
+            "Tất cả chúng ta đều biết rằng có quá nhiều công việc và căng thẳng có thể dẫn đến kiệt sức, nhưng bạn có biết rằng điều ngược lại cũng có thể là một vấn đề? Bạn đã bao giờ cảm thấy công việc của mình quá dễ dàng và mọi thứ chỉ là hơi nhàm chán? Nếu vậy, bạn có thể đang mắc phải tình trạng 'rust out' (hao mòn do nhàm chán).",
+            "Rust out xảy ra khi không có đủ thách thức để thúc đẩy bạn tiếp tục trong công việc. Không có một số thách thức, thật khó để cảm thấy sự phát triển trong vai trò của bạn. Nếu một công việc có nhiều nhiệm vụ lặp đi lặp lại và đơn điệu, nó có thể khiến bạn khó nhìn thấy mục đích của vai trò đó. Có mức độ trách nhiệm tại nơi làm việc thấp hơn trước đây cũng có thể khiến bạn khó cảm thấy hài lòng với công việc hơn. Điều này có thể ảnh hưởng đến những người đã tạm dừng sự nghiệp vì lý do gia đình hoặc cá nhân.",
+            "Nếu bạn nghĩ rằng mình có thể đang bị rust out, thì có một số dấu hiệu cần đề phòng. Bạn có thể cảm thấy sợ hãi khi nhìn thấy lịch trình mỗi tuần và không thấy bất cứ điều gì kích thích trong đó. Có thể bạn thường xuyên thấy mình liên tục nhìn đồng hồ tại nơi làm việc, mong thời gian trôi qua nhanh. Sự tập trung và động lực có thể giảm sút, khiến bạn hoàn thành ít việc hơn trước đây hoặc mắc nhiều sai lầm hơn. Bạn có thể bắt đầu cảm thấy thờ ơ và không còn hứng thú với công việc của mình. Những cảm giác này có thể dẫn đến lo lắng và trầm cảm, sau đó có thể lan từ công việc sang cuộc sống cá nhân của mọi người.",
+            "Việc phát hiện mình bị rust out đôi khi có thể là một cơ hội. Một số chuyên gia cho rằng tự nhận thức là chìa khóa. Bằng cách dành thời gian để nhận ra những gì bạn thực sự tìm kiếm trong công việc và cuộc sống, bạn có thể thực hiện các bước để khám phá lại động lực của mình. Tự đặt mục tiêu và cho phép bản thân thử những điều mới có thể giúp bạn tìm thấy một mục đích mới. Suy nghĩ về những gì bạn thực sự cần trong một công việc cũng có thể dẫn bạn đến việc tìm được một công việc mới phù hợp hơn với mục tiêu cuộc sống của bạn."
+          ],
+          "vocabulary": [
+            {
+              "word": "burnout",
+              "definition": "exhaustion caused by stress or over work"
+            },
+            {
+              "word": "rust out",
+              "definition": "boredom caused by work that is not challenging enough"
+            },
+            {
+              "word": "repetitive",
+              "definition": "something done again and again that doesn't change"
+            },
+            {
+              "word": "monotonous",
+              "definition": "boring, without variety"
+            },
+            {
+              "word": "dread",
+              "definition": "to feel fear or worry about something"
+            },
+            {
+              "word": "clock-watching",
+              "definition": "continually checking to see if it is time to stop work yet"
+            },
+            {
+              "word": "apathetic",
+              "definition": "having no feelings or interest towards something"
+            },
+            {
+              "word": "disengaged",
+              "definition": "having little interest in something that you are doing"
+            },
+            {
+              "word": "self-awareness",
+              "definition": "knowing your own positive and negative qualities"
+            },
+            {
+              "word": "suited",
+              "definition": "having features that makes something good for a particular purpose or person"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "It's not always great to have an easy job.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 2,
+                  "question": "What can help you grow in your job role?",
+                  "options": [
+                    "a. monotonous routines",
+                    "b. repetitive tasks",
+                    "c. challenge"
+                  ],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 3,
+                  "question": "What does 'this' mean in this sentence? *This can often affect people who have taken time out from their career for family reasons.*",
+                  "options": [
+                    "a. Feeling burnout",
+                    "b. Difficulty in feeling fulfilled",
+                    "c. Being too motivated"
+                  ],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Which of these could be a sign of rust out?",
+                  "options": [
+                    "a. Being disappointed by your rota",
+                    "b. Losing track of time",
+                    "c. Setting targets"
+                  ],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 5,
+                  "question": "Thinking about what you really want can help fight rust out.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary",
+              "text": "We've all heard about the {1} that comes from work that is too stressful. Some people have the opposite problem. Work that is too easy can cause {2}. We may have too many {3} tasks or find ourselves clock-{4}. If that happens, it can be useful to work on our {5} and work out what we really want from work.",
+              "word_bank": [
+                "burnout",
+                "self-awareness",
+                "monotonous",
+                "rust out",
+                "apathetic",
+                "watching",
+                "suited"
+              ],
+              "answers": {
+                "1": "burnout",
+                "2": "rust out",
+                "3": "monotonous",
+                "4": "watching",
+                "5": "self-awareness"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "article_id": 11,
+        "title": "Small steps to build long-lasting habits",
+        "level": "Advanced",
+        "image": "trr_small_steps_to_build_long-lasting_habits.jpg",
+        "audio": "trr_small_steps_to_build_long-lasting_habits.mp3",
+        "duration": "02:37",
+        "created_date": "2024-01-15",
+        "content": {
+          "reading_text_en": [
+            "It's day one of a healthier, smarter, better you. You're full of zest and good intentions. You woke up at 5am to run before work, you read a book in your lunchbreak, and you listened to an English podcast on your commute. Now, fast forward three months. Life is getting in the way, and you've slipped into old habits... snoozing your alarm and eating chocolate for breakfast. Sound familiar?",
+            "Don't be hard on yourself. It's unrealistic to rely on willpower alone. As James Clear, author of the bestselling book 'Atomic Habits', writes, \"The problem isn't you. The problem is your system.\" Our habits come from goals, so start by getting really clear. Goals, according to George T Doran, should be SMART: specific, measurable, achievable, relevant and time-bound. It's not enough to say, \"I'll exercise more\" – that's too vague! A SMART goal would be \"I'm going to walk for 20 minutes in the evenings on weekdays.\" Now you have a clear action that you can stick to.",
+            "Once you're clear on your goals, you need to make the associated habits as automatic as possible. Try 'habit stacking', a technique popularised in the book 'Atomic Habits', which involves attaching a new habit onto something you already do regularly. For example, if you already make coffee every morning, use that moment to read your book for 20 minutes. That way, your new reading habit is now intertwined with something you're going to do anyway. Another key strategy is to reward yourself, to transform the habit from a chore into something pleasurable. If it's hard to get yourself to the gym, promise yourself that after each visit, you'll allow yourself a treat – a takeaway meal or an episode of your favourite TV show.",
+            "Even with our best intentions and a great system, stress and interruptions to your routine like social events can still make keeping habits feel like an uphill battle. If or when you have setbacks, accept it as part of the process. Life is full of spontaneity and uncertainty – one could argue that's what keeps it interesting! Use setbacks as a pause for reflection and review. What about your system is working? What's no longer serving you? Then, get back on track."
+          ],
+          "reading_text_vi": [
+            "Đây là ngày đầu tiên của một phiên bản tốt hơn, thông minh hơn và khỏe mạnh hơn của bạn. Bạn tràn đầy nhiệt huyết và ý định tốt. Bạn thức dậy lúc 5 giờ sáng để chạy bộ trước khi làm việc, đọc sách trong giờ nghỉ trưa và nghe podcast tiếng Anh trên đường đi làm. Giờ hãy tua nhanh ba tháng sau. Cuộc sống xen vào, và bạn đã trượt về những thói quen cũ... tắt chuông báo thức và ăn sô cô la cho bữa sáng. Nghe có quen không?",
+            "Đừng quá khắt khe với bản thân. Thật không thực tế khi chỉ dựa vào ý chí. Như James Clear, tác giả cuốn sách bán chạy 'Atomic Habits' viết: \"Vấn đề không phải là bạn. Vấn đề là hệ thống của bạn.\" Thói quen của chúng ta bắt nguồn từ mục tiêu, vì vậy hãy bắt đầu bằng cách làm rõ chúng. Theo George T Doran, mục tiêu nên là SMART: cụ thể, có thể đo lường, có thể đạt được, liên quan và có thời hạn. Chỉ nói \"Tôi sẽ tập thể dục nhiều hơn\" là không đủ - điều đó quá mơ hồ! Một mục tiêu SMART sẽ là \"Tôi sẽ đi bộ 20 phút vào các buổi tối trong tuần.\" Giờ bạn đã có một hành động rõ ràng mà bạn có thể tuân theo.",
+            "Một khi bạn đã rõ ràng về mục tiêu, bạn cần biến những thói quen liên quan trở nên tự động nhất có thể. Hãy thử 'xếp chồng thói quen', một kỹ thuật được phổ biến trong cuốn sách 'Atomic Habits', liên quan đến việc gắn một thói quen mới vào việc gì đó bạn đã làm thường xuyên. Ví dụ, nếu bạn đã pha cà phê mỗi sáng, hãy sử dụng khoảnh khắc đó để đọc sách trong 20 phút. Bằng cách đó, thói quen đọc sách mới của bạn giờ đã gắn liền với việc bạn vẫn sẽ làm. Một chiến lược quan trọng khác là tự thưởng cho bản thân, để biến thói quen từ một việc vặt thành điều gì đó thú vị. Nếu bạn khó đến phòng tập, hãy hứa với bản thân rằng sau mỗi lần đến, bạn sẽ cho phép mình một phần thưởng - một bữa ăn mang về hoặc một tập phim yêu thích.",
+            "Ngay cả với ý định tốt nhất và một hệ thống tuyệt vời, căng thẳng và những gián đoạn thói quen như sự kiện xã hội vẫn có thể khiến việc duy trì thói quen cảm thấy như một cuộc chiến khó khăn. Nếu hoặc khi bạn gặp thất bại, hãy chấp nhận nó như một phần của quá trình. Cuộc sống luôn chứa đầy sự tự phát và không chắc chắn - người ta có thể lập luận rằng đó là điều khiến cuộc sống thú vị! Hãy sử dụng thất bại như một khoảng dừng để suy ngẫm và đánh giá. Hệ thống của bạn đang hoạt động như thế nào? Điều gì không còn phục vụ bạn? Sau đó, hãy quay lại đúng hướng."
+          ],
+          "vocabulary": [
+            {
+              "word": "zest",
+              "definition": "energy, enthusiasm or interest"
+            },
+            {
+              "word": "be hard on oneself",
+              "definition": "be very self-critical"
+            },
+            {
+              "word": "willpower",
+              "definition": "the ability to control oneself"
+            },
+            {
+              "word": "time-bound",
+              "definition": "has a deadline or is within a specific timeline"
+            },
+            {
+              "word": "vague",
+              "definition": "not clearly understandable"
+            },
+            {
+              "word": "stick to (something)",
+              "definition": "continue doing something consistently, even if it's difficult"
+            },
+            {
+              "word": "intertwined",
+              "definition": "closely connected"
+            },
+            {
+              "word": "uphill battle",
+              "definition": "something that is difficult to do"
+            },
+            {
+              "word": "setback",
+              "definition": "something that delays progress"
+            },
+            {
+              "word": "back on track",
+              "definition": "continue as planned after a problem or distraction"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "Which habit does the writer imply is negative?",
+                  "options": [
+                    "a. waking up at 5am",
+                    "b. making coffee every morning",
+                    "c. snoozing your alarm"
+                  ],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 2,
+                  "question": "\"I'll exercise more\" is a SMART goal.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 3,
+                  "question": "Which word in paragraph 2 is the opposite of 'specific'?",
+                  "options": ["a. unrealistic", "b. vague", "c. clear"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Which statement best describes 'habit stacking'?",
+                  "options": [
+                    "a. Linking a new habit to an existing habit to make it easier to remember.",
+                    "b. Creating habits based on specific goals.",
+                    "c. Replacing a bad habit with a good habit to break unhealthy routines."
+                  ],
+                  "correct_answer": "a"
+                },
+                {
+                  "question_id": 5,
+                  "question": "Social events can interrupt our habit routines.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "a"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary",
+              "text": "Maintaining good habits can sometimes feel like {1}. It can be hard to {2} a good routine. But when life sends you {3}, it's important not to be too {4}. Instead, search for the willpower to get {5}.",
+              "word_bank": [
+                "an uphill battle",
+                "setbacks",
+                "back on track",
+                "vague",
+                "stick to",
+                "zest",
+                "hard on yourself"
+              ],
+              "answers": {
+                "1": "an uphill battle",
+                "2": "stick to",
+                "3": "setbacks",
+                "4": "hard on yourself",
+                "5": "back on track"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "article_id": 12,
+        "title": "How can restaurants earn a Michelin star?",
+        "level": "Intermediate",
+        "image": "trr_how_can_restaurants_earn_a_michelin_star.jpg",
+        "audio": "trr_how_can_restaurants_earn_a_michelin_star.mp3",
+        "duration": "02:29",
+        "created_date": "2024-01-20",
+        "content": {
+          "reading_text_en": [
+            "What do rubber tyres have to do with delicious food? The answer lies in the story of the Michelin brothers. French inventors Edouard and Andre Michelin created the Michelin tyre company in 1889 and transformed the travel industry. A few decades later, they began publishing a guide to highlight food in restaurants worth travelling for, which, of course, they'd need strong Michelin tyres to reach. Nowadays, the coveted Michelin star – an award given to only the world's finest restaurants – is one of the culinary world's highest accolades. But the rating system is somewhat shrouded in mystery.",
+            "The Michelin Guide itself says their inspectors take into account five criteria: the quality of the ingredients, the harmony of flavours, the mastery of techniques, the personality of the chef as expressed through their cuisine and consistency both across the entire menu and over time. But the inspectors are anonymous, and chefs are always kept in the dark about when they are going to visit. \"We're never aware of the inspectors' visit,\" said Julia Sedefdjian, who became France's youngest Michelin-starred chef at the age of 21. \"If they introduce themselves, it's only after they've eaten. And often – very often – they never introduce themselves at all.\"",
+            "And how much does the overall ambience of a restaurant play into the ratings? Ideas vary. Chef Maxime Bouttier, who has worked in Michelin-starred restaurants across France for 15 years, thinks details like white tablecloths and background piano music can help to tick boxes for inspectors. Despite this, Bouttier's own restaurant doesn't have tablecloths, and his clientele listen to '80s rap while dining, yet his restaurant earnt a star less than a year after opening. The Michelin Guide says a Michelin star is awarded for the food on the plate, nothing else, and that the style and degree of formality have no bearing on the award whatsoever.",
+            "Michelin stars can make or break a chef's culinary career. Earning one gives a chef more recognition, more table bookings and can allow them to raise their prices. But there's also the risk of losing one, and with that comes a lot of pressure."
+          ],
+          "reading_text_vi": [
+            "Lốp xe cao su có liên quan gì đến thức ăn ngon? Câu trả lời nằm trong câu chuyện về anh em nhà Michelin. Những nhà phát minh người Pháp Edouard và Andre Michelin đã thành lập công ty lốp xe Michelin vào năm 1889 và cách mạng hóa ngành công nghiệp du lịch. Vài thập kỷ sau, họ bắt đầu xuất bản một cuốn guide để giới thiệu những nhà hàng có món ăn đáng để du khách di chuyển đến thưởng thức - và tất nhiên, họ sẽ cần những chiếc lốp Michelin bền bỉ để đến đó. Ngày nay, ngôi sao Michelin danh giá - giải thưởng chỉ được trao cho những nhà hàng tốt nhất thế giới - là một trong những vinh dự cao nhất trong giới ẩm thực. Nhưng hệ thống đánh giá này phần nào bị bao phủ trong bí ẩn.",
+            "Bản thân Michelin Guide tuyên bố rằng các thanh tra của họ xem xét năm tiêu chí: chất lượng nguyên liệu, sự hài hòa của hương vị, sự tinh thông về kỹ thuật, cá tính của đầu bếp thể hiện qua ẩm thực và sự nhất quán trên toàn bộ thực đơn cũng như theo thời gian. Nhưng các thanh tra viên đều ẩn danh, và các đầu bếp luôn không biết khi nào họ sẽ đến thăm. \"Chúng tôi không bao giờ biết trước về chuyến thăm của các thanh tra,\" Julia Sedefdjian, người trở thành đầu bếp trẻ nhất Pháp đạt sao Michelin ở tuổi 21, cho biết. \"Nếu họ giới thiệu bản thân, thì chỉ sau khi họ đã ăn xong. Và thường - rất thường xuyên - họ không bao giờ tự giới thiệu mình.\"",
+            "Và không khí tổng thể của nhà hàng ảnh hưởng bao nhiêu đến xếp hạng? Ý kiến khác nhau. Đầu bếp Maxime Bouttier, người đã làm việc tại các nhà hàng đạt sao Michelin khắp nước Pháp trong 15 năm, nghĩ rằng các chi tiết như khăn trải bàn trắng và nhạc piano nền có thể giúp ghi điểm với các thanh tra viên. Mặc dù vậy, chính nhà hàng của Bouttier không có khăn trải bàn, và thực khách của ông nghe nhạc rap thập niên 80 trong khi dùng bữa, thế mà nhà hàng của ông vẫn giành được một ngôi sao chưa đầy một năm sau khi khai trương. Michelin Guide khẳng định rằng một ngôi sao Michelin được trao cho thức ăn trên đĩa, không gì khác, và rằng phong cách và mức độ trang trọng hoàn toàn không ảnh hưởng đến giải thưởng.",
+            "Những ngôi sao Michelin có thể tạo nên hoặc phá vỡ sự nghiệp ẩm thực của một đầu bếp. Việc giành được một ngôi sao mang lại cho đầu bếp sự công nhận nhiều hơn, nhiều đặt bàn hơn và có thể cho phép họ tăng giá. Nhưng cũng có rủi ro mất ngôi sao, và đi kèm với đó là rất nhiều áp lực."
+          ],
+          "vocabulary": [
+            {
+              "word": "to do with (something)",
+              "definition": "related to (something)"
+            },
+            {
+              "word": "coveted",
+              "definition": "wanted by many"
+            },
+            {
+              "word": "accolade",
+              "definition": "praise or award"
+            },
+            {
+              "word": "be shrouded in mystery",
+              "definition": "not be very well understood"
+            },
+            {
+              "word": "take (something) into account",
+              "definition": "consider (something) when thinking about a situation"
+            },
+            {
+              "word": "harmony",
+              "definition": "how well things work together"
+            },
+            {
+              "word": "keep (someone) in the dark",
+              "definition": "not tell someone something"
+            },
+            {
+              "word": "play into (something)",
+              "definition": "contribute to or help support"
+            },
+            {
+              "word": "have no bearing",
+              "definition": "are not relevant"
+            },
+            {
+              "word": "make or break",
+              "definition": "make something a success or failure"
+            }
+          ],
+          "exercises": [
+            {
+              "exercise_id": 1,
+              "type": "multiple_choice",
+              "title": "Choose the correct option based on the content of the article",
+              "questions": [
+                {
+                  "question_id": 1,
+                  "question": "The Michelin brothers created a restaurant guide and then created a tyre business.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 2,
+                  "question": "Michelin stars are given to 300 restaurants per year.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "c"
+                },
+                {
+                  "question_id": 3,
+                  "question": "What makes the Michelin star rating system mysterious?",
+                  "options": [
+                    "a. The Michelin Guide doesn't share their scoring criteria.",
+                    "b. The inspectors don't say when they are going to visit the restaurant.",
+                    "c. Chefs never find out who the inspectors are."
+                  ],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 4,
+                  "question": "Chef Maxime Bouttier's restaurant has white tablecloths and piano music playing.",
+                  "options": ["a. True", "b. False", "c. Not given"],
+                  "correct_answer": "b"
+                },
+                {
+                  "question_id": 5,
+                  "question": "What does 'one' refer to in the following sentence in paragraph 4? Earning one gives a chef more recognition, more table bookings and can allow them to raise their prices.",
+                  "options": [
+                    "a. a culinary career",
+                    "b. a Michelin star",
+                    "c. a plate of food"
+                  ],
+                  "correct_answer": "b"
+                }
+              ]
+            },
+            {
+              "exercise_id": 2,
+              "type": "fill_in_blank",
+              "title": "Use the words in the box to complete the summary of the article",
+              "text": "The Michelin star is a(n) {1} that many chefs desire, but how they are awarded is {2}. Inspectors {3} factors such as the quality of ingredients and the mastery of techniques – it has nothing {4} the style or degree of formality of the restaurant. If chefs want recognition for their {5} skills, one way to do that is to earn a Michelin star.",
+              "word_bank": [
+                "culinary",
+                "kept in the dark",
+                "take into account",
+                "to do with",
+                "accolade",
+                "harmony",
+                "shrouded in mystery"
+              ],
+              "answers": {
+                "1": "accolade",
+                "2": "shrouded in mystery",
+                "3": "take into account",
+                "4": "to do with",
+                "5": "culinary"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

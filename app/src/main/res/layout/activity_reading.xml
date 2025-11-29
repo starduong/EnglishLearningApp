@@ -8,7 +8,7 @@
     android:background="#F5F5F5"
     tools:context=".view.features_home.reading.ReadingActivity">
 
-    <!-- Header Layout với shadow và border -->
+    <!-- Header Layout -->
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
@@ -43,40 +43,23 @@
             android:textColor="#000000"
             android:textSize="20sp" />
 
-        <!-- Placeholder for right side -->
         <Space
             android:layout_width="40dp"
             android:layout_height="40dp" />
 
     </LinearLayout>
 
-    <!-- Nội dung chính -->
-    <androidx.core.widget.NestedScrollView
-        android:id="@+id/scroll_content"
-        android:layout_width="match_parent"
+    <!-- ListView for articles -->
+    <ListView
+        android:id="@+id/listViewArticles"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#FAFAFA"
-        android:fillViewport="true"
+        android:divider="@null"
+        android:dividerHeight="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/header">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="16dp">
-
-            <!-- Ví dụ placeholder -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Danh sách bài đọc sẽ hiển thị ở đây..."
-                android:textColor="#666666"
-                android:textSize="16sp" />
-
-        </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
+        app:layout_constraintTop_toBottomOf="@id/header" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
