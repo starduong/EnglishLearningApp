@@ -51,6 +51,8 @@ public class UserDAO {
         values.put(DbHelper.COLUMN_FULLNAME, user.getFullname());
         values.put(DbHelper.COLUMN_BIRTH, user.getBirth());
         values.put(DbHelper.COLUMN_AVATAR, user.getAvatar());
+        values.put(DbHelper.COLUMN_ACCOUNT_TYPE, user.getAccountType());
+        values.put(DbHelper.COLUMN_PRO_EXPIRY_DATE, user.getProExpiryDate());
 
         long result = -1;
         try {
@@ -72,6 +74,8 @@ public class UserDAO {
         values.put(DbHelper.COLUMN_FULLNAME, user.getFullname());
         values.put(DbHelper.COLUMN_BIRTH, user.getBirth());
         values.put(DbHelper.COLUMN_AVATAR, user.getAvatar());
+        values.put(DbHelper.COLUMN_ACCOUNT_TYPE, user.getAccountType());
+        values.put(DbHelper.COLUMN_PRO_EXPIRY_DATE, user.getProExpiryDate());
 
         int result = 0;
         try {
@@ -81,6 +85,57 @@ public class UserDAO {
             Log.e(TAG, "Update failed", e);
         }
         return result;
+    }
+
+    // UPDATE ACCOUNT TYPE
+    public int updateAccountType(String userId, String accountType, long expiryDate) {
+        dbOpen();
+        ContentValues values = new ContentValues();
+        values.put(DbHelper.COLUMN_ACCOUNT_TYPE, accountType);
+        values.put(DbHelper.COLUMN_PRO_EXPIRY_DATE, expiryDate);
+
+        int result = 0;
+        try {
+            result = db.update(DbHelper.TABLE_USER, values,
+                    DbHelper.COLUMN_ID + "=?", new String[]{userId});
+        } catch (Exception e) {
+            Log.e(TAG, "Update account type failed", e);
+        }
+        return result;
+    }
+
+    // CHECK IF USER IS PRO
+    public boolean isUserPro(String userId) {
+        dbOpen();
+        Cursor cursor = null;
+        try {
+            String sql = "SELECT " + DbHelper.COLUMN_ACCOUNT_TYPE + ", " +
+                    DbHelper.COLUMN_PRO_EXPIRY_DATE +
+                    " FROM " + DbHelper.TABLE_USER +
+                    " WHERE " + DbHelper.COLUMN_ID + " = ?";
+
+            cursor = db.rawQuery(sql, new String[]{userId});
+
+            if (cursor.moveToFirst()) {
+                String accountType = cursor.getString(0);
+                long expiryDate = cursor.getLong(1);
+
+                // Kiểm tra loại tài khoản
+                if (User.ACCOUNT_TYPE_PRO.equals(accountType) ||
+                        User.ACCOUNT_TYPE_PREMIUM.equals(accountType)) {
+                    // Kiểm tra thời hạn nếu có
+                    if (expiryDate > 0) {
+                        return System.currentTimeMillis() <= expiryDate;
+                    }
+                    return true; // Pro vĩnh viễn
+                }
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "isUserPro error", e);
+        } finally {
+            if (cursor != null) cursor.close();
+        }
+        return false;
     }
 
     // DELETE
@@ -140,6 +195,29 @@ public class UserDAO {
         return null;
     }
 
+    // GET BY ID
+    public User getUserById(String userId) {
+        dbOpen();
+        Cursor cursor = null;
+        try {
+            cursor = db.query(
+                    DbHelper.TABLE_USER,
+                    null,
+                    DbHelper.COLUMN_ID + " = ?",
+                    new String[]{userId},
+                    null, null, null
+            );
+            if (cursor.moveToFirst()) {
+                return cursorToUser(cursor);
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "getUserById failed", e);
+        } finally {
+            if (cursor != null) cursor.close();
+        }
+        return null;
+    }
+
     // CHECK USERNAME EXISTS
     public boolean isUsernameExists(String username) {
         dbOpen();
@@ -179,7 +257,7 @@ public class UserDAO {
         }
     }
 
-    // HELPER: Chuyển Cursor → User
+    // HELPER: Chuyển Cursor → User (CẬP NHẬT)
     private User cursorToUser(Cursor cursor) {
         String id = cursor.getString(cursor.getColumnIndexOrThrow(DbHelper.COLUMN_ID));
         String username = cursor.getString(cursor.getColumnIndexOrThrow(DbHelper.COLUMN_USERNAME));
@@ -189,7 +267,10 @@ public class UserDAO {
         String fullname = cursor.getString(cursor.getColumnIndexOrThrow(DbHelper.COLUMN_FULLNAME));
         String birth = cursor.getString(cursor.getColumnIndexOrThrow(DbHelper.COLUMN_BIRTH));
         String avatar = cursor.getString(cursor.getColumnIndexOrThrow(DbHelper.COLUMN_AVATAR));
-        return new User(id, username, password, email, phone, fullname, birth, avatar);
+        String accountType = cursor.getString(cursor.getColumnIndexOrThrow(DbHelper.COLUMN_ACCOUNT_TYPE));
+        long proExpiryDate = cursor.getLong(cursor.getColumnIndexOrThrow(DbHelper.COLUMN_PRO_EXPIRY_DATE));
+
+        return new User(id, username, password, email, phone, fullname, birth, avatar, accountType, proExpiryDate);
     }
 
     // ========== USERDAO INTEGRATION ==========
@@ -218,5 +299,27 @@ public class UserDAO {
         int rows = db.update(DbHelper.TABLE_USER, values,
                 DbHelper.COLUMN_PHONE + " = ?", new String[]{phone});
         return rows > 0;
+    }
+
+    // Thêm method để lấy thông tin account type
+    public String getAccountType(String userId) {
+        dbOpen();
+        Cursor cursor = null;
+        try {
+            String sql = "SELECT " + DbHelper.COLUMN_ACCOUNT_TYPE +
+                    " FROM " + DbHelper.TABLE_USER +
+                    " WHERE " + DbHelper.COLUMN_ID + " = ?";
+
+            cursor = db.rawQuery(sql, new String[]{userId});
+
+            if (cursor.moveToFirst()) {
+                return cursor.getString(0);
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "getAccountType error", e);
+        } finally {
+            if (cursor != null) cursor.close();
+        }
+        return User.ACCOUNT_TYPE_FREE;
     }
 }

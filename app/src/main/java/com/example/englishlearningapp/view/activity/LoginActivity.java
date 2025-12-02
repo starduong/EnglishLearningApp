@@ -36,6 +36,9 @@ import com.google.firebase.auth.GoogleAuthProvider;
 public class LoginActivity extends AppCompatActivity {
 
     private static final String TAG = "LoginActivity";
+    private static final String PREFS_NAME = "english_learning_prefs";
+    private static final String KEY_USER_ID = "user_id";
+
 
     private GoogleSignInClient mGoogleSignInClient;
     private FirebaseAuth mAuth;
@@ -98,12 +101,10 @@ public class LoginActivity extends AppCompatActivity {
         String savedUsername = prefs.getString("username", "");
 
         if (isRemembered && !savedUsername.isEmpty()) {
-            Intent intent = new Intent(this, MainActivity.class);
-            Bundle bundle = new Bundle();
-            bundle.putString("username", savedUsername);
-            intent.putExtra("data", bundle);
-            startActivity(intent);
-            finish();
+            User user = userDAO.getUserByUsername(savedUsername);
+            if (user != null) {
+                goToMainActivity(user);
+            }
         }
     }
 
@@ -151,6 +152,12 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void goToMainActivity(User user) {
+        // Save user ID to SharedPreferences for AccountFragment
+        SharedPreferences sharedPreferences = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(KEY_USER_ID, user.getId());
+        editor.apply();
+
         Intent intent = new Intent(this, MainActivity.class);
         Bundle bundle = new Bundle();
         bundle.putSerializable("user", user);

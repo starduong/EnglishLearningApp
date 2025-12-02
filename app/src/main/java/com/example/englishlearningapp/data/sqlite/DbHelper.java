@@ -3,10 +3,11 @@ package com.example.englishlearningapp.data.sqlite;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 public class DbHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "english_learning.db";
-    private static final int DATABASE_VERSION = 5; // Tăng version lên 5
+    private static final int DATABASE_VERSION = 6; // Tăng version lên 6
 
     // =======================
     // TABLE NAMES
@@ -16,7 +17,7 @@ public class DbHelper extends SQLiteOpenHelper {
     public static final String TABLE_NOTIFICATION = "notification";
 
     // =======================
-    // USER COLUMNS
+    // USER COLUMNS (CẬP NHẬT)
     // =======================
     public static final String COLUMN_ID = "id";
     public static final String COLUMN_USERNAME = "username";
@@ -26,6 +27,8 @@ public class DbHelper extends SQLiteOpenHelper {
     public static final String COLUMN_FULLNAME = "fullname";
     public static final String COLUMN_BIRTH = "birth";
     public static final String COLUMN_AVATAR = "avatar";
+    public static final String COLUMN_ACCOUNT_TYPE = "account_type"; // Thêm cột mới
+    public static final String COLUMN_PRO_EXPIRY_DATE = "pro_expiry_date"; // Thêm cột mới
 
     // =======================
     // MESSAGE_CHAT COLUMNS
@@ -61,7 +64,9 @@ public class DbHelper extends SQLiteOpenHelper {
                     COLUMN_PHONE + " TEXT, " +
                     COLUMN_FULLNAME + " TEXT, " +
                     COLUMN_BIRTH + " TEXT, " +
-                    COLUMN_AVATAR + " TEXT" +
+                    COLUMN_AVATAR + " TEXT, " +
+                    COLUMN_ACCOUNT_TYPE + " TEXT DEFAULT 'FREE', " + // Thêm cột account_type
+                    COLUMN_PRO_EXPIRY_DATE + " INTEGER DEFAULT 0" + // Thêm cột pro_expiry_date
                     ")";
 
     private static final String CREATE_TABLE_MESSAGE_CHAT =
@@ -72,7 +77,6 @@ public class DbHelper extends SQLiteOpenHelper {
                     COLUMN_MESSAGE_TIMESTAMP + " INTEGER" +
                     ")";
 
-    // Tạo bảng notification với khóa ngoại user_id
     private static final String CREATE_TABLE_NOTIFICATION =
             "CREATE TABLE " + TABLE_NOTIFICATION + " (" +
                     COLUMN_NOTIFICATION_ID + " TEXT PRIMARY KEY, " +
@@ -88,7 +92,6 @@ public class DbHelper extends SQLiteOpenHelper {
                     TABLE_USER + "(" + COLUMN_ID + ") ON DELETE CASCADE" +
                     ")";
 
-    // Tạo index cho user_id để tăng tốc độ truy vấn
     private static final String CREATE_INDEX_NOTIFICATION_USER_ID =
             "CREATE INDEX idx_notification_user_id ON " + TABLE_NOTIFICATION +
                     "(" + COLUMN_NOTIFICATION_USER_ID + ")";
@@ -107,11 +110,68 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        if (oldVersion < 5) {
-            // Thêm bảng notification nếu nâng cấp từ version cũ
-            db.execSQL(CREATE_TABLE_NOTIFICATION);
-            db.execSQL(CREATE_INDEX_NOTIFICATION_USER_ID);
+        if (oldVersion < 6) {
+            // Nâng cấp từ version cũ lên version 6
+            if (oldVersion < 5) {
+                // Thêm bảng notification nếu chưa có
+                db.execSQL(CREATE_TABLE_NOTIFICATION);
+                db.execSQL(CREATE_INDEX_NOTIFICATION_USER_ID);
+            }
+
+            // Thêm cột account_type và pro_expiry_date vào bảng user
+            try {
+                db.execSQL("ALTER TABLE " + TABLE_USER + " ADD COLUMN " +
+                        COLUMN_ACCOUNT_TYPE + " TEXT DEFAULT 'FREE'");
+                db.execSQL("ALTER TABLE " + TABLE_USER + " ADD COLUMN " +
+                        COLUMN_PRO_EXPIRY_DATE + " INTEGER DEFAULT 0");
+
+                Log.d("DbHelper", "Database upgraded to version " + newVersion +
+                        " - Added account_type and pro_expiry_date columns");
+            } catch (Exception e) {
+                Log.e("DbHelper", "Error upgrading database: " + e.getMessage());
+                // Nếu lỗi, tạo lại bảng
+                recreateUserTable(db);
+            }
         }
+    }
+
+    private void recreateUserTable(SQLiteDatabase db) {
+        // Backup dữ liệu cũ
+        db.execSQL("CREATE TABLE user_backup AS SELECT * FROM " + TABLE_USER);
+
+        // Xóa bảng cũ
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER);
+
+        // Tạo bảng mới với cấu trúc mới
+        db.execSQL(CREATE_TABLE_USER);
+
+        // Copy dữ liệu từ backup
+        db.execSQL("INSERT INTO " + TABLE_USER + " (" +
+                COLUMN_ID + ", " +
+                COLUMN_USERNAME + ", " +
+                COLUMN_PASSWORD + ", " +
+                COLUMN_EMAIL + ", " +
+                COLUMN_PHONE + ", " +
+                COLUMN_FULLNAME + ", " +
+                COLUMN_BIRTH + ", " +
+                COLUMN_AVATAR + ", " +
+                COLUMN_ACCOUNT_TYPE + ", " +
+                COLUMN_PRO_EXPIRY_DATE + ") " +
+                "SELECT " +
+                COLUMN_ID + ", " +
+                COLUMN_USERNAME + ", " +
+                COLUMN_PASSWORD + ", " +
+                COLUMN_EMAIL + ", " +
+                COLUMN_PHONE + ", " +
+                COLUMN_FULLNAME + ", " +
+                COLUMN_BIRTH + ", " +
+                COLUMN_AVATAR + ", " +
+                "'FREE', " + // Giá trị mặc định cho account_type
+                "0 " + // Giá trị mặc định cho pro_expiry_date
+                "FROM user_backup");
+
+        // Xóa bảng backup
+        db.execSQL("DROP TABLE IF EXISTS user_backup");
     }
 
     // Thêm method để xóa notification cũ (30 ngày trước)

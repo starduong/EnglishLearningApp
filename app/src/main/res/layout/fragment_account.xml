@@ -39,9 +39,9 @@
                 style="?attr/materialIconButtonStyle"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:contentDescription="Thông báo"
                 app:icon="@drawable/ic_notifications_black_24dp"
-                app:iconTint="#666666"
-                android:contentDescription="Thông báo" />
+                app:iconTint="#666666" />
 
 
             <com.google.android.material.button.MaterialButton
@@ -49,9 +49,9 @@
                 style="?attr/materialIconButtonStyle"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:contentDescription="Cài đặt"
                 app:icon="@drawable/ic_setting_black_24dp"
-                app:iconTint="#666666"
-                android:contentDescription="Cài đặt" />
+                app:iconTint="#666666" />
 
         </LinearLayout>
 
@@ -60,25 +60,50 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="2dp">
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@android:color/white">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="16dp">
+                android:padding="20dp">
 
-                <!-- Avatar -->
-                <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:background="@drawable/bg_circle_primary"
-                    android:padding="12dp"
-                    android:src="@drawable/ic_person_black_24dp"
-                    app:tint="#FFFFFF" />
+                <!-- Avatar với badge Pro -->
+                <RelativeLayout
+                    android:layout_width="72dp"
+                    android:layout_height="72dp">
 
-                <!-- Thông tin -->
+                    <!-- Avatar circle -->
+                    <ImageView
+                        android:id="@+id/ivAvatar"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:background="@drawable/bg_circle_gradient"
+                        android:padding="16dp"
+                        android:src="@drawable/ic_person_black_24dp"
+                        app:tint="#FFFFFF" />
+
+                    <!-- Badge Pro -->
+                    <TextView
+                        android:id="@+id/tvProBadge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/bg_pro_badge"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="2dp"
+                        android:text="PRO"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+                <!-- Thông tin chi tiết -->
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -86,35 +111,139 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/tvFullName"
+                    <!-- Tên và loại tài khoản -->
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#333333"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
 
+                        <TextView
+                            android:id="@+id/tvFullName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="#1A1A1A"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvAccountType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:background="@drawable/bg_account_type"
+                            android:paddingHorizontal="10dp"
+                            android:paddingVertical="4dp"
+                            android:text="FREE"
+                            android:textColor="#2196F3"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <!-- Email -->
                     <TextView
                         android:id="@+id/tvEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
+                        android:layout_marginTop="6dp"
                         android:textColor="#666666"
                         android:textSize="14sp" />
 
+                    <!-- Thời hạn Pro -->
                     <TextView
-                        android:id="@+id/tvId"
+                        android:id="@+id/tvProExpiry"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:textColor="#999999"
-                        android:textSize="12sp" />
+                        android:textColor="#4CAF50"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <!-- ID và các thông tin khác -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/tvId"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="#999999"
+                            android:textSize="12sp" />
+
+                        <!-- Cập nhật profile -->
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnEditProfile"
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="32dp"
+                            android:layout_marginStart="8dp"
+                            android:text="Chỉnh sửa"
+                            android:textSize="12sp"
+                            app:cornerRadius="16dp"
+                            app:strokeColor="@color/colorPrimary"
+                            app:strokeWidth="1dp" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
+
+        <!-- Card Upgrade to Pro -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF5D6"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- Nút Upgrade to Pro -->
+                <TextView
+                    android:id="@+id/btnUpgradePro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_button_pro"
+                    android:gravity="center"
+                    android:paddingLeft="32dp"
+                    android:paddingTop="12dp"
+                    android:paddingRight="32dp"
+                    android:paddingBottom="12dp"
+                    android:text="UPGRADE TO PRO"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Text mô tả -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:text="Get special PRO features now!"
+                    android:textColor="#6E6E6E"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
 
         <!-- Hỗ trợ -->
         <com.google.android.material.card.MaterialCardView

@@ -15,4 +15,12 @@
     <color name="gray_600">#757575</color>
     <color name="gray_400">#BDBDBD</color>
     <color name="gray_50">#FAFAFA</color>
+
+    <!-- 🔥 Các màu bạn cần thêm -->
+    <color name="orange">#FFA726</color>        <!-- Cam cho PRO -->
+    <color name="deep_orange">#FF5722</color>  <!-- Cam đậm cho PREMIUM -->
+    <color name="blue">#2196F3</color>         <!-- Màu FREE -->
+    <color name="red">#F44336</color>          <!-- Hết hạn -->
+    <color name="green">#4CAF50</color>        <!-- Hạn dùng còn hiệu lực -->
+    <color name="gold">#FFD700</color>         <!-- Vĩnh viễn -->
 </resources>

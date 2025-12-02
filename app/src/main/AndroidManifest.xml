@@ -15,6 +15,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EnglishLearningApp">
         <activity
+            android:name=".view.activity.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.UpgradeProActivity"
+            android:exported="true">
+
+            <!-- Thêm intent filter để xử lý callback từ VNPay -->
+            <intent-filter>
+                <data
+                    android:host="vnpay_return"
+                    android:scheme="myapp" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".view.features_home.reading.ArticleReadingDetailActivity"
             android:exported="false" />
         <activity
