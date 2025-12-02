@@ -7,7 +7,7 @@ import android.util.Log;
 
 public class DbHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "english_learning.db";
-    private static final int DATABASE_VERSION = 6; // Tăng version lên 6
+    private static final int DATABASE_VERSION = 7;
 
     // =======================
     // TABLE NAMES
@@ -50,6 +50,39 @@ public class DbHelper extends SQLiteOpenHelper {
     public static final String COLUMN_NOTIFICATION_TIMESTAMP = "timestamp";
     public static final String COLUMN_NOTIFICATION_ACTION = "action";
     public static final String COLUMN_NOTIFICATION_ICON = "icon";
+
+    // =======================
+    // WORD TABLE
+    // =======================
+    public static final String TABLE_WORD = "word";
+
+    // Word columns
+    public static final String COLUMN_WORD_ID = "word_id";
+    public static final String COLUMN_USER_ID = "user_id"; // Khóa ngoại
+    public static final String COLUMN_ENGLISH_WORD = "english_word";
+    public static final String COLUMN_PRONUNCIATION = "pronunciation";
+    public static final String COLUMN_VIETNAMESE_MEANING = "vietnamese_meaning";
+    public static final String COLUMN_ENGLISH_DEFINITION = "english_definition";
+    public static final String COLUMN_EXAMPLE_SENTENCE = "example_sentence";
+    public static final String COLUMN_EXAMPLE_TRANSLATION = "example_translation";
+    public static final String COLUMN_PART_OF_SPEECH = "part_of_speech";
+    public static final String COLUMN_SYNONYMS = "synonyms";
+    public static final String COLUMN_ANTONYMS = "antonyms";
+    public static final String COLUMN_TAGS = "tags";
+    public static final String COLUMN_IMAGE_URL = "image_url";
+    public static final String COLUMN_AUDIO_URL = "audio_url";
+    public static final String COLUMN_DIFFICULTY_LEVEL = "difficulty_level";
+    public static final String COLUMN_MASTERY_LEVEL = "mastery_level";
+    public static final String COLUMN_ADDED_DATE = "added_date";
+    public static final String COLUMN_LAST_REVIEWED = "last_reviewed";
+    public static final String COLUMN_NEXT_REVIEW_DATE = "next_review_date";
+    public static final String COLUMN_REVIEW_COUNT = "review_count";
+    public static final String COLUMN_CORRECT_COUNT = "correct_count";
+    public static final String COLUMN_WRONG_COUNT = "wrong_count";
+    public static final String COLUMN_IS_FAVORITE = "is_favorite";
+    public static final String COLUMN_NOTES = "notes";
+    public static final String COLUMN_PRIORITY = "priority";
+    public static final String COLUMN_SOURCE = "source";
 
     // =======================
     // CREATE TABLE QUERIES
@@ -96,6 +129,52 @@ public class DbHelper extends SQLiteOpenHelper {
             "CREATE INDEX idx_notification_user_id ON " + TABLE_NOTIFICATION +
                     "(" + COLUMN_NOTIFICATION_USER_ID + ")";
 
+    // Tạo bảng Word
+    private static final String CREATE_TABLE_WORD =
+            "CREATE TABLE " + TABLE_WORD + " (" +
+                    COLUMN_WORD_ID + " TEXT PRIMARY KEY, " +
+                    COLUMN_USER_ID + " TEXT, " +
+                    COLUMN_ENGLISH_WORD + " TEXT, " +
+                    COLUMN_PRONUNCIATION + " TEXT, " +
+                    COLUMN_VIETNAMESE_MEANING + " TEXT, " +
+                    COLUMN_ENGLISH_DEFINITION + " TEXT, " +
+                    COLUMN_EXAMPLE_SENTENCE + " TEXT, " +
+                    COLUMN_EXAMPLE_TRANSLATION + " TEXT, " +
+                    COLUMN_PART_OF_SPEECH + " TEXT, " +
+                    COLUMN_SYNONYMS + " TEXT, " +
+                    COLUMN_ANTONYMS + " TEXT, " +
+                    COLUMN_TAGS + " TEXT, " +
+                    COLUMN_IMAGE_URL + " TEXT, " +
+                    COLUMN_AUDIO_URL + " TEXT, " +
+                    COLUMN_DIFFICULTY_LEVEL + " INTEGER DEFAULT 2, " +
+                    COLUMN_MASTERY_LEVEL + " INTEGER DEFAULT 0, " +
+                    COLUMN_ADDED_DATE + " INTEGER, " +
+                    COLUMN_LAST_REVIEWED + " INTEGER, " +
+                    COLUMN_NEXT_REVIEW_DATE + " INTEGER, " +
+                    COLUMN_REVIEW_COUNT + " INTEGER DEFAULT 0, " +
+                    COLUMN_CORRECT_COUNT + " INTEGER DEFAULT 0, " +
+                    COLUMN_WRONG_COUNT + " INTEGER DEFAULT 0, " +
+                    COLUMN_IS_FAVORITE + " INTEGER DEFAULT 0, " +
+                    COLUMN_NOTES + " TEXT, " +
+                    COLUMN_PRIORITY + " INTEGER DEFAULT 3, " +
+                    COLUMN_SOURCE + " TEXT, " +
+                    "FOREIGN KEY(" + COLUMN_USER_ID + ") REFERENCES " +
+                    TABLE_USER + "(" + COLUMN_ID + ") ON DELETE CASCADE" +
+                    ")";
+
+    // Tạo index cho user_id và next_review_date
+    private static final String CREATE_INDEX_WORD_USER_ID =
+            "CREATE INDEX idx_word_user_id ON " + TABLE_WORD +
+                    "(" + COLUMN_USER_ID + ")";
+
+    private static final String CREATE_INDEX_WORD_NEXT_REVIEW =
+            "CREATE INDEX idx_word_next_review ON " + TABLE_WORD +
+                    "(" + COLUMN_NEXT_REVIEW_DATE + ")";
+
+    private static final String CREATE_INDEX_WORD_MASTERY =
+            "CREATE INDEX idx_word_mastery ON " + TABLE_WORD +
+                    "(" + COLUMN_MASTERY_LEVEL + ")";
+
     public DbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -106,34 +185,48 @@ public class DbHelper extends SQLiteOpenHelper {
         db.execSQL(CREATE_TABLE_MESSAGE_CHAT);
         db.execSQL(CREATE_TABLE_NOTIFICATION);
         db.execSQL(CREATE_INDEX_NOTIFICATION_USER_ID);
+        db.execSQL(CREATE_TABLE_WORD);
+        db.execSQL(CREATE_INDEX_WORD_USER_ID);
+        db.execSQL(CREATE_INDEX_WORD_NEXT_REVIEW);
+        db.execSQL(CREATE_INDEX_WORD_MASTERY);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+
+        // --- VERSION 5: Thêm bảng Notification ---
+        if (oldVersion < 5) {
+            db.execSQL(CREATE_TABLE_NOTIFICATION);
+            db.execSQL(CREATE_INDEX_NOTIFICATION_USER_ID);
+            Log.d("DbHelper", "Upgraded to version 5: Created Notification table");
+        }
+
+        // --- VERSION 6: Thêm cột account_type & pro_expiry_date ---
         if (oldVersion < 6) {
-            // Nâng cấp từ version cũ lên version 6
-            if (oldVersion < 5) {
-                // Thêm bảng notification nếu chưa có
-                db.execSQL(CREATE_TABLE_NOTIFICATION);
-                db.execSQL(CREATE_INDEX_NOTIFICATION_USER_ID);
-            }
-
-            // Thêm cột account_type và pro_expiry_date vào bảng user
             try {
-                db.execSQL("ALTER TABLE " + TABLE_USER + " ADD COLUMN " +
-                        COLUMN_ACCOUNT_TYPE + " TEXT DEFAULT 'FREE'");
-                db.execSQL("ALTER TABLE " + TABLE_USER + " ADD COLUMN " +
-                        COLUMN_PRO_EXPIRY_DATE + " INTEGER DEFAULT 0");
+                db.execSQL("ALTER TABLE " + TABLE_USER + " ADD COLUMN "
+                        + COLUMN_ACCOUNT_TYPE + " TEXT DEFAULT 'FREE'");
 
-                Log.d("DbHelper", "Database upgraded to version " + newVersion +
-                        " - Added account_type and pro_expiry_date columns");
+                db.execSQL("ALTER TABLE " + TABLE_USER + " ADD COLUMN "
+                        + COLUMN_PRO_EXPIRY_DATE + " INTEGER DEFAULT 0");
+
+                Log.d("DbHelper", "Upgraded to version 6: Added account_type, pro_expiry_date");
             } catch (Exception e) {
-                Log.e("DbHelper", "Error upgrading database: " + e.getMessage());
-                // Nếu lỗi, tạo lại bảng
+                Log.e("DbHelper", "Error upgrading to v6: " + e.getMessage());
                 recreateUserTable(db);
             }
         }
+
+        // --- VERSION 7: Thêm bảng Word ---
+        if (oldVersion < 7) {
+            db.execSQL(CREATE_TABLE_WORD);
+            db.execSQL(CREATE_INDEX_WORD_USER_ID);
+            db.execSQL(CREATE_INDEX_WORD_NEXT_REVIEW);
+            db.execSQL(CREATE_INDEX_WORD_MASTERY);
+            Log.d("DbHelper", "Upgraded to version 7: Added Word table & indexes");
+        }
     }
+
 
     private void recreateUserTable(SQLiteDatabase db) {
         // Backup dữ liệu cũ

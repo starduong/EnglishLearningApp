@@ -23,4 +23,17 @@
     <color name="red">#F44336</color>          <!-- Hết hạn -->
     <color name="green">#4CAF50</color>        <!-- Hạn dùng còn hiệu lực -->
     <color name="gold">#FFD700</color>         <!-- Vĩnh viễn -->
+
+    <color name="orange_light">#FFF8E1</color>
+    <color name="yellow_light">#FFFDE7</color>
+    <color name="green_light">#E8F5E9</color>
+    <color name="purple_light">#F3E5F5</color>
+    <color name="image_placeholder">#F5F5F5</color>
+
+    <color name="favorite_red">#F44336</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="error_red">#F44336</color>
+    <color name="urgent_red">#FF5252</color>
+    <color name="primary_blue">#2196F3</color>
 </resources>
