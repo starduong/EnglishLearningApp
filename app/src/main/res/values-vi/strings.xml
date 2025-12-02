@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">EnglishLearningApp</string>
+    <string name="default_web_client_id">MY_CLIENT_ID</string>
+    <string name="title_app_name">English Learning</string>
+
+    <!-- Settings -->
+    <string name="dark_mode">Chế độ tối</string>
+    <string name="dark_mode_description">Bật/tắt giao diện tối</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="notifications">Thông báo</string>
+    <string name="notification_description">Nhận thông báo học tập hàng ngày</string>
+    <string name="notification_time">Giờ thông báo</string>
+
+    <!-- Language -->
+    <string name="english">Tiếng Anh</string>
+    <string name="vietnamese">Tiếng Việt</string>
+
+    <!-- Dialog -->
+    <string name="select_language">Chọn ngôn ngữ</string>
+    <string name="select_notification_time">Chọn giờ thông báo</string>
+    <string name="select_custom_time">Chọn giờ tùy chỉnh</string>
+    <string name="custom">Tùy chỉnh</string>
+    <string name="cancel">Hủy</string>
+
+    <!-- Messages -->
+    <string name="notifications_enabled">Đã bật thông báo</string>
+    <string name="notifications_disabled">Đã tắt thông báo</string>
+    <string name="notification_time_set">Đã đặt thông báo lúc %s</string>
+    <string name="language_changed_to">Đã đổi ngôn ngữ sang %s</string>
+
+    <!-- Bottom Navigation -->
+    <string name="navigation_home">Trang chủ</string>
+    <string name="navigation_word">Kho từ</string>
+    <string name="navigation_account">Tài khoản</string>
+
+    <!-- Header & Navigation -->
+    <string name="settings">Cài đặt</string>
+    <string name="back">Quay lại</string>
+
+    <!-- Home Fragment -->
+    <string name="dictionary_title">Từ điển Anh - Việt</string>
+    <string name="search_hint">Nhập từ cần tra cứu...</string>
+    <string name="learning_resources">Nguồn học</string>
+
+    <!-- Menu cards -->
+    <string name="grammar">Ngữ pháp</string>
+    <string name="listening">Bài nghe</string>
+    <string name="reading">Bài đọc</string>
+    <string name="vocabulary">Bộ từ vựng</string>
+    <string name="exercise">Bài tập</string>
+    <string name="news">Tin tức</string>
+    <string name="video">Video</string>
+    <string name="game">Game</string>
+    <string name="translate">Dịch văn bản</string>
+    <string name="chat_learning">Chat học tập</string>
+    <string name="book">Sách</string>
+    <string name="browser">Trình duyệt</string>
+    <string name="epub">EPUB</string>
+    <string name="blog">Blog</string>
+
+    <!-- Dictionary result -->
+    <string name="example">Ví dụ:</string>
+    <string name="no_result_found">Không tìm thấy kết quả</string>
+
+    <!-- Common -->
+    <string name="loading">Đang tải...</string>
+    <string name="error">Đã có lỗi xảy ra</string>
+    <string name="retry">Thử lại</string>
+    <string name="ok">Đồng ý</string>
+
+    <string name="no_notifications">Không có thông báo</string>
+    <string name="no_notifications_description">Bạn chưa có thông báo nào</string>
+    <string name="mark_all_as_read">Đánh dấu tất cả đã đọc</string>
+    <string name="clear_all">Xóa tất cả</string>
+    <string name="delete_notification">Xóa thông báo</string>
+    <string name="delete_notification_confirmation">Bạn có chắc chắn muốn xóa thông báo này?</string>
+    <string name="clear_all_notifications">Xóa tất cả thông báo</string>
+    <string name="clear_all_confirmation">Bạn có chắc chắn muốn xóa tất cả thông báo?</string>
+    <string name="notification_deleted">Đã xóa thông báo</string>
+    <string name="all_notifications_deleted">Đã xóa tất cả thông báo</string>
+    <string name="marked_all_as_read">Đã đánh dấu tất cả đã đọc</string>
+</resources>

@@ -60,7 +60,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends BaseFragment {
 
     // Header buttons
     private MaterialButton btnNotification, btnSetting;

@@ -5,20 +5,19 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5"
     tools:context=".view.activity.NotificationsActivity">
 
-    <!-- Header Layout với shadow và border -->
+    <!-- Header Layout -->
     <LinearLayout
         android:id="@+id/header"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:background="#FFFFFF"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface"
         android:elevation="4dp"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingStart="16dp"
-        android:paddingEnd="16dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -31,52 +30,99 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="Quay lại"
             android:src="@drawable/ic_arrow_back_24dp"
-            app:tint="#000000" />
+            app:tint="?attr/colorOnSurface" />
 
         <!-- Title -->
         <TextView
+            android:id="@+id/tvTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
             android:layout_weight="1"
-            android:gravity="center"
-            android:text="Thông báo"
-            android:textColor="#000000"
-            android:textSize="20sp" />
+            android:text="@string/notifications"
+            android:textColor="?attr/colorOnSurface"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-        <!-- Placeholder for right side -->
-        <Space
+        <!-- Clear All Button -->
+        <ImageButton
+            android:id="@+id/btnClearAll"
             android:layout_width="40dp"
-            android:layout_height="40dp" />
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Xóa tất cả"
+            android:src="@drawable/ic_clear_all_24"
+            app:tint="?attr/colorOnSurface" />
+
+        <!-- Mark All Read Button -->
+        <ImageButton
+            android:id="@+id/btnMarkAllRead"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Đánh dấu tất cả đã đọc"
+            android:src="@drawable/ic_check_list_24"
+            app:tint="?attr/colorOnSurface" />
 
     </LinearLayout>
 
-    <!-- Nội dung chính -->
-    <androidx.core.widget.NestedScrollView
-        android:id="@+id/scroll_content"
-        android:layout_width="match_parent"
+    <!-- Empty State -->
+    <LinearLayout
+        android:id="@+id/layoutEmpty"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#FAFAFA"
-        android:fillViewport="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/header">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/ic_notifications_black_24dp"
+            app:tint="?attr/colorOnSurfaceVariant" />
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="16dp">
+            android:text="@string/no_notifications"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-            <!-- Ví dụ placeholder -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Danh sách thông báo sẽ hiển thị ở đây..."
-                android:textColor="#666666"
-                android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/no_notifications_description"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:textSize="14sp" />
 
-        </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+    <!-- Danh sách thông báo -->
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:padding="8dp"
+            android:scrollbars="vertical" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

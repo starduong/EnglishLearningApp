@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5"
+    android:background="?attr/colorSurface"
     android:padding="16dp"
     tools:context=".view.fragment.HomeFragment">
 
@@ -25,8 +25,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="English Learning"
-                android:textColor="#2196F3"
+                android:text="@string/title_app_name"
+                android:textColor="?attr/colorPrimary"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -40,9 +40,9 @@
                 style="?attr/materialIconButtonStyle"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:contentDescription="Thông báo"
+                android:contentDescription="@string/notifications"
                 app:icon="@drawable/ic_notifications_black_24dp"
-                app:iconTint="#666666" />
+                app:iconTint="?attr/colorOnSurfaceVariant" />
 
 
             <com.google.android.material.button.MaterialButton
@@ -50,9 +50,9 @@
                 style="?attr/materialIconButtonStyle"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:contentDescription="Cài đặt"
+                android:contentDescription="@string/settings"
                 app:icon="@drawable/ic_setting_black_24dp"
-                app:iconTint="#666666" />
+                app:iconTint="?attr/colorOnSurfaceVariant" />
 
         </LinearLayout>
 
@@ -74,7 +74,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
-                    android:text="Từ điển Anh - Việt"
+                    android:text="@string/dictionary_title"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -95,7 +95,7 @@
                         android:id="@+id/etDictionarySearch"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Nhập từ cần tra cứu..."
+                        android:hint="@string/search_hint"
                         android:imeOptions="actionSearch"
                         android:maxLines="1"
                         android:padding="12dp" />
@@ -133,7 +133,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="Hello"
-                                android:textColor="#2196F3"
+                                android:textColor="?attr/colorPrimary"
                                 android:textSize="24sp"
                                 android:textStyle="bold" />
 
@@ -146,7 +146,7 @@
                                 android:paddingHorizontal="8dp"
                                 android:paddingVertical="4dp"
                                 android:text="/həˈləʊ/"
-                                android:textColor="#666666"
+                                android:textColor="?attr/colorOnSurfaceVariant"
                                 android:textSize="14sp" />
 
                         </LinearLayout>
@@ -165,7 +165,7 @@
                                 android:layout_height="32dp"
                                 android:background="?attr/selectableItemBackgroundBorderless"
                                 android:src="@drawable/ic_volume_up"
-                                app:tint="#2196F3" />
+                                app:tint="?attr/colorPrimary" />
 
                             <ProgressBar
                                 android:id="@+id/progressBarDictionary"
@@ -195,7 +195,7 @@
                                 android:layout_marginBottom="8dp"
                                 android:lineSpacingExtra="4dp"
                                 android:text="Hello! or an equivalent greeting."
-                                android:textColor="#333333"
+                                android:textColor="?attr/colorOnSurface"
                                 android:textSize="16sp" />
 
                             <TextView
@@ -204,7 +204,7 @@
                                 android:layout_height="wrap_content"
                                 android:lineSpacingExtra="4dp"
                                 android:text="Xin chào! hoặc một lời chào tương đương."
-                                android:textColor="#2196F3"
+                                android:textColor="?attr/colorPrimary"
                                 android:textSize="15sp"
                                 android:textStyle="italic" />
 
@@ -234,7 +234,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="8dp"
-                                android:text="📝 Ví dụ:"
+                                android:text="@string/example"
                                 android:textColor="#1976D2"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
@@ -246,7 +246,7 @@
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="monospace"
                                 android:text="Hello, how are you?"
-                                android:textColor="#333333"
+                                android:textColor="?attr/colorOnSurface"
                                 android:textSize="14sp" />
 
                             <TextView
@@ -255,7 +255,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontStyle="italic"
                                 android:text="Xin chào, bạn khỏe không?"
-                                android:textColor="#666666"
+                                android:textColor="?attr/colorOnSurfaceVariant"
                                 android:textSize="13sp" />
 
                         </LinearLayout>
@@ -279,7 +279,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="16dp"
-                            android:text="Không tìm thấy kết quả"
+                            android:text="@string/error"
                             android:textColor="#F44336"
                             android:textSize="14sp"
                             android:visibility="gone" />
@@ -297,14 +297,14 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginBottom="16dp"
-            android:background="#E0E0E0" />
+            android:background="?attr/colorOutlineVariant" />
 
         <!-- Nguồn học section -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Nguồn học"
+            android:text="@string/learning_resources"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -313,7 +313,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginBottom="16dp"
-            android:background="#E0E0E0" />
+            android:background="?attr/colorOutlineVariant" />
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
@@ -359,6 +359,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -374,13 +375,14 @@
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
                         android:src="@drawable/ic_grammar"
-                        app:tint="#2196F3" />
+                        app:tint="?attr/colorPrimary" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Ngữ pháp"
+                        android:text="@string/grammar"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -398,6 +400,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -419,7 +422,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Bài nghe"
+                        android:text="@string/listening"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -437,6 +441,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -458,7 +463,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Bài đọc"
+                        android:text="@string/reading"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -476,6 +482,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -497,7 +504,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Bộ từ vựng"
+                        android:text="@string/vocabulary"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -525,6 +533,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -546,7 +555,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Bài tập"
+                        android:text="@string/exercise"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -564,6 +574,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -585,7 +596,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Tin tức"
+                        android:text="@string/news"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -603,6 +615,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -624,7 +637,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Video"
+                        android:text="@string/video"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -642,6 +656,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -663,7 +678,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Game"
+                        android:text="@string/game"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -681,6 +697,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -702,7 +719,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Dịch văn bản"
+                        android:text="@string/translate"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -720,6 +738,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -741,7 +760,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Chat học tập"
+                        android:text="@string/chat_learning"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -769,6 +789,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -790,7 +811,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Sách"
+                        android:text="@string/book"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -808,6 +830,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -823,13 +846,14 @@
                         android:layout_height="40dp"
                         android:layout_marginBottom="8dp"
                         android:src="@drawable/ic_browser"
-                        app:tint="#2196F3" />
+                        app:tint="?attr/colorPrimary" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Trình duyệt"
+                        android:text="@string/browser"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -847,6 +871,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -868,7 +893,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="EPUB"
+                        android:text="@string/epub"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>
@@ -886,6 +912,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="1dp">
 
@@ -908,7 +935,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Blog"
+                        android:text="@string/blog"
+                        android:textColor="?attr/colorOnSurface"
                         android:textSize="12sp" />
 
                 </LinearLayout>

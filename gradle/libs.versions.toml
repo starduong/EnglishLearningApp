@@ -23,6 +23,7 @@ playServicesAuth = "21.4.0"
 playServicesMlkitTextRecognition = "19.0.1"
 recyclerview = "1.4.0"
 retrofit = "3.0.0"
+swiperefreshlayout = "1.1.0"
 translate = "17.0.3"
 
 [libraries]
@@ -54,6 +55,7 @@ play-services-auth = { module = "com.google.android.gms:play-services-auth", ver
 play-services-mlkit-text-recognition = { module = "com.google.android.gms:play-services-mlkit-text-recognition", version.ref = "playServicesMlkitTextRecognition" }
 recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
 translate = { module = "com.google.mlkit:translate", version.ref = "translate" }
 
 [plugins]

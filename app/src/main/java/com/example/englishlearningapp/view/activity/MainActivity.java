@@ -14,7 +14,7 @@ import com.example.englishlearningapp.R;
 import com.example.englishlearningapp.view.adapter.ViewPagerAdapter;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     ViewPager viewPager;
     BottomNavigationView mBottomNavigationView;
@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
         // Bắt sự kiện vuốt ViewPager -> đổi tab trên BottomNavigation
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {}
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+            }
 
             @Override
             public void onPageSelected(int position) {
@@ -53,7 +54,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onPageScrollStateChanged(int state) {}
+            public void onPageScrollStateChanged(int state) {
+            }
         });
 
         // 🔹 Bắt sự kiện nhấn vào item trên BottomNavigation -> đổi trang trong ViewPager
