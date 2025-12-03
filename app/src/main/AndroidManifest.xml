@@ -15,9 +15,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EnglishLearningApp">
         <activity
+            android:name=".view.features_home.news.NewsDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".view.features_home.news.NewsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
             android:name=".view.activity.WordReviewActivity"
-            android:windowSoftInputMode="adjustResize"
-            android:exported="false" />
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".view.activity.WordDetailActivity"
             android:exported="false" />

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="Refresh"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_filter"
+        android:title="Filter by Category"
+        app:showAsAction="never">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_level_all"
+                    android:title="All News" />
+                <item
+                    android:id="@+id/action_level_1"
+                    android:title="Education - Learning" />
+                <item
+                    android:id="@+id/action_level_2"
+                    android:title="Technology" />
+                <item
+                    android:id="@+id/action_level_3"
+                    android:title="Business" />
+                <item
+                    android:id="@+id/action_level_sport"
+                    android:title="Sports" />
+                <item
+                    android:id="@+id/action_level_culture"
+                    android:title="Culture" />
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
