@@ -31,61 +31,66 @@ android {
 
 dependencies {
 
-    // UI
-    implementation libs.cardview
+    /* ----------------------------- UI Components ----------------------------- */
     implementation libs.appcompat
     implementation libs.material
-    implementation libs.activity
     implementation libs.constraintlayout
+    implementation libs.cardview
     implementation libs.recyclerview
-    testImplementation libs.junit
-    androidTestImplementation libs.ext.junit
-    androidTestImplementation libs.espresso.core
-    implementation libs.bcrypt
+    implementation libs.swiperefreshlayout
+    implementation libs.flexbox
+    implementation libs.circleimageview   // Avatar tròn
 
-    // ✅ Thêm Firebase BoM (Bill of Materials)
-    implementation platform(libs.firebase.bom)
-    // ✅ Thêm các SDK Firebase bạn muốn dùng
-    // Firebase Analytics
-    implementation libs.firebase.analytics
-    //Firebase Authentication (đăng nhập)
-    implementation libs.firebase.auth
-    //Cloud Firestore (cơ sở dữ liệu)
-    implementation libs.firebase.firestore
-    // Nếu dùng Realtime Database
-    implementation libs.firebase.database
-    // Nếu dùng Cloud Messaging (thông báo đẩy)
-    implementation libs.firebase.messaging
-    // Google Sign-In
-    implementation libs.play.services.auth
+    /* ------------------------------- AndroidX ------------------------------- */
+    implementation libs.activity
+    implementation libs.core
+    implementation libs.core.ktx
+    implementation libs.annotation
 
-    implementation libs.gson
-    implementation libs.glide
-    annotationProcessor libs.compiler
-
-    implementation(libs.translate)
-    implementation(libs.play.services.mlkit.text.recognition)
-
-    implementation libs.retrofit
-    implementation libs.converter.simplexml
-    implementation libs.converter.gson
-    implementation libs.logging.interceptor
-    implementation libs.okhttp
+    /* --------------------------- Architecture (MVVM) ------------------------- */
+    implementation libs.lifecycle.viewmodel
+    implementation libs.lifecycle.livedata
     implementation libs.lifecycle.viewmodel.ktx
     implementation libs.lifecycle.livedata.ktx
 
-    implementation libs.flexbox
-    implementation libs.swiperefreshlayout
+    /* ----------------------------- Firebase SDK ----------------------------- */
+    implementation platform(libs.firebase.bom) // Firebase BoM: phải đặt trước
 
-    // CircleImageView for round avatar
-    implementation libs.circleimageview
+    // Firebase cơ bản
+    implementation libs.firebase.analytics
+    implementation libs.firebase.auth
+    implementation libs.firebase.firestore
+    implementation libs.firebase.database
+    implementation libs.firebase.messaging
 
-    // XML parsing
-    implementation libs.annotation
-    implementation libs.core
+    // Google Sign-In
+    implementation libs.play.services.auth
+
+    /* ------------------------------- Networking ------------------------------ */
+    implementation libs.retrofit
+    implementation libs.converter.gson
+    implementation libs.converter.simplexml
     implementation libs.retrofit.converter
+    implementation libs.logging.interceptor
+    implementation libs.okhttp
 
-    // Text to speech
-    implementation libs.core.ktx
+    /* ----------------------------- JSON & Image ----------------------------- */
+    implementation libs.gson
+    implementation libs.glide
+    annotationProcessor libs.compiler    // Glide compiler
 
+    /* -------------------------- Machine Learning ----------------------------- */
+    implementation libs.translate
+    implementation libs.play.services.mlkit.text.recognition
+
+    /* -------------------------- Crypto & Security ---------------------------- */
+    implementation libs.bcrypt
+
+    /* ------------------------------ Media / Video ---------------------------- */
+    implementation libs.androidyoutubeplayer.core  // YouTube Player (thay thế API cũ)
+
+    /* -------------------------------- Testing ------------------------------- */
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
 }
