@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#38A169"
+        android:pathData="M60,10 A50,50 0 1,1 60,110 A50,50 0 1,1 60,10" />
+
+    <!-- Electric car body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,65 L95,65 Q100,65 100,70 L100,80 Q100,85 95,85 L25,85 Q20,85 20,80 L20,70 Q20,65 25,65" />
+
+    <!-- Car windows -->
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M30,55 L90,55 Q92,55 92,57 L92,65 L30,65 L30,57 Q30,55 30,55" />
+
+    <!-- Wheels -->
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M35,77 A8,8 0 1,1 35,93 A8,8 0 1,1 35,77" />
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M85,77 A8,8 0 1,1 85,93 A8,8 0 1,1 85,77" />
+
+    <!-- Electric bolt symbol -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M55,30 L65,40 L60,40 L68,50 L58,40 L63,40 L55,30" />
+
+    <!-- Battery indicator -->
+    <path
+        android:fillColor="#48BB78"
+        android:pathData="M70,25 L85,25 L85,35 L70,35 Z" />
+    <path
+        android:fillColor="#48BB78"
+        android:pathData="M85,27 L87,27 L87,33 L85,33 Z" />
+</vector>

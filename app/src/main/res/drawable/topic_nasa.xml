@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#1A202C"
+        android:pathData="M60,10 A50,50 0 1,1 60,110 A50,50 0 1,1 60,10" />
+
+    <!-- Space shuttle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,20 L70,35 L70,70 L50,70 L50,35 Z" />
+    
+    <!-- Shuttle wings -->
+    <path
+        android:fillColor="#E53E3E"
+        android:pathData="M35,50 L50,55 L50,65 L35,60 Z" />
+    <path
+        android:fillColor="#E53E3E"
+        android:pathData="M70,55 L85,50 L85,60 L70,65 Z" />
+
+    <!-- NASA logo circle -->
+    <path
+        android:fillColor="#3182CE"
+        android:pathData="M60,35 A10,10 0 1,1 60,55 A10,10 0 1,1 60,35" />
+
+    <!-- Stars -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M30,25 L32,30 L37,30 L33,33 L35,38 L30,35 L25,38 L27,33 L23,30 L28,30 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M85,30 L87,35 L92,35 L88,38 L90,43 L85,40 L80,43 L82,38 L78,35 L83,35 Z" />
+
+    <!-- Planet -->
+    <path
+        android:fillColor="#FFA500"
+        android:pathData="M40,74 A6,6 0 1,1 40,86 A6,6 0 1,1 40,74" />
+    
+    <!-- Saturn rings -->
+    <path
+        android:fillColor="#FFA500"
+        android:pathData="M30,80 Q40,77 50,80 Q40,83 30,80" />
+</vector>

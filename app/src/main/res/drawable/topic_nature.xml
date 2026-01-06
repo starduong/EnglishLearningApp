@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#48BB78"
+        android:pathData="M60,10 A50,50 0 1,1 60,110 A50,50 0 1,1 60,10" />
+
+    <!-- Tree trunk -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M55,55 L65,55 L67,95 L53,95 Z" />
+
+    <!-- Tree crown -->
+    <path
+        android:fillColor="#228B22"
+        android:pathData="M60,27 A18,18 0 1,1 60,63 A18,18 0 1,1 60,27" />
+
+    <!-- Leaves -->
+    <path
+        android:fillColor="#32CD32"
+        android:pathData="M45,32 A8,8 0 1,1 45,48 A8,8 0 1,1 45,32" />
+    <path
+        android:fillColor="#32CD32"
+        android:pathData="M75,32 A8,8 0 1,1 75,48 A8,8 0 1,1 75,32" />
+    <path
+        android:fillColor="#32CD32"
+        android:pathData="M60,24 A6,6 0 1,1 60,36 A6,6 0 1,1 60,24" />
+
+    <!-- Mountain -->
+    <path
+        android:fillColor="#A0AEC0"
+        android:pathData="M15,80 L35,50 L55,80 Z" />
+    <path
+        android:fillColor="#CBD5E0"
+        android:pathData="M25,65 L35,50 L45,65 Z" />
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FED7AA"
+        android:pathData="M85,17 A8,8 0 1,1 85,33 A8,8 0 1,1 85,17" />
+
+    <!-- Grass -->
+    <path
+        android:fillColor="#38A169"
+        android:pathData="M20,95 Q25,90 30,95 M40,95 Q45,90 50,95 M70,95 Q75,90 80,95 M90,95 Q95,90 100,95" />
+</vector>

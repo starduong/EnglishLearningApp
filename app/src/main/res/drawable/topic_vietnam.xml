@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#E53E3E"
+        android:pathData="M60,10 A50,50 0 1,1 60,110 A50,50 0 1,1 60,10" />
+
+    <!-- Vietnamese flag star -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M60,35 L63.5,45 L75,45 L66,52 L69.5,62 L60,55 L50.5,62 L54,52 L45,45 L56.5,45 Z" />
+
+    <!-- Traditional Vietnamese hat (Nón lá) silhouette -->
+    <path
+        android:fillColor="#8FBC8F"
+        android:pathData="M30,75 Q60,65 90,75 Q60,85 30,75" />
+
+    <!-- Small decorative elements -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M40,83 A2,2 0 1,1 40,87 A2,2 0 1,1 40,83" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M80,83 A2,2 0 1,1 80,87 A2,2 0 1,1 80,83" />
+</vector>

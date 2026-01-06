@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#D69E2E"
+        android:pathData="M60,10 A50,50 0 1,1 60,110 A50,50 0 1,1 60,10" />
+
+    <!-- Lion head -->
+    <path
+        android:fillColor="#F6AD55"
+        android:pathData="M60,30 A25,25 0 1,1 60,80 A25,25 0 1,1 60,30" />
+
+    <!-- Lion eyes -->
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M52,47 A3,3 0 1,1 52,53 A3,3 0 1,1 52,47" />
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M68,47 A3,3 0 1,1 68,53 A3,3 0 1,1 68,47" />
+
+    <!-- Lion nose -->
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M60,58 L57,62 L63,62 Z" />
+
+    <!-- Simple decoration -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M40,85 L45,80 L50,85 L45,90 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M70,85 L75,80 L80,85 L75,90 Z" />
+</vector>

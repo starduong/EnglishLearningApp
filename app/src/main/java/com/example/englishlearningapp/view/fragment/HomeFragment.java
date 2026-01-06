@@ -44,7 +44,10 @@ import com.example.englishlearningapp.view.features_home.dictionary.Phonetic;
 import com.example.englishlearningapp.view.features_home.dictionary.TranslationRepository;
 import com.example.englishlearningapp.view.features_home.epub.EpubActivity;
 import com.example.englishlearningapp.view.features_home.exercises.ExerciseActivity;
+import com.example.englishlearningapp.view.features_home.exercises.ExerciseDetailActivity;
+import com.example.englishlearningapp.view.features_home.exercises.ExerciseListActivity;
 import com.example.englishlearningapp.view.features_home.game.GameActivity;
+import com.example.englishlearningapp.view.features_home.game.GameListActivity;
 import com.example.englishlearningapp.view.features_home.grammar.GrammarActivity;
 import com.example.englishlearningapp.view.features_home.listening.ListeningActivity;
 import com.example.englishlearningapp.view.features_home.news.NewsActivity;
@@ -810,7 +813,7 @@ public class HomeFragment extends BaseFragment {
     }
 
     private void openExerciseActivity() {
-        Intent intent = new Intent(getActivity(), ExerciseActivity.class);
+        Intent intent = new Intent(getActivity(), ExerciseListActivity.class);
         startActivity(intent);
     }
 
@@ -825,7 +828,7 @@ public class HomeFragment extends BaseFragment {
     }
 
     private void openGameActivity() {
-        Intent intent = new Intent(getActivity(), GameActivity.class);
+        Intent intent = new Intent(getActivity(), GameListActivity.class);
         startActivity(intent);
     }
 

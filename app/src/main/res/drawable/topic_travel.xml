@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#3182CE"
+        android:pathData="M60,10 A50,50 0 1,1 60,110 A50,50 0 1,1 60,10" />
+
+    <!-- Airplane silhouette -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,55 L60,45 L90,55 L75,65 L60,60 L45,65 Z" />
+    
+    <!-- Airplane wings -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,50 L75,50 L80,55 L40,55 Z" />
+
+    <!-- Suitcase -->
+    <path
+        android:fillColor="#FFA500"
+        android:pathData="M40,75 L80,75 L80,90 L40,90 Z" />
+    
+    <!-- Suitcase handle -->
+    <path
+        android:fillColor="#FFA500"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M55,75 L55,70 L65,70 L65,75" />
+
+    <!-- Travel pin/location marker -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M75,25 A8,8 0 1,1 75,41 L75,35 Z" />
+</vector>

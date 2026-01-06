@@ -4,6 +4,7 @@
     <!-- ✅ Quyền cần thiết cho Firebase và mạng -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -54,6 +55,22 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".view.features_home.game.WordScrambleActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".view.features_home.game.GameListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".view.features_home.game.GameSettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".view.features_home.game.HangmanActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
             android:name=".view.features_home.reading.ArticleReadingDetailActivity"
             android:exported="false" />
         <activity
@@ -94,6 +111,15 @@
             android:exported="false" />
         <activity
             android:name=".view.features_home.exercises.ExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.exercises.ExerciseDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.exercises.ExerciseListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.features_home.exercises.FillBlanksActivity"
             android:exported="false" />
         <activity
             android:name=".view.features_home.vocabulary.VocabularyActivity"
