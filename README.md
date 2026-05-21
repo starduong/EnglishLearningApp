@@ -1,4 +1,4 @@
-# 📚 English Learning App - Hướng Dẫn Chi Tiết
+# English Learning App
 
 <div align="center">
 
@@ -9,7 +9,7 @@
 ![Gradle](https://img.shields.io/badge/Gradle%208.x-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
 
-**🚀 Ứng dụng học tiếng Anh toàn diện với 15+ módule, AI/ML, video YouTube, trò chơi tương tác, và thanh toán VNPay**
+**🚀 Ứng dụng học tiếng Anh toàn diện với 15+ módule, video YouTube, trò chơi tương tác, và thanh toán VNPay**
 
 [📱 Giao Diện](#-giao-diện--chức-năng-chi-tiết) • [🛠️ Công Nghệ](#-công-nghệ--stack-công-nghệ) • [📁 Cấu Trúc](#-cấu-trúc-chi-tiết-dự-án) • [📖 Hướng Dẫn](#-hướng-dẫn-cài-đặt--chạy) • [🏗️ Kiến Trúc](#-kiến-trúc-ứng-dụng)
 
@@ -19,7 +19,7 @@
 
 ## 📖 Giới Thiệu Dự Án
 
-**English Learning App** là ứng dụng Android hiện đại, tích hợp **15+ módule học tập đa dạng**, sử dụng công nghệ AI/ML, video YouTube, trò chơi tương tác, và hệ thống thanh toán VNPay. Ứng dụng được thiết kế với **MVVM Architecture**, đảm bảo code sạch, dễ bảo trì và mở rộng.
+**English Learning App** là ứng dụng Android hiện đại, tích hợp **15+ módule học tập đa dạng**, video YouTube, trò chơi tương tác, và hệ thống thanh toán VNPay. Ứng dụng được thiết kế với **MVVM Architecture**, đảm bảo code sạch, dễ bảo trì và mở rộng.
 
 ### ✨ Điểm Nổi Bật
 
@@ -31,6 +31,9 @@
 📖 Bài Đọc EPUB       │  🌍 Dịch Song Ngữ       │  📊 Phân Tích Tiến Độ
 ```
 
+<div align="center">
+<img src="./demo/overview.png" width="450" alt="App Overview" />
+</div>
 ---
 
 ## 📱 Giao Diện & Chức Năng Chi Tiết
@@ -39,28 +42,10 @@
 
 #### 1️⃣ **Login Screen**
 
-```
-┌─────────────────────────┐
-│    [LOGO]               │
-│  English Learning       │
-├─────────────────────────┤
-│ Email / Username        │
-│ [________________]      │
-│                         │
-│ Password                │
-│ [________________]  👁  │
-│                         │
-│ ☑ Remember Me          │
-│ Forgot Password?        │
-├─────────────────────────┤
-│ [LOGIN BUTTON]         │
-│ ─── OR ───              │
-│ 🔵 Sign in with Google │
-│                         │
-│ Don't have account?     │
-│ [SIGN UP HERE]         │
-└─────────────────────────┘
-```
+<div align="center">
+<img src="./demo/login.png" width="280" alt="login" />
+<img src="./demo/register.png" width="280" alt="login" />
+</div>
 
 **Chức Năng:**
 
@@ -92,27 +77,6 @@
 <img src="./demo/home2.png" width="280" alt="Home 2" />
 </div>
 
-```
-┌──────────────────────────┐
-│ English Learning 🔔 ⚙️  │  ← Header với notification & settings
-├──────────────────────────┤
-│ 📚 DANH MỤC CHÍNH       │
-├──────────────────────────┤
-│ 📝 Từ Vựng    🎯 Ngữ Pháp│
-│ 👂 Bài Nghe   📖 Bài Đọc  │
-│ ✏️ Bài Tập    📰 Tin Tức  │
-│ 🎮 Trò Chơi   🎥 Video   │
-│ 💭 Dịch       📖 Blog    │
-│ 📚 Sách       💬 Chat    │
-│ 📄 EPUB       🌐 Browser │
-├──────────────────────────┤
-│ 📊 Tiến độ học tập       │
-│ [===██████░░░] 60%       │
-├──────────────────────────┤
-│ 🏠 Home  📚 Words 👤 Account│  ← Bottom Navigation
-└──────────────────────────┘
-```
-
 **Bottom Navigation Bar:**
 
 - 🏠 **Home** - Menu chính với 15+ tính năng
@@ -124,27 +88,10 @@
 ### 📚 **Mô-đul 1: Quản Lý Từ Vựng (Vocabulary)**
 
 <div align="center">
-<img src="./demo/tu_vung.png" width="280" alt="Vocabulary" />
+<img src="./demo/vocabulary_1.png" width="280" alt="Vocabulary" />
+<img src="./demo/vocabulary_2.png" width="280" alt="Vocabulary" />
+<img src="./demo/vocabulary_3.png" width="280" alt="Vocabulary" />
 </div>
-
-#### **Giao Diện:**
-
-```
-┌──────────────────────────┐
-│ ← Bộ Từ Vựng       ➕    │
-├──────────────────────────┤
-│ 📂 Chủ Đề 1 (25 từ)     │
-│    • apple - táo        │
-│    • book - sách        │
-│ 📂 Chủ Đề 2 (30 từ)     │
-│    • cat - mèo          │
-│    • dog - chó          │
-│ 📂 Chủ Đề 3 (20 từ)     │
-│    • happy - vui        │
-│    • sad - buồn         │
-├──────────────────────────┤
-│ [Thêm Từ Mới]           │
-└──────────────────────────┘
 ```
 
 **Tính Năng Chi Tiết:**
@@ -171,26 +118,8 @@
 ### 🎯 **Mô-đul 2: Bài Tập Ngữ Pháp (Grammar)**
 
 <div align="center">
-<img src="./demo/ngu_phap.png" width="280" alt="Grammar" />
+<img src="./demo/grammar.png" width="280" alt="Grammar" />
 </div>
-
-#### **Giao Diện:**
-
-```
-┌──────────────────────────┐
-│ ← Ngữ Pháp              │
-├──────────────────────────┤
-│ 📚 Cơ Bản               │
-│    ▶ Giới Từ (9 bài)   │
-│    ▶ Thì Hiện Tại (8)  │
-│ 📚 Trung Cấp            │
-│    ▶ Thì Quá Khứ (7)   │
-│    ▶ Câu Phức (6)      │
-│ 📚 Nâng Cao             │
-│    ▶ Cấu Trúc Lưỡng Tính (5) │
-│    ▶ Mệnh Đề Quan Hệ (4)│
-└──────────────────────────┘
-```
 
 **Tính Năng Chi Tiết:**
 
@@ -207,52 +136,9 @@
 ### 👂 **Mô-đul 3: Bài Nghe (Listening)**
 
 <div align="center">
-<img src="./demo/bai_nghe.png" width="280" alt="Listening" />
+<img src="./demo/listening_1.png" width="280" alt="Listening" />
+<img src="./demo/listening_2.png" width="280" alt="Listening" />
 </div>
-
-#### **Giao Diện Danh Sách:**
-
-```
-┌──────────────────────────┐
-│ ← Bài Nghe              │
-├──────────────────────────┤
-│ 🎤 Level 1 - Beginner   │
-│    📄 Lesson 1: Greetings│
-│    📄 Lesson 2: Numbers  │
-│ 🎤 Level 2 - Intermediate│
-│    📄 Lesson 1: Shopping │
-│    📄 Lesson 2: Directions│
-│ 🎤 Level 3 - Advanced   │
-│    📄 Lesson 1: Interview│
-│    📄 Lesson 2: News    │
-└──────────────────────────┘
-```
-
-#### **Giao Diện Chi Tiết:**
-
-```
-┌──────────────────────────┐
-│ ← Lesson: Greetings     │
-├──────────────────────────┤
-│ 🎵 [▶ PLAY] [⏸] [⏹]    │
-│ ⏱ 02:45 / 03:00         │
-│ 🔊 [─────●───────] Vol  │
-├──────────────────────────┤
-│ 📝 TRANSCRIPT:           │
-│ "Hello, how are you?"   │
-│ "I'm fine, thank you"   │
-├──────────────────────────┤
-│ 📚 TỪNG CỤM TỪ:        │
-│ • hello - xin chào      │
-│ • how - như thế nào     │
-├──────────────────────────┤
-│ ❓ CÂU HỎI:            │
-│ 1. What is he saying?   │
-│    A) Hi  B) Hello  C)Hi│
-│ 2. How many people?     │
-│    A) 1  B) 2  C) 3    │
-└──────────────────────────┘
-```
 
 **Tính Năng:**
 
@@ -267,53 +153,10 @@
 ### 📖 **Mô-đul 4: Bài Đọc Hiểu (Reading)**
 
 <div align="center">
-<img src="./demo/bai_doc.png" width="280" alt="Reading" />
+<img src="./demo/reading_1.png" width="280" alt="Reading" />
+<img src="./demo/reading_2.png" width="280" alt="Reading" />
+<img src="./demo/reading_3.png" width="280" alt="Reading" />
 </div>
-
-#### **Giao Diện:**
-
-```
-┌──────────────────────────┐
-│ ← Bài Đọc Hiểu          │
-├──────────────────────────┤
-│ 📂 Level 1 (30 bài)     │
-│    📄 Bài 1: Animals    │
-│    📄 Bài 2: Weather    │
-│    📄 Bài 3: Food       │
-│ 📂 Level 2 (25 bài)     │
-│ 📂 Level 3 (20 bài)     │
-├──────────────────────────┤
-│ [+] Thêm Bài Đọc       │
-└──────────────────────────┘
-```
-
-#### **Chi Tiết Bài Đọc:**
-
-```
-┌──────────────────────────┐
-│ ← Animals: Lesson 1      │
-├──────────────────────────┤
-│ 📖 NỘI DUNG:            │
-│ "Dogs are animals that  │
-│  live with humans. They │
-│  are loyal and friendly.│
-│  Most dogs love to play │
-│  and exercise. They are │
-│  known as man's best    │
-│  friend..."             │
-├──────────────────────────┤
-│ 📚 TỪ VỰNG TRONG BÀI:  │
-│ • loyal (hoàn cảnh)     │
-│ • friendly (thân thiện)  │
-│ • exercise (tập thể dục) │
-├──────────────────────────┤
-│ ✏️ BÀI TẬP:           │
-│ 1. Điền chỗ trống       │
-│ 2. Trắc nghiệm         │
-│ 3. Sắp xếp câu         │
-│ [SUBMIT]               │
-└──────────────────────────┘
-```
 
 **Tính Năng:**
 
@@ -328,71 +171,10 @@
 ### ✏️ **Mô-đul 5: Bài Tập (Exercises)**
 
 <div align="center">
-<img src="./demo/thuc_hanh.png" width="280" alt="Exercises" />
+<img src="./demo/exercise_1.png" width="280" alt="" />
+<img src="./demo/exercise_2.png" width="280" alt="" />
+<img src="./demo/exercise_3.png" width="280" alt="" />
 </div>
-
-#### **Danh Sách Bài Tập:**
-
-```
-┌──────────────────────────┐
-│ ← Bài Tập              │
-├──────────────────────────┤
-│ ✏️ ĐIỀN CHỖ TRỐNG      │
-│    📋 Tập 1: Động từ   │
-│    📋 Tập 2: Tính từ   │
-│    📋 Tập 3: Danh từ   │
-│ 🎯 TRẮC NGHIỆM        │
-│    📋 Tập 1: Từ vựng   │
-│    📋 Tập 2: Ngữ Pháp  │
-│    📋 Tập 3: Đọc Hiểu  │
-│ 📖 BÀI ĐỌC TẬP LUYỆN  │
-│    📄 Bài 1: Shopping  │
-│    📄 Bài 2: Travel    │
-│    📄 Bài 3: Business  │
-└──────────────────────────┘
-```
-
-#### **Chi Tiết Bài Tập:**
-
-```
-┌──────────────────────────┐
-│ ← Điền Chỗ Trống: Bài 1 │
-├──────────────────────────┤
-│ Câu 1 (1/5):            │
-│ "I ___ (to eat) dinner" │
-│ [____________]          │
-│ 📝 Gợi ý: chia động từ │
-│                         │
-│ [PREVIOUS]  [NEXT]     │
-├──────────────────────────┤
-│ Câu 2 (2/5):            │
-│ "The weather is ___    │
-│  (rain) today"          │
-│ [____________]          │
-│                         │
-│ [PREVIOUS]  [NEXT]     │
-└──────────────────────────┘
-```
-
-**Bài Trắc Nghiệm:**
-
-```
-┌──────────────────────────┐
-│ ← Trắc Nghiệm: Bài 1   │
-├──────────────────────────┤
-│ Câu 1 (1/10):            │
-│ "What's the past tense  │
-│  of 'go'?"              │
-│                         │
-│ A) ☐ Goed              │
-│ B) ☑ Went              │
-│ C) ☐ Going             │
-│ D) ☐ Goes              │
-│                         │
-│ [SUBMIT] → Correct! ✅ │
-│ [NEXT QUESTION]        │
-└──────────────────────────┘
-```
 
 **Tính Năng:**
 
@@ -407,81 +189,9 @@
 ### 🎮 **Mô-đul 6: Trò Chơi Tương Tác (Games)**
 
 <div align="center">
-<img src="./demo/game1.png" width="280" alt="Game Selection" />
+<img src="./demo/game_1.png" width="280" alt="" />
+<img src="./demo/game_2.png" width="280" alt="" />
 </div>
-
-#### **Lựa Chọn Trò Chơi:**
-
-```
-┌──────────────────────────┐
-│ ← Trò Chơi              │
-├──────────────────────────┤
-│ 🎯 [HANGMAN]            │
-│    "Đoán chữ cái"       │
-│    Độ Khó: ★★☆☆☆      │
-│    [PLAY]               │
-│                         │
-│ 🔀 [WORD SCRAMBLE]      │
-│    "Xếp chữ lại"        │
-│    Độ Khó: ★★★☆☆      │
-│    [PLAY]               │
-│                         │
-│ ⚙️ [GAME SETTINGS]     │
-│    - Độ khó (Easy/Hard) │
-│    - Chủ đề              │
-│    - Âm thanh            │
-│    [SETTINGS]           │
-└──────────────────────────┘
-```
-
-#### **🎯 Hangman - Đoán Chữ:**
-
-```
-┌──────────────────────────┐
-│ ← Hangman (Level 1)     │
-├──────────────────────────┤
-│ SCORE: 150              │
-│ LIVES: ❤️ ❤️ ❤️       │
-│                         │
-│     _ _ _ _ _ _ _       │
-│     (7 chữ)             │
-│                         │
-│ ĐÃ ĐOÁN:                │
-│ A E I O U R T N        │
-│                         │
-│ 🔤 Nhập chữ:           │
-│ [S]                     │
-│                         │
-│ [GUESS]  [HINT]  [QUIT]│
-├──────────────────────────┤
-│ Đúng rồi! Tiếp tục nào! │
-└──────────────────────────┘
-```
-
-#### **🔀 Word Scramble - Xếp Chữ:**
-
-```
-┌──────────────────────────┐
-│ ← Word Scramble (L2)    │
-├──────────────────────────┤
-│ SCORE: 280              │
-│ TIME: ⏱ 2:45            │
-│                         │
-│ Sắp xếp lại các chữ:   │
-│ [A] [T] [C] [E]        │
-│                         │
-│ Đáp án:                 │
-│ [_ _ _ _]              │
-│                         │
-│ 💡 Định nghĩa:          │
-│ "Con vật có bốn chân"   │
-│                         │
-│ [SUBMIT]  [HINT]       │
-│                         │
-│ Tuyệt vời! Câu trả lời: │
-│ "CAT" - Mèo ✅         │
-└──────────────────────────┘
-```
 
 **Tính Năng Trò Chơi:**
 | Trò Chơi | Cách Chơi | Điểm | Độ Khó |
@@ -492,63 +202,6 @@
 ---
 
 ### 📰 **Mô-đul 7: Tin Tức Tiếng Anh (News)**
-
-#### **Danh Sách Tin Tức:**
-
-```
-┌──────────────────────────┐
-│ ← Tin Tức              │
-├──────────────────────────┤
-│ 📰 Breaking: New AI... │
-│    [Hình] Đây là tin tức│
-│    2 giờ trước          │
-│    👁 1.2K  💬 45      │
-│                         │
-│ 📰 Technology: Apple... │
-│    [Hình] Nội dung tin  │
-│    4 giờ trước          │
-│    👁 2.3K  💬 78      │
-│                         │
-│ 📰 Sports: World Cup... │
-│    [Hình] Nội dung tin  │
-│    6 giờ trước          │
-│    👁 5.6K  💬 234     │
-│                         │
-│ 📰 Health: Exercise... │
-│    [Hình] Nội dung tin  │
-│    8 giờ trước          │
-│    👁 892  💬 12       │
-└──────────────────────────┘
-```
-
-#### **Chi Tiết Tin Tức:**
-
-```
-┌──────────────────────────┐
-│ ← Breaking: New AI...   │
-├──────────────────────────┤
-│ 📰 Breaking News        │
-│                         │
-│ 🖼️ [Hình tin tức]      │
-│                         │
-│ Tiêu đề: "New AI Model  │
-│  Breaks Records"        │
-│                         │
-│ Thời gian: 2 giờ trước │
-│ Nguồn: TechNews API    │
-│                         │
-│ 📝 NỘI DUNG:            │
-│ "A new artificial      │
-│  intelligence model has │
-│  achieved breakthrough  │
-│  results in natural    │
-│  language processing..."│
-│                         │
-│ 🔗 [ĐỌC BÀI GỐC]       │
-│ 💾 [LƯU BÀI VIẾT]      │
-│ 📤 [CHIA SẺ]           │
-└──────────────────────────┘
-```
 
 **Tính Năng:**
 
@@ -562,54 +215,9 @@
 
 ### 🎥 **Mô-đul 8: Video Học Tập (Video)**
 
-#### **Danh Sách Video:**
-
-```
-┌──────────────────────────┐
-│ ← Video Học Tập        │
-├──────────────────────────┤
-│ 🎬 [Video Thumbnail]    │
-│    "English for Beginners"│
-│    👁 45.2K | ⭐ 4.8   │
-│    [WATCH]              │
-│                         │
-│ 🎬 [Video Thumbnail]    │
-│    "Pronunciation Tips"  │
-│    👁 23.1K | ⭐ 4.9   │
-│    [WATCH]              │
-│                         │
-│ 🎬 [Video Thumbnail]    │
-│    "Grammar Essentials"  │
-│    👁 56.7K | ⭐ 4.7   │
-│    [WATCH]              │
-└──────────────────────────┘
-```
-
-#### **Video Player:**
-
-```
-┌──────────────────────────┐
-│ ← "English for Beginners"
-├──────────────────────────┤
-│ 🎥 [─────────●───────]  │
-│   02:45 / 10:30  [Full] │
-│ [▶ Mute] [Subs] [Share]│
-├──────────────────────────┤
-│ 📝 MÔ TẢ:               │
-│ "Learn basic English   │
-│  phrases for everyday  │
-│  conversations..."     │
-│                         │
-│ 📚 TỪ VỰNG TRONG VIDEO: │
-│ • Hello - Xin chào    │
-│ • Thank you - Cảm ơn  │
-│ • Goodbye - Tạm biệt  │
-│                         │
-│ 💬 BÌNH LUẬN:          │
-│ "Great content!" - John │
-│ "Very useful!" - Mary  │
-└──────────────────────────┘
-```
+<div align="center">
+<img src="./demo/video.png" width="280" alt="" />
+</div>
 
 **Tính Năng:**
 
@@ -624,40 +232,9 @@
 ### 🌐 **Mô-đul 9: Dịch Song Ngữ (Bilingual)**
 
 <div align="center">
-<img src="./demo/dich.png" width="280" alt="Translation" />
+<img src="./demo/search.png" width="280" alt="" />
+<img src="./demo/translation.png" width="280" alt="" />
 </div>
-
-#### **Giao Diện:**
-
-```
-┌──────────────────────────┐
-│ ← Dịch Song Ngữ        │
-├──────────────────────────┤
-│ Từ: [English ▼]        │
-│ Sang: [Tiếng Việt ▼]   │
-│                         │
-│ 📝 NHẬP VĂN BẢN:       │
-│ ┌────────────────────┐ │
-│ │Hello, how are you? │ │
-│ │                    │ │
-│ │                    │ │
-│ └────────────────────┘ │
-│                         │
-│ [DỊCH]                 │
-├──────────────────────────┤
-│ ✅ KẾT QUẢ DỊCH:       │
-│ "Xin chào, bạn khỏe?"  │
-│                         │
-│ 🔊 [PHÁT ÂM]           │
-│ 💾 [LƯU]               │
-│ 📤 [CHIA SẺ]           │
-│                         │
-│ 🕐 LỊCH SỬ:             │
-│ • "Good morning"        │
-│ • "Thank you"           │
-│ • "How are you"         │
-└──────────────────────────┘
-```
 
 **Tính Năng:**
 
@@ -669,6 +246,12 @@
 - 🔗 **API dịch** Google Translate
 
 ---
+
+### 🌐 **Mô-đul 10: Chatbot**
+
+<div align="center">
+<img src="./demo/chatbot.png" width="280" alt="" />
+</div>
 
 ### 📖 **Các Mô-đul Bổ Sung**
 
@@ -687,138 +270,33 @@
 
 #### **Account Fragment:**
 
-```
-┌──────────────────────────┐
-│ 👤 TÀI KHOẢN            │
-├──────────────────────────┤
-│ 🖼️ [Avatar Tròn]        │
-│  Nguyễn Văn A            │
-│  nguyena@email.com       │
-│                         │
-│ [CHỈNH SỬA HỒ SƠ]      │
-│ [ĐỔI MẬT KHẨU]         │
-│ [NÂNG CẤP PRO]          │
-│ [THÔNG BÁO]             │
-│ [CÀI ĐẶT]               │
-│ [ĐĂNG XUẤT]             │
-│ [XÓA TÀI KHOẢN]         │
-└──────────────────────────┘
-```
+<div align="center">
+<img src="./demo/account.png" width="280" alt="" />
+</div>
 
 #### **Settings Screen:**
 
-```
-┌──────────────────────────┐
-│ ← Cài Đặt              │
-├──────────────────────────┤
-│ 🌓 HIỂN THỊ             │
-│    Chế Độ Tối     🔘 OFF│
-│    Kích Thước Chữ  [📝]  │
-│                         │
-│ 🔔 THÔNG BÁO            │
-│    ☑️ Thông báo FCM    │
-│    ☑️ Nhắc nhở học tập  │
-│    ☑️ Chia sẻ bạn bè   │
-│                         │
-│ 🌍 NGÔN NGỮ             │
-│    Ngôn ngữ: [English▼] │
-│    Khu vực: [Vietnam ▼] │
-│                         │
-│ 🔐 BẢNG MẬT KHẨU       │
-│    Xác thực khuôn mặt ☑️ │
-│    Xác thực vân tay ☑️  │
-│                         │
-│ 📊 LƯU TRỮ              │
-│    Dung lượng: 245 MB   │
-│    [CLEAR CACHE]        │
-│    [CLEAR DATA]         │
-└──────────────────────────┘
-```
+<div align="center">
+<img src="./demo/setting.png" width="280" alt="" />
+</div>
 
 #### **Edit Profile Screen:**
 
-```
-┌──────────────────────────┐
-│ ← Chỉnh Sửa Hồ Sơ      │
-├──────────────────────────┤
-│ 🖼️ [Chọn Ảnh Đại Diện]  │
-│  [Ảnh Tròn]             │
-│                         │
-│ Tên Đầy Đủ:             │
-│ [Nguyễn Văn A_________] │
-│                         │
-│ Email:                  │
-│ [nguyena@email.com____] │
-│                         │
-│ Số Điện Thoại:          │
-│ [0901234567____________]│
-│                         │
-│ Ngày Sinh:              │
-│ [01/01/1990___________] │
-│                         │
-│ Giới Tính:              │
-│ [● Nam  ○ Nữ  ○ Khác] │
-│                         │
-│ [SAVE CHANGES]  [CANCEL]│
-└──────────────────────────┘
-```
+<div align="center">
+<img src="./demo/edit_infor.png" width="280" alt="" />
+</div>
 
 #### **Upgrade Pro Screen:**
 
-```
-┌──────────────────────────┐
-│ ← Nâng Cấp Premium      │
-├──────────────────────────┤
-│ 💎 GÓI PREMIUM          │
-│                         │
-│ ✨ LỢI ÍCH:             │
-│ ✅ Unlimited Exercises  │
-│ ✅ Ads-Free            │
-│ ✅ Download Content    │
-│ ✅ Priority Support    │
-│ ✅ Certificate (Pro)   │
-│                         │
-│ 💰 GIÁ:                │
-│ 29,900 VND / Tháng     │
-│                         │
-│ 📅 HẠN DỤC:             │
-│ [Monthly ▼] [Yearly ▼]  │
-│                         │
-│ 💳 THANH TOÁN:          │
-│ ☑️ VNPay               │
-│ ☐ Credit Card          │
-│ ☐ Apple Pay            │
-│                         │
-│ [UPGRADE NOW]  [CANCEL] │
-│                         │
-│ 🤝 Bạn đang dùng: FREE │
-└──────────────────────────┘
-```
+<div align="center">
+<img src="./demo/update.png" width="280" alt="" />
+</div>
 
 #### **Notifications Screen:**
 
-```
-┌──────────────────────────┐
-│ ← Thông Báo            │
-├──────────────────────────┤
-│ 📬 HÔMSEA (3 New)      │
-│                         │
-│ 🔔 Hãy hoàn thành bài  │
-│    tập hôm nay!         │
-│    ✕ Hôm qua           │
-│                         │
-│ 🏆 Bạn đã lọt Top 10!  │
-│    Trong Game Word     │
-│    Scramble hôm nay     │
-│    ✕ 2 ngày trước      │
-│                         │
-│ 💎 Giảm 20% Premium!   │
-│    Nâng cấp ngay nào!   │
-│    ✕ 3 ngày trước      │
-│                         │
-│ ☑️ Đọc | ✕ Xóa         │
-└──────────────────────────┘
-```
+<div align="center">
+<img src="./demo/notifications.png" width="280" alt="" />
+</div>
 
 ---
 
@@ -1192,85 +670,15 @@ assets/
 
 ### **MVVM Architecture Pattern**
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    📱 UI LAYER (View)                            │
-│  Activities & Fragments - Hiển thị dữ liệu & nhận input         │
-│                    (LoginActivity, MainActivity, Fragments)      │
-└────────────────────────┬────────────────────────────────────────┘
-                         │
-                         │ Observable (LiveData)
-                         │
-┌────────────────────────▼────────────────────────────────────────┐
-│              🔄 VIEWMODEL LAYER (Presentation Logic)             │
-│  - Xử lý logic UI                                                │
-│  - Quản lý LiveData                                              │
-│  - Tương tác với Repository                                      │
-│              (UserViewModel, WordViewModel, etc)                 │
-└────────────────────────┬────────────────────────────────────────┘
-                         │
-                         │ Callback/Interface
-                         │
-┌────────────────────────▼────────────────────────────────────────┐
-│              📦 REPOSITORY LAYER (Business Logic)                │
-│  - Cung cấp dữ liệu                                              │
-│  - Quyết định nguồn dữ liệu (Local vs Remote)                   │
-│  - Xử lý lỗi                                                     │
-│              (UserRepository, VocabularyRepository, etc)         │
-└────────────────────────┬────────────────────────────────────────┘
-                         │
-         ┌───────────────┼───────────────┐
-         │               │               │
-┌────────▼───┐  ┌────────▼────┐  ┌────────▼──────┐
-│  🗄️ LOCAL   │  │ 🌐 REMOTE  │  │  📡 API      │
-│  Database   │  │  Firebase   │  │  Retrofit    │
-│  (Room)     │  │  (Firestore)│  │  (REST)      │
-└─────────────┘  └─────────────┘  └──────────────┘
-```
+<div align="center">
+<img src="./demo/mvvm.png" width="600" alt="mvvm" />
+</div>
 
-### **Data Flow Example: Login**
+### **Data Flow: Login**
 
-```
-1. User nhập Username/Password
-        ↓
-2. LoginActivity gọi LoginViewModel.login(username, password)
-        ↓
-3. ViewModel gọi UserRepository.login(...)
-        ↓
-4. Repository gọi FirebaseAuth.signIn()
-        ↓
-5. Firebase trả về User object
-        ↓
-6. Repository trả về Result<User>
-        ↓
-7. ViewModel cập nhật LiveData<Result>
-        ↓
-8. Activity observe LiveData & cập nhật UI
-        ↓
-9. Nếu thành công → Navigate to MainActivity
-   Nếu thất bại → Show error message
-```
-
-### **Real-time Data Sync (Listening Module Example)**
-
-```
-ListeningActivity
-        │
-        ↓ observe LiveData
-ListeningViewModel
-        │
-        ↓ call repository
-ListeningRepository
-        │
-        ├→ Firebase Firestore
-        │   (Query listening/articles)
-        │   ↓
-        │   Realtime updates via SnapshotListener
-        │
-        └→ Update LiveData
-            ↓
-            Activity UI refresh automatically
-```
+<div align="center">
+<img src="./demo/login_exe.png" alt="" />
+</div>
 
 ---
 
@@ -1393,25 +801,6 @@ https://console.cloud.google.com/
 ✅ Certificate Pinning (OkHttp)
 ```
 
-### **DO's & DON'Ts**
-
-```
-✅ DO:
-  - Store sensitive data trong EncryptedSharedPreferences
-  - Use Firebase Authentication (server-validated)
-  - Enable ProGuard trên Release builds
-  - Validate tất cả user input
-  - Update dependencies regularly
-
-❌ DON'T:
-  - Hardcode API keys/secrets trong code
-  - Store passwords in SharedPreferences
-  - Disable certificate pinning
-  - Commit google-services.json (có secrets)
-  - Log sensitive information
-  - Use deprecated libraries
-```
-
 ### **Security Checklist**
 
 - [ ] Update Firebase BoM
@@ -1530,50 +919,11 @@ javaVersion = "VERSION_11"
 
 ---
 
-## 🤝 Đóng Góp
-
-```bash
-# 1. Fork Repository
-# 2. Create Feature Branch
-git checkout -b feature/YourFeature
-
-# 3. Commit Changes
-git commit -m "Add YourFeature"
-
-# 4. Push to Branch
-git push origin feature/YourFeature
-
-# 5. Open Pull Request
-# Describe changes, reference issues
-```
-
-### **Code Style**
-
-```java
-// Use Java naming conventions
-public class VocabularyViewModel extends ViewModel { }
-private LiveData<List<Word>> words;
-
-// Add comments untuk complex logic
-// Implement proper error handling
-// Write unit tests
-```
-
----
-
-## 📜 License
-
-MIT License - Xem [LICENSE](LICENSE) file chi tiết.
-
----
-
 ## 👥 Team & Contact
 
-- **Developer:** Your Name
-- **Email:** your.email@example.com
-- **GitHub:** [@yourprofile](https://github.com/yourprofile)
+- **Developer:** star duong
+- **Email:** hvduong2392k4@gmail.com
 - **Project:** English Learning App
-- **Status:** Active Development 🚀
 
 ---
 
@@ -1611,7 +961,7 @@ MIT License - Xem [LICENSE](LICENSE) file chi tiết.
 
 ### ⭐ If you find this project helpful, please give it a star! ⭐
 
-Made with ❤️ by English Learning App Team
+Made with ❤️ by Star
 
 **Happy Learning! 📚🚀**
 
