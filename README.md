@@ -31,11 +31,6 @@
 📖 Bài Đọc EPUB       │  🌍 Dịch Song Ngữ       │  📊 Phân Tích Tiến Độ
 ```
 
-<div align="center">
-<img src="./demo/overview.png" width="450" alt="App Overview" />
-</div>
----
-
 ## 📱 Giao Diện & Chức Năng Chi Tiết
 
 ### 🔐 **Màn Hình Xác Thực (Authentication Flow)**
@@ -43,8 +38,11 @@
 #### 1️⃣ **Login Screen**
 
 <div align="center">
-<img src="./demo/login.png" width="280" alt="login" />
-<img src="./demo/register.png" width="280" alt="login" />
+
+|                   Màn hình Đăng nhập                   |                       Màn hình Đăng ký                       |
+| :----------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="./demo/login.png" width="60%" alt="Login" /> | <img src="./demo/register.png" width="60%" alt="Register" /> |
+
 </div>
 
 **Chức Năng:**
@@ -73,8 +71,11 @@
 ### 🏠 **Màn Hình Chính (Main Home Screen)**
 
 <div align="center">
-<img src="./demo/home1.png" width="280" alt="Home 1" />
-<img src="./demo/home2.png" width="280" alt="Home 2" />
+
+|                  Giao diện Trang chủ 1                  |                  Giao diện Trang chủ 2                  |
+| :-----------------------------------------------------: | :-----------------------------------------------------: |
+| <img src="./demo/home1.png" width="60%" alt="Home 1" /> | <img src="./demo/home2.png" width="60%" alt="Home 2" /> |
+
 </div>
 
 **Bottom Navigation Bar:**
@@ -88,9 +89,11 @@
 ### 📚 **Mô-đul 1: Quản Lý Từ Vựng (Vocabulary)**
 
 <div align="center">
-<img src="./demo/vocabulary_1.png" width="280" alt="Vocabulary" />
-<img src="./demo/vocabulary_2.png" width="280" alt="Vocabulary" />
-<img src="./demo/vocabulary_3.png" width="280" alt="Vocabulary" />
+
+|                           Từ vựng - Phần 1                            |                           Từ vựng - Phần 2                            |                           Từ vựng - Phần 3                            |
+| :-------------------------------------------------------------------: | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| <img src="./demo/vocabulary_1.png" height="380" alt="Vocabulary 1" /> | <img src="./demo/vocabulary_2.png" height="380" alt="Vocabulary 2" /> | <img src="./demo/vocabulary_3.png" height="380" alt="Vocabulary 3" /> |
+
 </div>
 ```
 
@@ -118,7 +121,7 @@
 ### 🎯 **Mô-đul 2: Bài Tập Ngữ Pháp (Grammar)**
 
 <div align="center">
-<img src="./demo/grammar.png" width="280" alt="Grammar" />
+<img src="./demo/grammar.png" width="30%" alt="Grammar" />
 </div>
 
 **Tính Năng Chi Tiết:**
@@ -136,8 +139,11 @@
 ### 👂 **Mô-đul 3: Bài Nghe (Listening)**
 
 <div align="center">
-<img src="./demo/listening_1.png" width="280" alt="Listening" />
-<img src="./demo/listening_2.png" width="280" alt="Listening" />
+
+|                          Listening 1                          |                          Listening 2                          |
+| :-----------------------------------------------------------: | :-----------------------------------------------------------: |
+| <img src="./demo/listening_1.png" width="60%" alt="Home 1" /> | <img src="./demo/listening_2.png" width="60%" alt="Home 2" /> |
+
 </div>
 
 **Tính Năng:**
@@ -153,9 +159,11 @@
 ### 📖 **Mô-đul 4: Bài Đọc Hiểu (Reading)**
 
 <div align="center">
-<img src="./demo/reading_1.png" width="280" alt="Reading" />
-<img src="./demo/reading_2.png" width="280" alt="Reading" />
-<img src="./demo/reading_3.png" width="280" alt="Reading" />
+
+|                           Reading 1                            |                           Reading 2                            |                           Reading 3                            |
+| :------------------------------------------------------------: | :------------------------------------------------------------: | :------------------------------------------------------------: |
+| <img src="./demo/reading_1.png" width="80%" alt="Reading 1" /> | <img src="./demo/reading_2.png" width="80%" alt="Reading 2" /> | <img src="./demo/reading_3.png" width="80%" alt="Reading 3" /> |
+
 </div>
 
 **Tính Năng:**
@@ -171,9 +179,11 @@
 ### ✏️ **Mô-đul 5: Bài Tập (Exercises)**
 
 <div align="center">
-<img src="./demo/exercise_1.png" width="280" alt="" />
-<img src="./demo/exercise_2.png" width="280" alt="" />
-<img src="./demo/exercise_3.png" width="280" alt="" />
+
+|                            Exercise 1                            |                            Exercise 2                            |                            Exercise 3                            |
+| :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
+| <img src="./demo/exercise_1.png" width="80%" alt="Exercise 1" /> | <img src="./demo/exercise_2.png" width="80%" alt="Exercise 2" /> | <img src="./demo/exercise_3.png" width="80%" alt="Exercise 3" /> |
+
 </div>
 
 **Tính Năng:**
@@ -189,8 +199,11 @@
 ### 🎮 **Mô-đul 6: Trò Chơi Tương Tác (Games)**
 
 <div align="center">
-<img src="./demo/game_1.png" width="280" alt="" />
-<img src="./demo/game_2.png" width="280" alt="" />
+
+|                          Game 1                          |                          Game 2                          |
+| :------------------------------------------------------: | :------------------------------------------------------: |
+| <img src="./demo/game_1.png" width="60%" alt="Game 1" /> | <img src="./demo/game_2.png" width="60%" alt="Game 2" /> |
+
 </div>
 
 **Tính Năng Trò Chơi:**
@@ -216,7 +229,7 @@
 ### 🎥 **Mô-đul 8: Video Học Tập (Video)**
 
 <div align="center">
-<img src="./demo/video.png" width="280" alt="" />
+<img src="./demo/video.png" width="30%" alt="" />
 </div>
 
 **Tính Năng:**
@@ -232,8 +245,11 @@
 ### 🌐 **Mô-đul 9: Dịch Song Ngữ (Bilingual)**
 
 <div align="center">
-<img src="./demo/search.png" width="280" alt="" />
-<img src="./demo/translation.png" width="280" alt="" />
+
+|                     Tìm kiếm từ vựng                      |                            Dịch song ngữ                            |
+| :-------------------------------------------------------: | :-----------------------------------------------------------------: |
+| <img src="./demo/search.png" height="420" alt="Search" /> | <img src="./demo/translation.png" height="420" alt="Translation" /> |
+
 </div>
 
 **Tính Năng:**
@@ -250,7 +266,7 @@
 ### 🌐 **Mô-đul 10: Chatbot**
 
 <div align="center">
-<img src="./demo/chatbot.png" width="280" alt="" />
+<img src="./demo/chatbot.png" width="30%" alt="" />
 </div>
 
 ### 📖 **Các Mô-đul Bổ Sung**
@@ -268,34 +284,12 @@
 
 ### ⚙️ **Màn Hình Cài Đặt & Tài Khoản (Settings & Account)**
 
-#### **Account Fragment:**
-
 <div align="center">
-<img src="./demo/account.png" width="280" alt="" />
-</div>
 
-#### **Settings Screen:**
+|                           Account                           |                          Settings                           |                            Edit Profile                             |                          Upgrade Pro                           |                              Notifications                              |
+| :---------------------------------------------------------: | :---------------------------------------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------------------: | :---------------------------------------------------------------------: |
+| <img src="./demo/account.png" height="350" alt="Account" /> | <img src="./demo/setting.png" height="350" alt="Setting" /> | <img src="./demo/edit_infor.png" height="350" alt="Edit Profile" /> | <img src="./demo/update.png" height="350" alt="Upgrade Pro" /> | <img src="./demo/notifications.png" height="350" alt="Notifications" /> |
 
-<div align="center">
-<img src="./demo/setting.png" width="280" alt="" />
-</div>
-
-#### **Edit Profile Screen:**
-
-<div align="center">
-<img src="./demo/edit_infor.png" width="280" alt="" />
-</div>
-
-#### **Upgrade Pro Screen:**
-
-<div align="center">
-<img src="./demo/update.png" width="280" alt="" />
-</div>
-
-#### **Notifications Screen:**
-
-<div align="center">
-<img src="./demo/notifications.png" width="280" alt="" />
 </div>
 
 ---
